@@ -1,0 +1,27 @@
+name: Build and Deploy with Metanorma Docker
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Pull Metanorma Docker Image
+      run: docker pull metanorma/metanorma
+
+    - name: Run Metanorma Docker Container
+      run: |
+        docker run -v $(pwd):/metanorma -w /metanorma metanorma/metanorma metanorma site generate --output-dir public --agree-to-terms
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.SECRET_TOKEN }}
+        publish_dir: ./public
