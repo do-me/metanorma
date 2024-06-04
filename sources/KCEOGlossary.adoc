@@ -30,7 +30,7 @@ Modify the introduction
 ****
 [[end]]
 
-= General terms
+== General terms
 
 === Ancillary data 
 
@@ -414,7 +414,7 @@ reference sources. c
 
 {empty}[SOURCE: KCEO]
 
-= EO Product attributes
+== EO Product attributes
 
 [#_Toc161308986 .anchor]##[.underline]#Area of interest#
 
@@ -776,7 +776,7 @@ product.
 
 {empty}[SOURCE: KCEO]
 
-= EO-derived/Application attributes
+== EO-derived/Application attributes
 
 === Baseline
 
@@ -880,7 +880,7 @@ al. 2018.
 
 {empty}[SOURCE: KCEO]
 
-= Climate Adaptation
+== Climate Adaptation
 
 === Outcome & Impact
 
@@ -993,7 +993,7 @@ the interactive system
 
 {empty}[SOURCE:ISO 9241-110:2020, 3.10]
 
-= Resources/Glossaries
+== Resources/Glossaries
 
 IPCC https://www.ipcc.ch/sr15/chapter/glossary/
 
@@ -1044,11 +1044,9 @@ ISO 191790-1:2021 Geographic information – Discrete Global Grid Systems
 Specifications – Part 1: Core Reference System and Operations, and Equal
 Area Earth Reference SYstem
 
-image:vertopal_a3f30b6377934aa0803d524c628e6b4a/media/image1.png[image,width=369,height=350]
-
 Temporal elements referenced in WIGOS metadata
 
-= References
+== References
 
 Ye, S., Pontius, R. G., & Rakshit, R. (2018). A review of accuracy
 assessment for object-based image analysis: From per-pixel to

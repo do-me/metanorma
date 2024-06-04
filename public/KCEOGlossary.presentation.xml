@@ -1,0 +1,2514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standard-document xmlns="https://www.metanorma.org/ns/standoc" type="presentation" version="2.8.9" schema-version="v1.3.1">
+<bibdata type="standard">
+<title language="en" format="text/plain">KCEO Glossary of Terms and Definitions</title>
+<language current="true">en</language><script current="true">Latn</script><status><stage>published</stage></status><copyright><from>2024</from></copyright><ext><doctype>standard</doctype></ext></bibdata><localized-strings><localized-string key="scope" language="en">Scope</localized-string><localized-string key="symbolsabbrev" language="en">Symbols and abbreviated terms</localized-string><localized-string key="abbrev" language="en">Abbreviated terms</localized-string><localized-string key="symbols" language="en">Symbols</localized-string><localized-string key="table_of_contents" language="en">Table of contents</localized-string><localized-string key="introduction" language="en">Introduction</localized-string><localized-string key="foreword" language="en">Foreword</localized-string><localized-string key="abstract" language="en">Abstract</localized-string><localized-string key="acknowledgements" language="en">Acknowledgements</localized-string><localized-string key="termsdef" language="en">Terms and definitions</localized-string><localized-string key="termsdefsymbolsabbrev" language="en">Terms, definitions, symbols and abbreviated terms</localized-string><localized-string key="termsdefsymbols" language="en">Terms, definitions and symbols</localized-string><localized-string key="termsdefabbrev" language="en">Terms, definitions and abbreviated terms</localized-string><localized-string key="normref" language="en">Normative references</localized-string><localized-string key="bibliography" language="en">Bibliography</localized-string><localized-string key="preface" language="en">Preface</localized-string><localized-string key="section" language="en">Section</localized-string><localized-string key="clause" language="en">Clause</localized-string><localized-string key="annex" language="en">Annex</localized-string><localized-string key="appendix" language="en">Appendix</localized-string><localized-string key="continued" language="en">continued</localized-string><localized-string key="no_terms_boilerplate" language="en"><p>No terms and definitions are listed in this document.</p>
+</localized-string><localized-string key="internal_terms_boilerplate" language="en"><p>For the purposes of this document, 
+    the following terms and definitions apply.</p>
+</localized-string><localized-string key="norm_with_refs_pref" language="en">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</localized-string><localized-string key="norm_empty_pref" language="en">There are no normative references in this document.</localized-string><localized-string key="external_terms_boilerplate" language="en"><p>For the purposes of this document, 
+  the terms and definitions given in % apply.</p>
+</localized-string><localized-string key="internal_external_terms_boilerplate" language="en"><p>For the purposes of this document, the terms and definitions 
+  given in % and the following apply.</p>
+</localized-string><localized-string key="no_information_available" language="en">[NO INFORMATION AVAILABLE]</localized-string><localized-string key="term_defined_in" language="en">(%)</localized-string><localized-string key="binary_and" language="en">%1 and %2</localized-string><localized-string key="multiple_and" language="en">%1, and %2</localized-string><localized-string key="binary_or" language="en">%1 or %2</localized-string><localized-string key="multiple_or" language="en">%1, or %2</localized-string><localized-string key="chain_and" language="en">%1 and %2</localized-string><localized-string key="chain_or" language="en">%1 or %2</localized-string><localized-string key="chain_from" language="en">%1 from %2</localized-string><localized-string key="chain_to" language="en">%1 to %2</localized-string><localized-string key="nested_xref" language="en">%1, %2</localized-string><localized-string key="list_nested_xref" language="en">%1 %2</localized-string><localized-string key="SpelloutRules" language="en">spellout-ordinal</localized-string><localized-string key="OrdinalRules" language="en">digits-ordinal</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="diagram" language="en">Diagram</localized-string><localized-string key="formula" language="en">Formula</localized-string><localized-string key="inequality" language="en">Formula</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="box" language="en">Box</localized-string><localized-string key="recommendationtest" language="en">Recommendation test</localized-string><localized-string key="requirementtest" language="en">Requirement test</localized-string><localized-string key="permissiontest" language="en">Permission test</localized-string><localized-string key="recommendationclass" language="en">Recommendations class</localized-string><localized-string key="requirementclass" language="en">Requirements class</localized-string><localized-string key="permissionclass" language="en">Permissions class</localized-string><localized-string key="abstracttest" language="en">Abstract test</localized-string><localized-string key="conformanceclass" language="en">Conformance class</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">EXAMPLE</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="where_one" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="adapted" language="en">adapted</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="edition_ordinal" language="en">{{ var1 | ordinal_word: '', '' }} edition</localized-string><localized-string key="edition" language="en">edition</localized-string><localized-string key="version" language="en">version</localized-string><localized-string key="toc_figures" language="en">List of figures</localized-string><localized-string key="toc_tables" language="en">List of tables</localized-string><localized-string key="toc_recommendations" language="en">List of recommendations</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="admonition.editorial" language="en">Editorial Note</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="relatedterms.seealso" language="en">see also</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings><metanorma-extension><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata><metanorma><source><semantic__standard-document type="semantic" version="2.8.9" schema-version="v1.3.1">
+<semantic__bibdata type="standard">
+<semantic__title language="en" format="text/plain">KCEO Glossary of Terms and Definitions</semantic__title>
+<semantic__language>en</semantic__language><semantic__script>Latn</semantic__script><semantic__status><semantic__stage>published</semantic__stage></semantic__status><semantic__copyright><semantic__from>2024</semantic__from></semantic__copyright><semantic__ext><semantic__doctype>standard</semantic__doctype></semantic__ext></semantic__bibdata><semantic__metanorma-extension><semantic__presentation-metadata><semantic__name>TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>HTML TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>DOC TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata><semantic__presentation-metadata><semantic__name>PDF TOC Heading Levels</semantic__name><semantic__value>2</semantic__value></semantic__presentation-metadata></semantic__metanorma-extension>
+<semantic__preface><semantic__introduction id="semantic___introduction" obligation="informative">
+<semantic__title>Introduction</semantic__title>
+<semantic__p id="semantic___9c74468f-5324-fd9f-eae7-b5500feb76ac">The KCEO Glossary of Terms and Definitions is a comprehensive resource
+that serves as an invaluable reference guide for seeking clarity and a
+deeper understanding of the field of Earth observation. This extensive
+compilation brings together a wide range of terms, concepts, and
+definitions that are directly relevant to Earth observation,
+encompassing various disciplines such as remote sensing, satellite
+imagery, geospatial analysis, climate adaptation, and more. By acting as
+a reliable compass, this glossary helps to navigate the intricate and
+specialized terminology associated with Earth observation, ensuring
+effective communication and knowledge sharing.</semantic__p>
+
+<semantic__p id="semantic___bf9117f7-4ddb-4408-6cd7-c4860eb4563b">As a living document, the KCEO Glossary of Terms and Definitions is in a
+constant state of evolution and is continuously adapted to incorporate
+emerging concepts. This ensures that it remains up-to-date.</semantic__p>
+
+<semantic__p id="semantic___4a00a678-170a-e56c-b074-079304307852">The KCEO Glossary of Terms and Definitions is serves as an indispensable
+tool to cater our needs, promote effective communication, and stay
+abreast of the ever-evolving landscape of Earth observation.</semantic__p>
+
+<semantic__review id="semantic__start" reviewer="Lahsaini" date="20240420T00:00:00Z" type="todo" from="semantic__start" to="semantic__end"><semantic__p id="semantic___85785b99-8bd7-71ab-6745-cab8abd683ff">Modify the introduction</semantic__p>
+</semantic__review></semantic__introduction></semantic__preface><semantic__sections>
+<semantic__clause id="semantic__end" inline-header="false" obligation="normative">
+<semantic__title>General terms</semantic__title>
+<semantic__clause id="semantic___ancillary_data" inline-header="false" obligation="normative">
+<semantic__title>Ancillary data</semantic__title>
+<semantic__dl id="semantic___229ca11a-0292-ef0b-f421-15d792fcdbff"><semantic__dt>Ancillary data</semantic__dt>
+<semantic__dd><semantic__p id="semantic___f096e9a2-8f75-abd3-4ef4-5570cac89e9b">Data acquired on-board but not obtained from the main instrument
+itself (usually provided as part of Level 0 data). They have the primary
+purpose to serve the processing of main instrument data (e.g. orbit
+position and velocity of platform).</semantic__p>
+</semantic__dd>
+</semantic__dl>
+
+<semantic__p id="semantic___f463f58e-a13f-dca3-5aa6-819332bbd7cb">[Source: ESA/CEOS?, modified]</semantic__p>
+
+<semantic__p id="semantic___b4b43cf9-4a1a-1f01-347f-19238e7f19cf">Alternative:</semantic__p>
+
+<semantic__dl id="semantic___7054ac20-4015-4e84-e7c5-37f11661ab81"><semantic__dt>Ancillary data</semantic__dt>
+<semantic__dd><semantic__p id="semantic___ea179118-a2cf-20b9-e147-1ca502136362">Data other than instrument measurements, originating in the instrument
+itself or from the satellite, required to perform processing of the
+data. They include orbit data, attitude data, time information,
+spacecraft engineering data, calibration data, data quality information,
+and data from other instruments or earth system models.</semantic__p>
+</semantic__dd>
+</semantic__dl>
+
+<semantic__p id="semantic___83773238-1afc-eab1-7a54-8ffa4d58fb73">[Source CEOS-ARD PFS template 20220302]</semantic__p>
+
+<semantic__p id="semantic___3243dbbc-8081-7595-2425-ecdb8b56e357"><semantic__em>Data</semantic__em> acquired in context of an <semantic__em>observation</semantic__em> required to perform
+processing</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___auxiliary_data" inline-header="false" obligation="normative">
+<semantic__title>Auxiliary data</semantic__title>
+<semantic__p id="semantic___2874dea4-9c0f-7f98-9e92-13882e1aa355"><semantic__em>Data</semantic__em> which enhance processing and utilization of main instrument data.
+The auxiliary data are usually not captured by the same data collection
+process as the main instrument data. Auxiliary data include data
+collected by any other platform or process. Examples are e.g.
+meteorological data received from ECWMF/Met. Offices. Auxiliary data
+help in data processing, but are also data sets in their own right<semantic__strong>.</semantic__strong></semantic__p>
+
+<semantic__p id="semantic___82adda8f-f4af-2fef-f12d-f35b4f99c6e4">[Source: ESA/CEOS?, modified]</semantic__p>
+
+<semantic__p id="semantic___49afde0d-4c8b-7306-3c32-e8e4bbb0e666">Alternative:</semantic__p>
+
+<semantic__p id="semantic___a3ac92c9-72de-8e51-1719-7339cb682055">The data required for instrument processing, which does not originate in
+the instrument itself or from the satellite. Some auxiliary data will be
+generated in the ground segment, whilst other data will be provided from
+external sources.</semantic__p>
+
+<semantic__p id="semantic___6bdb43d6-95cf-392e-1b22-ea7c5949773f">[Source CEOS-ARD PFS template 20220302]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___cell" inline-header="false" obligation="normative">
+<semantic__title>Cell</semantic__title>
+<semantic__p id="semantic___473c0a5e-4efd-64c0-e0bc-de42a170bade">Spatial, spatio-temporal zone or temporal unit of geometry with
+dimensionality greater than 0, associated with a zone</semantic__p>
+
+<semantic__p id="semantic___302c4bd0-c54d-fe82-b5af-a6d8bb2b786b">NOTE1: All cells within a DGGS share the dimensionality of the DGGS’s
+parent global geometry. DGGSs with dimensionality of 0 are not
+supported.</semantic__p>
+
+<semantic__p id="semantic___f8c58526-977a-c3bd-c0bb-50b7668c056f">NOTE 2: Cells are the unit of geometry in a DGGS, and the geometry of
+the region of space-time occupied by a zone is a cell.</semantic__p>
+
+<semantic__p id="semantic___1da6bcb3-4c00-6a31-13e8-8c1118ec68fe">NOTE 3: While the terms cell and zone are often used interchangeably,
+“zone” is the strictly preferred term. Cell is entirely appropriate when
+specifically discussing a zone’s geometry or topology.</semantic__p>
+
+<semantic__p id="semantic___8d820799-2c32-8d4d-7925-3060019aad61">[SOURCE: ISO 19170:2021]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___duration" inline-header="false" obligation="normative">
+<semantic__title>Duration</semantic__title>
+<semantic__p id="semantic___79d7d0b1-af15-6f8e-e06f-37e3e298ca1a">non-negative interval quantity of time equal to the difference between
+the final and initial instants of a time</semantic__p>
+
+<semantic__p id="semantic___952eaaa1-260a-550e-c6d0-df7d04f20eba">NOTE 1: The duration is one of the base quantities in the International
+System of Quantities (ISQ) on which the International System of Units
+(SI) is based. The term “time” instead of “duration” is often used in
+this context and also for an infinitesimal duration.</semantic__p>
+
+<semantic__p id="semantic___b2f8587a-d156-9747-a240-9054cb88ba83">NOTE 2: For the term “duration”, expressions such as “time” or “time
+interval” are often used, but the term “time” is not recommended in this
+sense and the term “time interval” is deprecated in this sense to avoid
+confusion with the concept of “time interval”.</semantic__p>
+
+<semantic__p id="semantic___be978076-0a5b-d7b2-81ac-de35a3232139">NOTE 3: The exact duration of a time scale unit depends on the time
+scale used. For example, the durations of a year, month, week, day, hour
+or minute, may depend on when they occur [in a Gregorian calendar, a
+calendar month can have a duration of 28, 29, 30, or 31 days; in a
+24-hour clock, a clock minute can have a duration of 59, 60, or 61
+seconds, etc.]. Therefore, the exact duration can only be evaluated if
+the exact duration of each is known.</semantic__p>
+
+<semantic__p id="semantic___3b00b2a9-33e8-f1c6-f2cf-20d9f73d8f54">NOTE 4: This definition is closely related to NOTE 1 of the
+terminological entry “duration” in IEC 60050-113:2011, 113–01–13.</semantic__p>
+
+<semantic__p id="semantic___ab8df63e-a5b1-4ec9-8fa5-03531805ef60">[SOURCE: ISO 8601-1:2019, 3.1.1.8]</semantic__p>
+
+<semantic__p id="semantic___8b0d588d-d258-2347-f8f9-7db3ec5b97ab">##Earth observation</semantic__p>
+
+<semantic__p id="semantic___6b1e1a7e-232a-8501-4e3d-a5176d62018e">Is a science domain dealing with technologies and methods of collecting
+and analysing <semantic__em>observations</semantic__em> about the different spheres (Geosphere,
+Atmosphere, Hydrosphere, Cryosphere, Biosphere, Anthroposphere) of our
+planet. This includes <semantic__em>remote-sensing</semantic__em>, such as satellite imagery, as
+well as in-situ observations, e.g., with ground-based devices.</semantic__p>
+
+<semantic__p id="semantic___77785008-242c-c7f9-02bd-1ea8512de691">NOTE 1: Earth Observation (EO) can be categorised by location of the
+sensor into space-borne, air-borne, sea-borne, ground-based, underwater
+and underground EO.</semantic__p>
+
+<semantic__p id="semantic___83f34ec8-1815-1dff-1a44-cf0031591ee1">[Source: modified GEO definition
+<semantic__link target="https://earthobservations.org/geo_wwd.php"/>]</semantic__p>
+
+<semantic__p id="semantic___e0f916d4-e847-6e98-7847-90a1b6f9d30b">##Earth Observation product</semantic__p>
+
+<semantic__p id="semantic___de76c9db-0739-13dc-3b8a-eaaef7005cee">A representation of a phenomenon that can be coded into information. A
+product serves multiple purposes and cross-domain applications. A
+characteristic of EO products is that they should undergo some data
+transformation for being considered decision-ready or inference-ready
+information.</semantic__p>
+
+<semantic__p id="semantic___68385a5d-bdc1-8171-9586-8149f8210010">NOTE 1: aka geophysical and biophysical parameters (surface temperature,
+leaf area index, etc.)</semantic__p>
+
+<semantic__p id="semantic___66d9cc19-3ceb-79e4-7fb3-cedff99f0e16">[SOURCE: KCEO]</semantic__p>
+
+<semantic__p id="semantic___3f7972cd-4d28-b841-89d8-2b1b5bf7a817">##Earth Observation based output</semantic__p>
+
+<semantic__p id="semantic___bd6bb153-1cf5-a8ae-7f4d-9a9d8c21376d">Any data or information derived from EO products. It may be generated
+for addressing specific use cases or user needs. It is the result of any
+type of data processing (classification, rearranging, sorting,
+aggregating, mathematical computation, filtering) and/or data
+integration (fusion, data assimilation) with other EO products and/or
+geospatial data that changes the property of the original EO product. It
+is the result of a non-invertible operation so that the original EO
+product can’t be recovered.</semantic__p>
+
+<semantic__p id="semantic___748b51b0-a1ea-40fd-bf29-d0489a48aff6">[SOURCE: KCEO]</semantic__p>
+
+<semantic__p id="semantic___caa9c403-7243-99f2-352b-8623a6e678cf">##Entity</semantic__p>
+
+<semantic__p id="semantic___bc13e939-a008-d83d-fcc0-ef99aa8c6b11">Something that has separate and distinct existence and objective or
+conceptual reality</semantic__p>
+
+<semantic__p id="semantic___779c90da-33bb-cd47-4da5-742a68850796">[SOURCE: <semantic__link target="https://www.iso.org/standard/59221.html">ISO 19119:2016</semantic__link>,
+4.1.6]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___geographic_data" inline-header="false" obligation="normative">
+<semantic__title>Geographic data</semantic__title>
+<semantic__p id="semantic___e612fc0f-d3b4-ac87-8f2e-c0725f2356a7">data with implicit or explicit reference to a location relative to the
+Earth</semantic__p>
+
+<semantic__p id="semantic___2f9f5059-c65d-51b4-8b21-15744c08ce7c">NOTE 1: <semantic__em>Geographic</semantic__em> <semantic__em>information</semantic__em> is also used as a term for
+information concerning phenomena implicitly or explicitly associated
+with a location relative to the Earth.</semantic__p>
+
+<semantic__p id="semantic___b3156dd9-91fb-942d-9c56-52fdb5127154">[SOURCE: <semantic__link target="https://www.iso.org/standard/59193.html">ISO 19109:2015</semantic__link>,
+4.13; ISO 19109:2005]</semantic__p>
+
+<semantic__p id="semantic___8dcd55a9-ea1b-19ee-b286-2c4f31811784">===</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___geographic_identifier" inline-header="false" obligation="normative">
+<semantic__title>Geographic identifier</semantic__title>
+<semantic__p id="semantic___fea6aa79-e745-9109-cee4-d96e4aa276e0">Spatial reference in the form of a label or code that identifies a
+location.</semantic__p>
+
+<semantic__p id="semantic___6e2bc98f-8399-b6bd-fe05-ebc83f51ac62">EXAMPLE: “Spain” is an example of a label (country name); “SW1- 3AD” is
+an example of a code (postcode).</semantic__p>
+
+<semantic__p id="semantic___7091356d-4bc8-3001-d94b-b46d4b1d0a2b">[SOURCE: ISO 19112:2019, 3.1.2]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___geospatial_datainformation" inline-header="false" obligation="normative">
+<semantic__title>Geospatial data/information</semantic__title>
+<semantic__p id="semantic___379dda2c-0f44-7aa0-3494-a685412558c5">Consisting of, derived from, or relating to <semantic__em>data</semantic__em> that is directly
+linked to specific geographical locations</semantic__p>
+
+<semantic__p id="semantic___38c25a3d-456d-062c-96bc-0e5ac455abd4">[Source: <semantic__link target="https://www.merriam-webster.com/dictionary/geospatial"/> ,</semantic__p>
+
+<semantic__p id="semantic___cec91026-0aab-122a-f10c-4d086d1342fc"><semantic__link target="https://isotc211.geolexica.org/concepts/202/"/>, accessed 20221010]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___grid" inline-header="false" obligation="normative">
+<semantic__title>Grid</semantic__title>
+<semantic__p id="semantic___8cd96981-fbab-0b82-5ef5-fa7ceda8e2e1">network composed of two or more sets of curves in which the members of
+each set intersect the members of the other sets in an algorithmic way</semantic__p>
+
+<semantic__p id="semantic___ff19f972-c559-73b3-3b76-960f56c63021">NOTE 1: The curves partition a space into grid cells</semantic__p>
+
+<semantic__p id="semantic___e2ba38f8-7741-354b-311b-5661c40f740f">[SOURCE: ISO 19123:2005, 4.1.23]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___information" inline-header="false" obligation="normative">
+<semantic__title>Information</semantic__title>
+<semantic__p id="semantic___d8de000f-ee83-6bad-4494-55e3b5ff1727">The result of organisation, interpretation, categorisation,
+classification, or some other form of processing of <semantic__em>data</semantic__em> attaching to
+it a certain meaning that can be understood by the addressee.</semantic__p>
+
+<semantic__p id="semantic___63757a8b-bf47-8d79-3bc2-ea850f1c13ce">NOTE 1: Information depends on <semantic__em>data</semantic__em> and is targeted.</semantic__p>
+
+<semantic__p id="semantic___bf849497-f005-0b9b-bf59-70eaafeb65ed">[SOURCE: gEOGlos]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___in_situ_observation" inline-header="false" obligation="normative">
+<semantic__title>In-situ observation</semantic__title>
+<semantic__p id="semantic___7a7df502-09a1-6c59-188f-c0bed5c05326">‘In-situ’ describes <semantic__em>observations</semantic__em> performed in the same place where a
+phenomenon occurs, normally without isolating it from other systems (its
+environment) or altering its pre-observation state. The main
+characteristic of such observations is that distance has no or only
+negligible (within <semantic__em>uncertainty</semantic__em>) influence on the <semantic__em>value</semantic__em> of the
+<semantic__em>property</semantic__em> observed. In-situ <semantic__em>observations</semantic__em> therefore often require
+either direct physical contact or small distances between a <semantic__em>sensor</semantic__em> and
+the observed phenomenon.</semantic__p>
+
+<semantic__p id="semantic___2e019bf3-45fd-f5a6-b7c0-48f6f8134510">NOTE 1: <semantic__em>Observations</semantic__em> not fulfilling these conditions are considered
+<semantic__em>Remote Sensing</semantic__em>.</semantic__p>
+
+<semantic__p id="semantic___277d6008-dcd2-b253-e9af-611f421dc3ff">[Source: own (Peter)]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___laboratory_observation" inline-header="false" obligation="normative">
+<semantic__title>Laboratory observation</semantic__title>
+<semantic__p id="semantic___0e765a08-01b7-d31e-4e51-e5187ed1f064">Laboratory <semantic__em>observations</semantic__em> are (usually) in-situ observations in which
+the object or phenomenon is isolated from other systems or altered in
+its ‘original’ conditions or environment.</semantic__p>
+
+<semantic__p id="semantic___7f92ee3b-718b-9797-6c4a-5c373c4f79e4">Note:</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___location" inline-header="false" obligation="normative">
+<semantic__title>Location</semantic__title>
+<semantic__p id="semantic___5cb32650-efa1-7891-fe37-26d7c8f59635">Particular <semantic__em>place</semantic__em> referenced by an <semantic__em>identifier</semantic__em></semantic__p>
+
+<semantic__p id="semantic___690cc180-5db8-de03-ac99-754cf8f60e1c">NOTE 1 to entry: While a (geo)location identifies a geographic place, it
+may also be associated with objects other than the Earth<semantic__br/>
+NOTE 2 to entry: While location in principle covers 0- to 3-dimensional
+spatial geometries, it should not be used for 0- and 1-dimensional
+geometries (<semantic__em>positions</semantic__em> and paths)</semantic__p>
+
+<semantic__p id="semantic___49457fa3-49a1-ff00-69b3-ba0f7dd5ad46">EXAMPLE “Madrid”, “California”.</semantic__p>
+
+<semantic__p id="semantic___51e7e015-dccb-f1af-e337-ff3e987a9ff9">[SOURCE: <semantic__link target="https://www.iso.org/standard/70742.html">ISO 19112:2019</semantic__link>,
+(E), 3.1.3, modified, note 2 added]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___measurement" inline-header="false" obligation="normative">
+<semantic__title>Measurement</semantic__title>
+<semantic__p id="semantic___0c166c4e-d225-a6f8-d806-e299c7a89ed1">A measurement is an <semantic__em>observation</semantic__em> of a <semantic__em>quantity</semantic__em>.</semantic__p>
+
+<semantic__p id="semantic___2f02bdae-d37f-594a-4447-4863f8c8aff8">NOTE 1: The process of collecting a measurement is called <semantic__strong>measuring</semantic__strong>.</semantic__p>
+
+<semantic__p id="semantic___02f2d072-7f26-b9fd-b0a6-12eaa2357ec3">[Source: gEOGlos (VIM ?, modified)]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___period" inline-header="false" obligation="normative">
+<semantic__title>Period</semantic__title>
+<semantic__p id="semantic___23a7d7b5-63d3-1e40-e558-c69333f95d50">Particular era or span of time</semantic__p>
+
+<semantic__p id="semantic___6d6e0341-d74b-a8ff-a77a-c8faba54bda5">NOTE 1: Periods are intervals named with a period identifier</semantic__p>
+
+<semantic__p id="semantic___1325f0bb-8806-d2c2-e8c2-8413901a6967">[SOURCE: ISO 19170:2021]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___period_identifier" inline-header="false" obligation="normative">
+<semantic__title>Period identifier</semantic__title>
+<semantic__p id="semantic___c444bc39-292e-f7cc-05a0-4aedb0f410b9">Temporal reference in the for of a label or code that identifies a
+period</semantic__p>
+
+<semantic__p id="semantic___1617418a-8608-76ca-2178-33664395bb9e">NOTE 1: period identifiers are the temporal equivalent of geographic
+identifiers as specified in ISO 19912</semantic__p>
+
+<semantic__p id="semantic___50f50b0f-ae8b-937d-e776-005266cba960">[SOURCE: ISO 19170:2021]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___quantity" inline-header="false" obligation="normative">
+<semantic__title>Quantity</semantic__title>
+<semantic__p id="semantic___0db370b0-fac6-2452-e752-fb1c7367c5b8">A <semantic__em>property</semantic__em> whose instances can be compared by ratio or only by order</semantic__p>
+
+<semantic__p id="semantic___ae04edd6-2467-119b-015b-87c39bb89dfb">[Source: gEOGlos(VIM4 Notes omitted)]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___remote_sensing_or_remote_observation" inline-header="false" obligation="normative">
+<semantic__title>Remote Sensing (or Remote Observation)</semantic__title>
+<semantic__p id="semantic___5f370d6a-a89a-f2be-e88d-a26ca09b24d7">Remote sensing is a type of <semantic__em>observation</semantic__em> performed at a significant
+distance from a <semantic__em>phenomenon</semantic__em>. ‘Significant’ in this context means that
+the distance has, or may have, a non-negligible impact on the <semantic__em>value</semantic__em> of
+the <semantic__em>property</semantic__em> observed. The effect of the distance on the acquired
+<semantic__em>data</semantic__em> is the main distinction criteria between ‘remote’ and ‘in-situ’
+observations.</semantic__p>
+
+<semantic__p id="semantic___521019f3-2127-86e6-4948-287c98350f3a">NOTE 1: the opposite of ‘<semantic__em>remote</semantic__em>’ is ‘<semantic__em>in-situ’</semantic__em></semantic__p>
+
+<semantic__p id="semantic___c3b9b200-da67-8aee-cd05-dada656ae308">[Source: own (Peter)]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___representativity" inline-header="false" obligation="normative">
+<semantic__title>Representativity</semantic__title>
+<semantic__p id="semantic___27a7fab3-7f0a-20b1-372b-3339adac1f96"><semantic__strong>[…]</semantic__strong></semantic__p>
+
+<semantic__p id="semantic___229c8042-f033-af23-c2d2-0ba0e8581048">NOTE 1: WIGOS metadata standard defines representativeness as the extent
+of the region around the observation of which it is representative</semantic__p>
+
+<semantic__p id="semantic___99821dbd-e849-b0fd-f7cb-e7b2ecfbcf02">##Service provider</semantic__p>
+
+<semantic__p id="semantic___b35af1a5-1cef-224d-5dbb-31eca3b8f0f4">An institutional body, an organisation or programme that provides
+reliable, trusted (authoritative?) EO information and that has the
+financial resources to sustain the provision.</semantic__p>
+
+<semantic__p id="semantic___0ec2cb11-0dcf-4861-9f6a-7e0a689a5f56">===</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___uncertainty" inline-header="false" obligation="normative">
+<semantic__title>Uncertainty</semantic__title>
+<semantic__p id="semantic___8312af4e-68bb-08c9-0b5e-0fe0b11950d5">Non-negative parameter, associated with data, which characterizes the
+dispersion of the values that could reasonably be attributed to the
+feature or phenomenon. In case of quantitative data, the uncertainty may
+be, for example, a standard deviation (or a given multiple of it), or
+the half-width of an interval having a stated level of confidence. For
+qualitative data uncertainty may be, for example, expressed by
+commission, omission and overall errors.</semantic__p>
+
+<semantic__p id="semantic___d0fb5944-643b-8e82-3f12-fe93abd1730b">NOTE 1: in natural or ordinary language the term accuracy is often used
+to express qualitatively the uncertainty associated with data, such as
+‘the data from this thermometer is very accurate vs not very accurate’.
+This usage of the term ‘accuracy’, whilst it may be common in
+conversational context should be abandoned in technical discussions in
+favour of ‘uncertainty’ which does not require the knowledge of the
+‘real’ value.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___user" inline-header="false" obligation="normative">
+<semantic__title>User</semantic__title>
+<semantic__p id="semantic___46d36cdf-1d59-481e-afe6-81c4e48124e8">In the context of the KCEO, an entity (person, organization,
+institution, etc.) that is requesting data or information with certain
+characteristics described by needs and/or requirements.</semantic__p>
+
+<semantic__p id="semantic___928a691e-523b-a16c-deba-49dab844e158">[SOURCE: KCEO]</semantic__p>
+
+<semantic__p id="semantic___b8fc6908-39c0-eab4-4337-3bf1368d5540">===</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___validation" inline-header="false" obligation="normative">
+<semantic__title>Validation</semantic__title>
+<semantic__p id="semantic___8554297d-d312-fb3b-2741-ba37731ae62d">process of assessing, by independent means, the quality of the data
+products derived from the system outputs</semantic__p>
+
+<semantic__p id="semantic___581aa198-33fd-8129-bd76-4fe5638e558e">Note 1 to entry: In this part of ISO 19159, the term validation is used
+in a limited sense and only relates to the validation of calibration
+data in order to control their change over time.</semantic__p>
+
+<semantic__p id="semantic___b535f167-232b-d41e-2f96-b93ee7d17261">[SOURCE:ISO/TS 19101‑2:2008, 4.41]</semantic__p>
+
+<semantic__p id="semantic___0b89caa1-3b60-a6ea-0860-7904e3cd820f">Alternative:</semantic__p>
+
+<semantic__p id="semantic___ad904b65-91ae-279d-efff-ea4e35b83628">Validation aims to verify that the specified requirements are achieved
+or compliant. This involves comparing mission products with
+representative reference data, considering various observation
+conditions, ensuring the quality and traceability of the reference data
+used.</semantic__p>
+
+<semantic__p id="semantic___30fd9933-4e34-17c7-3c6e-bbd81c126bd8">[SOURCE: BIPM; QA4EO; ESA ?, modified]</semantic__p>
+
+<semantic__p id="semantic___5f18fa3b-fdf3-e5e4-b017-c26aa840c835">Alternative:</semantic__p>
+
+<semantic__p id="semantic___31c67179-d875-7283-ad13-b849dc3a8337">The assurance that a product, service, or system meets the needs of the
+customer and other identified stakeholders. It often involves acceptance
+and suitability with external customers.</semantic__p>
+
+<semantic__p id="semantic___3382b7d7-58fc-1086-fa16-9da73b709220">[SOURCE: EU-US Land Imaging EO Collaboration]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___verification" inline-header="false" obligation="normative">
+<semantic__title>Verification</semantic__title>
+<semantic__p id="semantic___69a5df3d-d5af-7b40-0e9a-676c5cb2cad7">provision of objective evidence that a given item fulfils specified
+requirements.</semantic__p>
+
+<semantic__p id="semantic___972f82af-f40d-bc26-352f-6e6a1be81a4e">Note 1 to entry: When applicable,measurement uncertainty should be taken
+into consideration.</semantic__p>
+
+<semantic__p id="semantic___c8e4f935-2fb9-0b8a-b176-7a0351d3c85e">Note 2 to entry: The item may be, e.g. a process, measurement procedure,
+material, compound, or measuring system.</semantic__p>
+
+<semantic__p id="semantic___accd9a69-ba17-10ee-427b-a09122e6583a">Note 3 to entry: The specified requirements may be, e.g. that a
+manufacturer’s specifications are met.</semantic__p>
+
+<semantic__p id="semantic___dcb1f478-0781-1446-3bd0-e55d27235bc8">Note 4 to entry: Verification should not be confused with calibration.
+Not every verification is a validation.</semantic__p>
+
+<semantic__p id="semantic___752979b9-387a-af2d-812e-f9f910668b1b">[SOURCE:ISO/IEC Guide 99:2007, 2.44]</semantic__p>
+
+<semantic__p id="semantic___ca7921cf-a877-c5b9-0d72-876c776f5f27">Alternative:</semantic__p>
+
+<semantic__p id="semantic___e84aef98-31ef-5c86-e8a6-aa46a68e72c4">The evaluation of whether or not a product, service or system complies
+with a regulation requirement, specification, or imposed condition. It
+often an internal process.</semantic__p>
+
+<semantic__p id="semantic___6103da0b-78c3-e625-7dd8-418c43980900">[SOURCE: EU-US Land Imaging EO Collaboration]</semantic__p>
+
+<semantic__p id="semantic___b1c6b75e-78ba-e60d-b6f0-eac74b022fed">Alternative:</semantic__p>
+
+<semantic__p id="semantic___33ab7aeb-aa6d-4b0e-ee29-82dd4373fab1">Verification serves as a means to evaluate the reliability of the data
+in the absence of a reference dataset, allowing for an assessment of its
+standalone performance. It involves confirming the consistency and
+internal coherence of the data without direct comparison to external
+reference sources. c</semantic__p>
+
+<semantic__p id="semantic___124baf1c-34c1-8cce-cb8b-7dd68daf74b7">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic___eo_product_attributes" inline-header="false" obligation="normative">
+<semantic__title>EO Product attributes</semantic__title>
+<semantic__p id="semantic___423f9a66-64f5-5b9e-078f-f0aa3a0c8b8f">#[.underline]#Area of interest</semantic__p>
+
+<semantic__p id="semantic___3ec339e0-5232-2e13-94e9-0cf056fd5c32">It is the zone in 2D or 3D for which the information or data is
+requested. It can be discontinuous in space, in other words it can
+consist in the union of many separate zones (e.g., Natural Reserves in
+Africa, Urban environments, etc.).</semantic__p>
+
+<semantic__p id="semantic___b3733c97-a591-8c0f-f18f-922d742dd8cf">The attribute indicates a request for spatially complete data within the
+AOI zone(s).</semantic__p>
+
+<semantic__table id="semantic___bd46338b-d727-a03a-4a4f-91fd185d60cd" width="100%"><semantic__colgroup><semantic__col width="34%"/><semantic__col width="34%"/><semantic__col width="32%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Type</semantic__th>
+<semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid units</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">Geographical/administrative identifier</semantic__td>
+<semantic__td valign="top" align="left">NUTS3, LAU, Natura 2000 site</semantic__td>
+<semantic__td valign="top" align="left">unitless</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___2fe55e51-214f-73f8-7d5a-c2200b262748">[SOURCE: KCEO]</semantic__p>
+
+<semantic__p id="semantic___6c0ef90a-ebd1-ccda-d04d-e81d77974f58">===</semantic__p>
+
+<semantic__clause id="semantic___band_central_wavelength" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Band central wavelength</semantic__underline></semantic__title>
+<semantic__p id="semantic___f2558060-5cba-edff-c7ea-6b5ead15094a">A single wavelength value within the sensitivity interval of a
+spectroradiometric sensor which represents the respective band. It could
+be either the mean, the median, the maximum sensitivity, or any other
+reasonable value chosen to be representative.</semantic__p>
+
+<semantic__table id="semantic___b5794168-91f6-e2b1-6d4f-67db8209ffd2" width="100%"><semantic__colgroup><semantic__col width="50%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">0.545 <semantic__strong>μm</semantic__strong></semantic__td>
+<semantic__td valign="top" align="left">micrometre (<semantic__strong>μm</semantic__strong>), millimetre (mm), centimetre (cm)</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+</semantic__clause>
+
+<semantic__clause id="semantic___confidence_interval" inline-header="false" obligation="normative">
+<semantic__title>Confidence interval</semantic__title>
+<semantic__p id="semantic___73149eb2-f4f5-ade3-613d-f40300a2b90b">The probability that the quantity lies in the interval, conditioned on
+the measuring or modelling assumptions.</semantic__p>
+
+<semantic__p id="semantic___3a4ff92c-fc05-c7eb-5697-2d64d51a1925">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___coverage_interval" inline-header="false" obligation="normative">
+<semantic__title>Coverage interval</semantic__title>
+<semantic__p id="semantic___36757dec-601d-ae04-4602-aac9d313e74a">Interval containing the set of
+<semantic__link target="https://jcgm.bipm.org/vim/en/2.11.html">true quantity values</semantic__link> of a
+<semantic__link target="https://jcgm.bipm.org/vim/en/2.3.html">measurand</semantic__link> with a stated
+probability, based on the information available</semantic__p>
+
+<semantic__p id="semantic___bd63a089-7d07-ff02-5538-f87106186d2d">[SOURCE: BIPM-VIM]</semantic__p>
+
+<semantic__p id="semantic___14c0fc20-6263-f993-f578-0a53fd2584fe">#[.underline]#Latency</semantic__p>
+
+<semantic__p id="semantic___1b300c37-ab3a-c87c-f46b-bf697475b9be">It is the period between the end of sensing of a phenomenon to the
+beginning of availability of a specific product.</semantic__p>
+
+<semantic__table id="semantic___65924c04-4195-8945-7427-4b6b5fc96b0a" width="100%"><semantic__colgroup><semantic__col width="50%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">1 s, 2 h,</semantic__td>
+<semantic__td valign="top" align="left">second, hour, day, month, year</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___902ec360-a8cb-b3ad-cf94-ba57d7e87718">NOTE 1: CEOS Wiki describes latency as “the time delay introduced by
+automated data<semantic__br/>
+processing or network transmission between the occurrence of an event
+and the use of the processed data.”</semantic__p>
+
+<semantic__p id="semantic___28cf061a-28df-c3ff-b607-fa487ff72c69">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___location_error" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Location error</semantic__underline></semantic__title>
+<semantic__p id="semantic___25fa7315-ed99-9940-309d-1d0197b54c80">Indicate the agreement between the represented location of an object and
+the true location.</semantic__p>
+
+<semantic__p id="semantic___9ef1a57c-54c2-e93e-575d-000a922bace2">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___measurement_uncertainty" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Measurement uncertainty</semantic__underline></semantic__title>
+<semantic__p id="semantic___19f3361e-d73e-75ac-f849-b5f1084e7480">Uncertainty associated with the method of measurement.</semantic__p>
+
+<semantic__p id="semantic___0804e43f-4925-5ee8-87b7-db51962a73d6">[SOURCE: CEOS Wiki adopted from JCGM GUM]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___minimum_mapping_unit" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Minimum Mapping Unit</semantic__underline></semantic__title>
+<semantic__p id="semantic___9768268e-024f-5a32-47e6-c0bf17b1d92a">The area of the smallest feature that is still represented on a map</semantic__p>
+
+<semantic__table id="semantic___0dba71e3-61d0-9dda-bb97-31ada53d1385" width="100%"><semantic__colgroup><semantic__col width="50%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">1 ha</semantic__td>
+<semantic__td valign="top" align="left">Square meter (<semantic__strong>m<semantic__sup>2</semantic__sup></semantic__strong>), hectar (ha)</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___de3fe97b-8fd5-b1d6-13e6-20a0355abdba">[SOURCE: CGLS]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___minimum_mapping_width" inline-header="false" obligation="normative">
+<semantic__title>Minimum Mapping Width</semantic__title>
+<semantic__p id="semantic___cf7ba037-602a-73bc-5d71-e454a0e1c470">The width of the smallest linear feature that is still represented on a
+map</semantic__p>
+
+<semantic__table id="semantic___fa11b627-49da-50aa-c726-30768f2f3368" width="100%"><semantic__colgroup><semantic__col width="50%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">20 m</semantic__td>
+<semantic__td valign="top" align="left">Meter (m)</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___c197ed26-953b-1fc6-e0b9-2ff2a22ff5d0">[SOURCE: CGLS]</semantic__p>
+
+<semantic__p id="semantic___6f81464f-27ac-2304-6408-a96d9e554093">#[.underline]#Quality indicator</semantic__p>
+
+<semantic__p id="semantic___a2f83efd-13b6-e301-294f-bf1b0d3dd398">A quality indicator shall provide sufficient information to allow all
+users to readily evaluate<semantic__br/>
+the “fitness for purpose” of the data or derived product. A Quality
+Indicator may be a number,<semantic__br/>
+set of numbers, graph, uncertainty budget, or a simple “flag”.</semantic__p>
+
+<semantic__p id="semantic___440f11ab-bdea-e3c4-4ca7-10f497152ef9">[SOURCE: CEOS Wiki]</semantic__p>
+
+<semantic__p id="semantic___43eabbb5-f404-aadd-9e70-08cbe85732dc">#[.underline]#Spatial completeness</semantic__p>
+
+<semantic__p id="semantic___a81c78ec-331d-ea06-d66b-0b93994a06dd">The presence or absence of gaps, which are missing values in an
+otherwise continuous spatial data series. For example, surface soil
+moisture retrieved from microwave satellite sensors may present gaps in
+mountainous terrains.</semantic__p>
+
+<semantic__p id="semantic___c23ab5c8-f519-e86b-7c9a-8a1d346f9931">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___spatial_consistency" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Spatial consistency</semantic__underline></semantic__title>
+<semantic__p id="semantic___6c45cf0c-fa29-328f-5066-f1fbed4a7ad0">It indicates that the spatial statistical properties of the data depend
+only on the underlaying physical processes and don’t depend on other
+factors such as fusing different products or sensors. Also, the validity
+of the assumptions of the procedure to produce information holds true
+across the whole spatial range.</semantic__p>
+
+<semantic__p id="semantic___0cd6e3ef-93e9-e362-5bb5-f4c56cf8756a">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___spatial_extent" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Spatial extent</semantic__underline></semantic__title>
+<semantic__p id="semantic___f4684293-687e-9a51-09d8-48aee424dce3">The <semantic__em>zone</semantic__em> or region of space described by a <semantic__em>geographic identifier</semantic__em> in
+the form of a label or code, or by a bounding box. It consists in the
+maximum extent (the spatial boundary or limits) within which the user is
+requesting data.</semantic__p>
+
+<semantic__p id="semantic___63f11a5a-4098-121d-9f1e-5df5dcf661bf">The attribute represents the maximum spatial extent of the AOI, and in
+case the AOI is made of many discontinuous zones then it represents the
+maximum extent of the union of all the zones.</semantic__p>
+
+<semantic__p id="semantic___b292e31e-6388-96e6-cb84-cfde6926fd04">For example, if a user is requesting information about degradation of
+African protected sites, then the AOIs are the protected sites, and the
+spatial extent is the African continent.</semantic__p>
+
+<semantic__p id="semantic___b908bb13-3ca6-e09c-8ddc-ee7e9e288b1c">NOTE 1: WIGOS metadata standard defines it as the typical spatial
+georeferenced volume covered by the observations</semantic__p>
+
+<semantic__p id="semantic___cab09e0e-900a-81c9-59f9-fad6c155f244">[SOURCE: Adapted from ISO 19170-1:2021]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___spatial_reporting_unit" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Spatial reporting unit</semantic__underline></semantic__title>
+<semantic__p id="semantic___bec62512-aa4e-ce5d-c474-55cdc727c639">The smallest spatial object of interest that may be used for reporting
+and for which the information should be aggregated.</semantic__p>
+
+<semantic__table id="semantic___f80e9c40-6096-1881-6cde-32de296466d0" width="100%"><semantic__colgroup><semantic__col width="34%"/><semantic__col width="34%"/><semantic__col width="32%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Type</semantic__th>
+<semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid units</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">Geographical/administrative identifier</semantic__td>
+<semantic__td valign="top" align="left">Africa, NUTS3, LAU, Natura 2000
+site</semantic__td>
+<semantic__td valign="top" align="left">unitless</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">Grid [x, y]</semantic__td>
+<semantic__td valign="top" align="left">2 x 2 meter, 0.1 x 0.2 degrees ;</semantic__td>
+<semantic__td valign="top" align="left">Meter, degrees</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___ae916cb9-e931-ec0e-fd8a-63c2248dde3d">NOTE 1: WIGOS 2019 use ‘spatial reporting interval’ probably assuming
+the observations are reported on a grid with regular spacing/intervals.</semantic__p>
+
+<semantic__p id="semantic___02b67f9b-2eb4-c297-872d-23da3c5bc7a0">[SOURCE: KCEO]</semantic__p>
+
+<semantic__p id="semantic___db7dd3b7-2df5-4823-f94b-ae11f90563b2">#[.underline]#Spatial resolution</semantic__p>
+
+<semantic__p id="semantic___7c1cf62f-7d69-2936-a525-774ca5bb914a">It is the spatial sampling scheme that determines the smallest object
+that can be identified or resolved in a gridded spatial discretization.</semantic__p>
+
+<semantic__table id="semantic___ac588fc3-11b5-27fe-c518-71042ba75b95" width="100%"><semantic__colgroup><semantic__col width="50%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">2 x 2 m; 0.1 x 0.4 degrees</semantic__td>
+<semantic__td valign="top" align="left">Meter, degrees</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___16aae396-eaac-b9fe-aa81-1b4c3eb2ad55">NOTE 1: Also called <semantic__em>grid spacing</semantic__em></semantic__p>
+
+<semantic__p id="semantic___11627f9c-56e0-69d3-ab99-2d7af60b7774">[SOURCE:]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___spectral_resolution" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Spectral</semantic__underline> <semantic__underline>resolution</semantic__underline></semantic__title>
+<semantic__p id="semantic___ffe39111-8b56-9a36-fe29-a919d7a9f4f3">Measure of the ability to resolve features in the electromagnetic
+spectrum.</semantic__p>
+
+<semantic__p id="semantic___61c2768f-b59c-245f-51d4-44c8fa1eb19c">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___spectral_band" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Spectral band</semantic__underline></semantic__title>
+<semantic__p id="semantic___d52137b0-66f2-7cd9-f11d-d3120eae4ca7">Part of the electromagnetic spectrum of specific wavelengths. In remote
+sensing usually described by central wavelength and bandwidth.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___spectral_bandwidth" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Spectral Bandwidth</semantic__underline></semantic__title>
+<semantic__p id="semantic___1b2ca212-cfea-ef0e-8ddf-e7fa669f539c">the range of the spectral band</semantic__p>
+
+<semantic__table id="semantic___6f695a57-43f9-3b2f-67ce-df1551f210f6" width="100%"><semantic__colgroup><semantic__col width="50%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">0.429-0.457 <semantic__strong>μm</semantic__strong></semantic__td>
+<semantic__td valign="top" align="left">micrometre (<semantic__strong>μm</semantic__strong>), millimetre (mm), centimetre (cm)</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___1e3793c0-1d2b-18a8-cedf-d33df9db814f">#[.underline]#Stability</semantic__p>
+
+<semantic__p id="semantic___33ec4a71-35b4-5169-8658-61ee49379ced">It refers to the maximum acceptable change in uncertainty per decade.</semantic__p>
+
+<semantic__p id="semantic___370784de-fdca-cfb0-1a2a-5a841b29a798">NOTE 1: GCOS uses bias or systematic errors instead of uncertainty</semantic__p>
+
+<semantic__p id="semantic___6166d112-b8ed-ee9f-7acd-b1ba8d4277aa">[SOURCE: modified from GCOS 2022]</semantic__p>
+
+<semantic__p id="semantic___3cee6da7-84e8-4f69-e076-29bbcc031ae0">#[.underline]#Temporal consistency</semantic__p>
+
+<semantic__p id="semantic___e735b3ae-f8c6-c354-a893-8f224468faac">It indicates that the temporal statistical properties of the sample
+depend only on the underlaying physical processes and don’t depend on
+other factors such as fusing different products or sensors.</semantic__p>
+
+<semantic__p id="semantic___d948d346-71a9-7fca-5260-7e1a149a2895">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___temporal_extent" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Temporal extent</semantic__underline></semantic__title>
+<semantic__p id="semantic___3aa4af71-0a45-e095-379f-5139a02ecd7f">The period during which data was collected, observations were made, or
+model was run.</semantic__p>
+
+<semantic__table id="semantic___94ea30bb-4b3b-6c85-5209-7848185e1bf9" width="100%"><semantic__colgroup><semantic__col width="50%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">Y/m/d — Y/m/d</semantic__td>
+<semantic__td valign="top" align="left">Not Applicable</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___92007e84-2494-3d49-6fb9-2bef72ceaaa6">NOTE 1: In W3C is the definition of temporal coverage</semantic__p>
+
+<semantic__p id="semantic___c4e5ff59-03e0-151c-0dbc-cfafdc03ea64">NOTE 2: Time period covered by a series of observations inclusive of the
+specified date/time indications (measurement history). Defined based on
+the beginning and end dates of observations. WIGOS Metadata]</semantic__p>
+
+<semantic__p id="semantic___3d6c70c9-c19b-cec8-e73c-4f2cf94b45b8">[SOURCE: adapted from W3C]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___temporal_reporting_period" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Temporal reporting period</semantic__underline></semantic__title>
+<semantic__p id="semantic___7933537e-d420-be8b-0bd7-aa4f8a2600bf">The time period used for reporting and for which the information should
+be aggregated from the native temporal resolution.</semantic__p>
+
+<semantic__table id="semantic___cf231a26-b78e-db34-96ec-964946d94a6f" width="100%"><semantic__colgroup><semantic__col width="50%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">1 s, 2 h, 1 d</semantic__td>
+<semantic__td valign="top" align="left">second, hour, day, month, year</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___df7ac4a9-915d-5729-8ee7-2c810577b06d">[SOURCE: modified WIGOS Metadata Standard 2019]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___temporal_resolution" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Temporal</semantic__underline> <semantic__underline>resolution</semantic__underline></semantic__title>
+<semantic__p id="semantic___83f992b5-4570-9d27-ed96-88720a9a9474">The observation or model output representing regular intervals and
+specifying the length of the interval that determines the smallest event
+or process that can be resolved. (e.g., the period between observations,
+the time steps in a model).</semantic__p>
+
+<semantic__table id="semantic___2008c0be-ec87-5297-a663-e080d7e7419a" width="100%"><semantic__colgroup><semantic__col width="50%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">1 s, 2 h, 1 m</semantic__td>
+<semantic__td valign="top" align="left">second, hour, day, month, year</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___37c4bf9b-ba26-9c0a-c70a-c9aedc4d42d9">NOTE 1: WIGOS 2019 distinguishes between <semantic__em>sampling time period</semantic__em>, as the
+period over which a measurement is taken, and <semantic__em>temporal sampling interval</semantic__em> as the time period between the beginning of consecutive
+sampling periods. Temporal resolution in this Glossary is equivalent to
+sampling time period as used by WIGOS.</semantic__p>
+
+<semantic__p id="semantic___f632b80c-592f-08f0-ccf0-9f504b2aa532">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___temporal_revisit" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Temporal revisit</semantic__underline></semantic__title>
+<semantic__p id="semantic___47887172-60b2-9f1d-aa6e-43132b450df7">The interval between successive observations</semantic__p>
+
+<semantic__table id="semantic___0f0ea6ec-740e-b580-179a-1132916c862a" width="100%"><semantic__colgroup><semantic__col width="50%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">1 s, 2 h</semantic__td>
+<semantic__td valign="top" align="left">second, hour, day, month, year</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___1d6c1f29-9ccc-eef1-d9e4-70b08c723073">NOTE 1: In remote sensing it is also called repeat cycle</semantic__p>
+
+<semantic__p id="semantic___6a7840dd-ef6c-6d9f-8bdf-38d4b0c3eff1">NOTE 2: More generally it is known as <semantic__strong>temporal sampling interval</semantic__strong></semantic__p>
+
+<semantic__p id="semantic___547026f7-7477-a381-9ee1-4407048516f8">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___time_of_year" inline-header="false" obligation="normative">
+<semantic__title>Time of year</semantic__title>
+<semantic__p id="semantic___11201b83-9adc-9704-83c0-a0135ca197f1">the time of the year that the variable is observed or simulated by a
+model</semantic__p>
+
+<semantic__table id="semantic___76bd4025-7b01-b85d-69cd-57a036fa1517" width="100%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="25%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">type</semantic__th>
+<semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">timestamp</semantic__td>
+<semantic__td valign="top" align="left">m/d</semantic__td>
+<semantic__td valign="top" align="left">Not Applicable</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">timerange</semantic__td>
+<semantic__td valign="top" align="left">m/d — m/d</semantic__td>
+<semantic__td valign="top" align="left">Not Applicable</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___90acd0b0-53ca-8c01-06ef-42b8e52e3f34">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___time_of_day" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Time of day</semantic__underline></semantic__title>
+<semantic__p id="semantic___c6834972-15e7-b28c-f5d6-d8697acc06dc">the time of the day that the variable or parameter is observed or
+simulated by a model</semantic__p>
+
+<semantic__table id="semantic___dc9e87c4-0ba1-7fd7-8bc1-9fa787506ab0" width="100%"><semantic__colgroup><semantic__col width="25%"/><semantic__col width="25%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">type</semantic__th>
+<semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">timestamp</semantic__td>
+<semantic__td valign="top" align="left">18:00 h (0-24)</semantic__td>
+<semantic__td valign="top" align="left">Hours</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">timerange</semantic__td>
+<semantic__td valign="top" align="left">18:00 – 20:00 h</semantic__td>
+<semantic__td valign="top" align="left">Hours</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___9e3a9fa2-5950-875f-c90a-97d5f84a733b">NOTE 1: In remote sensing it is also known as time of overpass</semantic__p>
+
+<semantic__p id="semantic___65273517-8716-bbb8-4afb-653a675278e5">[SOURCE: KCEO]</semantic__p>
+
+<semantic__p id="semantic___8242b4a6-a924-04d1-c1ea-1776982645fb">##Timeliness</semantic__p>
+
+<semantic__p id="semantic___b0f8ba79-de99-20e3-9090-72df7c5198cc">It is the period between the moment of requesting information to the
+moment of availability of information.</semantic__p>
+
+<semantic__ul id="semantic___a5deda15-ac88-8bd6-d803-70a51eec55f5"><semantic__li><semantic__p id="semantic___2dd24e32-c866-9fd7-f769-bd33bbc132d1">Near Real-Time (NRT): delivered less than 3 hours after requesting
+information</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___e62dccff-446f-9eaf-b1d3-f7d6a0413f2a">Slow-Time Critical (STC): delivered within 48 hours after requesting
+information</semantic__p>
+</semantic__li>
+<semantic__li><semantic__p id="semantic___7d262870-a9dd-082d-8b3d-004af361d9ac">Non-Time Critical (NTC): typically delivered within 1 month after
+requesting information</semantic__p>
+</semantic__li>
+</semantic__ul>
+
+<semantic__p id="semantic___6a3f1479-a163-9136-2072-9a7d4e7f1036">NOTE 1: In some context also known as delivery time.</semantic__p>
+
+<semantic__p id="semantic___9eb57f89-3acf-bc0b-7269-7cf5d5f381df">NOTE 2: C3S URDB describes timeliness as “the ability of the
+publish/subscribe middleware to provide the expected service within
+known time bounds”</semantic__p>
+
+<semantic__p id="semantic___0df8836d-a9e8-affb-6805-8076b3f0bb37">[SOURCE: Adapted from ESA S3 User Guide]</semantic__p>
+
+<semantic__p id="semantic___ec8b0f72-46db-949a-9e29-76ace89455e8">#[.underline]#Vertical <semantic__underline>levels</semantic__underline></semantic__p>
+
+<semantic__p id="semantic___15ba74d7-5523-2580-e861-3a0165fd3b4f">Levels of a vertical discretization. Examples may be pressure levels in
+an atmospheric model reanalysis or height levels in a forest biomass EO
+product.</semantic__p>
+
+<semantic__table id="semantic___c792134e-39a3-07e4-75fb-c1dcab4dcf1f" width="100%"><semantic__colgroup><semantic__col width="50%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">1,5,10 meter; 1000, 850, 500 hPa</semantic__td>
+<semantic__td valign="top" align="left">meter, hPa, unitless</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___047b5a33-6934-65eb-8ba3-e683baf37dc4">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic___eo_derivedapplication_attributes" inline-header="false" obligation="normative">
+<semantic__title>EO-derived/Application attributes</semantic__title>
+<semantic__clause id="semantic___baseline" inline-header="false" obligation="normative">
+<semantic__title>Baseline</semantic__title>
+<semantic__p id="semantic___77a4afec-6262-d692-3497-e1a274691551">It is the reference period, time or measure against which the
+information is assessed or compared. For example, in climate change
+projections a baseline may be any 30-year period of observations
+(1961-1990, etc.) used as reference to calculate the future change; In
+monitoring wetlands degradation one of the indicators of wetlands
+condition is wetland connectivity, so that setting the baseline year to
+compute the baseline indicator of wetlands connectivity can be used to
+report the indicator change for all the other years.</semantic__p>
+
+<semantic__table id="semantic___89a8e4db-7b8d-d394-1006-fc940850c1e5" width="100%"><semantic__colgroup><semantic__col width="50%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">2000; 1990-2020</semantic__td>
+<semantic__td valign="top" align="left">year</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___58e0b0e8-77ad-da1a-27bd-4cc2732c9a5d">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___classification_system" inline-header="false" obligation="normative">
+<semantic__title>Classification system</semantic__title>
+<semantic__p id="semantic___5e4cbbd1-1a7a-ee3c-4b31-3c955b7203d0">The nomenclature used to classify the information in categorical
+thematic classes (ex: EUNIS, MAES ecosystems, Corine Land Cover, LCCS).</semantic__p>
+
+<semantic__p id="semantic___d2e9e243-5a3b-109f-4aff-db89133ae270">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___classification_system_levels" inline-header="false" obligation="normative">
+<semantic__title>Classification system levels</semantic__title>
+<semantic__p id="semantic___ee4e2732-e7a3-9fcd-f142-5199339f1e15">The levels in a hierarchical classification system. For example, Corine
+Land Cover is made up of three nested levels that classify land cover
+with increasing details:</semantic__p>
+
+<semantic__p id="semantic___7ea691df-c1d8-c5a8-c6ec-6c6ffe400e6f"><semantic__em>2 Agricultural Areas</semantic__em></semantic__p>
+
+<semantic__p id="semantic___6b885884-070f-215e-83ed-c0fcdf76f061"><semantic__em>2.1 Arable lands</semantic__em></semantic__p>
+
+<semantic__quote id="semantic___024d98bc-31f2-d966-81dc-931cd4602ccd"><semantic__p id="semantic___5f53ab4d-59e1-dbe2-0ebf-38a0874bd326"><semantic__em>2.1.1 Non-irrigated arable land</semantic__em></semantic__p>
+
+<semantic__p id="semantic___38e8c826-5b84-55f9-fcf3-3edd0ad89655"><semantic__em>2.1.2 Permanently irrigated land</semantic__em></semantic__p>
+
+<semantic__p id="semantic___7f3cf6c5-449a-4661-88f0-890a3b66ed0a"><semantic__em>2.1.3 Rice fields</semantic__em></semantic__p>
+</semantic__quote>
+
+<semantic__p id="semantic___37be1df3-d385-1108-f802-253823756033">[SOURCE: KCEO]</semantic__p>
+
+<semantic__p id="semantic___41241c47-f987-4a40-9a1a-2072577edf05">##Climate projection</semantic__p>
+
+<semantic__p id="semantic___ddbddbd8-8db9-d958-e074-3ac8089178ec">A climate projection is the simulated response of the climate system to
+a scenario of future emission or concentration of greenhouse gases
+(GHGs) and aerosols, generally derived using climate models. Climate
+projections are distinguished from climate predictions by their
+dependence on the emission/concentration/radiative forcing scenario
+used, which is in turn based on assumptions concerning, for example,
+future socioeconomic and technological developments that may or may not
+be realized.</semantic__p>
+
+<semantic__p id="semantic___acbba35d-6a6d-886d-d397-564c68189613">[SOURCE: IPCC]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___forecast_range" inline-header="false" obligation="normative">
+<semantic__title>Forecast range</semantic__title>
+<semantic__p id="semantic___ae96bf73-d744-1998-62ae-9cebdb1a8c71">The forecasted period</semantic__p>
+
+<semantic__p id="semantic___91d710c5-d7ba-b96f-8dde-65068ca66ed3">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___forecast_lead_time" inline-header="false" obligation="normative">
+<semantic__title>Forecast lead time</semantic__title>
+<semantic__p id="semantic___a7ffffcd-67eb-1cf8-af3f-3a046fd11f54">The length of time between the issuance of a forecast and the occurrence
+of the phenomena that were predicted. It is expressed in time intervals
+in a forecasted period, for example 6-hour intervals for a medium-range
+forecast.</semantic__p>
+
+<semantic__table id="semantic___aa24dca0-c743-0f96-7196-8faa98e2ddc5" width="100%"><semantic__colgroup><semantic__col width="50%"/><semantic__col width="50%"/></semantic__colgroup><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Entry format example</semantic__th>
+<semantic__th valign="top" align="left">Valid unit</semantic__th>
+</semantic__tr></semantic__thead>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">6 h, 1 d</semantic__td>
+<semantic__td valign="top" align="left">Year, month, day, hour</semantic__td>
+</semantic__tr></semantic__tbody>
+</semantic__table>
+
+<semantic__p id="semantic___35382f02-765b-f58c-72cb-2d2ea9d104e4">NOTE 1: UNTERM, International Glossary of Hydrology, WMO/UNESCO, 2011
+describes forecast lead time as “interval of time between the issuing of
+a forecast (warning) and the expected occurrence of the forecast event”</semantic__p>
+
+<semantic__p id="semantic___16220b83-cbe3-b90f-fd60-11253e4dce48">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___thematic_resolution" inline-header="false" obligation="normative">
+<semantic__title><semantic__underline>Thematic resolution</semantic__underline></semantic__title>
+<semantic__p id="semantic___8b4228c8-b066-b35d-3317-64e51284b486">The level of categorical detail of information expressed by the number
+of classes</semantic__p>
+
+<semantic__p id="semantic___1b325772-d898-0cf5-4d51-510830f0de81">[SOURCE: CGLS]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___thematic_uncertainty" inline-header="false" obligation="normative">
+<semantic__title>Thematic uncertainty</semantic__title>
+<semantic__p id="semantic___997eb674-361a-e4bb-62ad-5734fb7abd4c">Uncertainty associated with the method of classification.</semantic__p>
+
+<semantic__p id="semantic___c6ba60f9-d575-1005-6690-1a9c9b843189">NOTE 1: Typically, it is computed from the error matrix.</semantic__p>
+
+<semantic__p id="semantic___479e61d6-40a6-8888-0985-239680dc5d5b">NOTE 2: For a review of classification uncertainty metrics consult Ye et
+al. 2018.</semantic__p>
+
+<semantic__p id="semantic___b1db5731-c16d-266f-d4e4-abc1a06272da">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic___climate_adaptation" inline-header="false" obligation="normative">
+<semantic__title>Climate Adaptation</semantic__title>
+<semantic__clause id="semantic___outcome_impact" inline-header="false" obligation="normative">
+<semantic__title>Outcome &amp; Impact</semantic__title>
+<semantic__p id="semantic___be8321b2-4522-5841-a2de-33067ac7a179">Outcome is regarded short-term, while impact is regarded long-term
+according to X. However, in the Horizon Europe Missions terminology,
+impact is regarded short-term.</semantic__p>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic___other" inline-header="false" obligation="normative">
+<semantic__title>Other</semantic__title>
+<semantic__clause id="semantic___data_access" inline-header="false" obligation="normative">
+<semantic__title>Data access</semantic__title>
+<semantic__p id="semantic___b6c6bb61-4824-fedc-b90f-1a6e736b1c23">The service to disseminate data</semantic__p>
+
+<semantic__p id="semantic___41d94f29-350d-55bf-a2d5-d109b67c9dd1">[SOURCE: KCEO]</semantic__p>
+
+<semantic__p id="semantic___8a3d548b-da41-260b-e1fd-f3331c99391e">===</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___data_format" inline-header="false" obligation="normative">
+<semantic__title>Data format</semantic__title>
+<semantic__p id="semantic___8c546e95-dbfb-9c73-d69d-b56e9942e063">Structured data that is machine readable and can be automatically read
+and processed by a computer, such as HDF, NetCDF, CSV, JSON, XML, etc.</semantic__p>
+
+<semantic__p id="semantic___ac7e90be-1d4c-dab1-532e-d9290047db40">[SOURCE: CEOS Wiki]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___data_licencing" inline-header="false" obligation="normative">
+<semantic__title>Data licencing</semantic__title>
+<semantic__p id="semantic___694e925c-b1b0-13d1-0e41-dc614f45a9ec">A legal instrument by which a copyright holder may grant rights over the
+protected work. Data and content is open if it is subject to an
+explicitly-applied licence that conforms to the Open Definition. A range
+of standard open licenses are available, such as the Creative Commons
+CC-BY licence, which requires only attribution.</semantic__p>
+
+<semantic__p id="semantic___463977bc-457c-0c73-799f-919c74c8b94c">[SOURCE: CEOS Wiki]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___dwell_time" inline-header="false" obligation="normative">
+<semantic__title>Dwell time</semantic__title>
+<semantic__p id="semantic___97976b1e-61e3-988a-0953-8a7666f9e5dd">The time that an antenna beam spends on a target.</semantic__p>
+
+<semantic__p id="semantic___783041e6-61fe-9199-f62f-407f06c29d79">NOTE 1: in the context of radar sensing</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___policy" inline-header="false" obligation="normative">
+<semantic__title>Policy</semantic__title>
+<semantic__p id="semantic___aadbb3b5-9b8f-d1bb-8ff9-ec85d86c57db">A deliberate system of guidelines to guide decisions and achieve
+rational outcomes. A policy is a statement of intent and is implemented
+as a procedure or protocol. Policies are typically promulgated through
+official written documents.</semantic__p>
+
+<semantic__p id="semantic___217a4d83-d9ad-1bcc-98af-1e48293ef416">[SOURCE: Wikipedia]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___policy_files" inline-header="false" obligation="normative">
+<semantic__title>Policy file(s)</semantic__title>
+<semantic__p id="semantic___26528ec4-c108-badb-a920-4faaf3032fd1">One or more policy documents that represent the official written
+reference for a given Policy.</semantic__p>
+
+<semantic__p id="semantic___cb0bb5b5-0197-6df2-23ca-698ce9dbe2a8">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___policy_cycle" inline-header="false" obligation="normative">
+<semantic__title>Policy cycle</semantic__title>
+<semantic__p id="semantic___1f39ae6f-1e0e-edc7-4270-9f33177bcd92">A well-established concept, which is typically taught as the rational
+model of policy decision-making. It is an idealised view of the policy
+process</semantic__p>
+
+<semantic__p id="semantic___6535d8ae-8a33-2a9d-ec90-9e93624bba04">[SOURCE:
+<semantic__link target="https://digital-strategy.ec.europa.eu/en/library/quality-public-administration-toolbox-practitioners"/>]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___policy_making" inline-header="false" obligation="normative">
+<semantic__title>Policy making</semantic__title>
+<semantic__p id="semantic___9e961f6e-3d06-d1d1-a39c-078f843e24f8">The process by which governments translate their political vision into
+programmes and actions to deliver ‘outcomes’ — desired change in the
+real world.</semantic__p>
+
+<semantic__p id="semantic___bf79333a-5625-741f-3860-5c0897a76c35">[SOURCE:
+<semantic__link target="https://digital-strategy.ec.europa.eu/en/library/quality-public-administration-toolbox-practitioners"/>]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___policy_milestone" inline-header="false" obligation="normative">
+<semantic__title>Policy milestone</semantic__title>
+<semantic__p id="semantic___1a09a159-de86-0a06-34b8-cdb6cdc931da">Policy milestones mark significant progress in addressing specific
+issues, or crucial decision points where significant choices are made.
+Concrete examples of policy milestones are: policy planning and
+proposing, impact assessment, implementation, or implementation cycles
+(e.g., Water Framework Directive, Marine Strategy Framework Directive),
+achievement of policy objectives and policy targets, evaluating and
+improvement of existing laws.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___source_kceo" inline-header="false" obligation="normative">
+<semantic__title>[Source: KCEO]</semantic__title>
+<semantic__p id="semantic___11167d09-0930-ea9b-88ad-a0e2334e4292">===</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___policy_objective" inline-header="false" obligation="normative">
+<semantic__title>Policy objective</semantic__title>
+<semantic__p id="semantic___fdc1142b-088d-9244-245c-6f5adc3a3e61">Desired outcome that policymakers wish to achieve</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___policy_target" inline-header="false" obligation="normative">
+<semantic__title>Policy target</semantic__title>
+<semantic__p id="semantic___e7b18385-5370-ff32-fc53-6b2910b53ffd">Specific level or rate set for the policy objective</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___update_frequency" inline-header="false" obligation="normative">
+<semantic__title>Update frequency</semantic__title>
+<semantic__p id="semantic___859a4267-1962-7f1d-f467-83338a2b3f7b">The frequency at which the product is available to users.</semantic__p>
+
+<semantic__p id="semantic___26edaa82-c0ed-4246-4b6b-410ac2fed39d">NOTE 1: also known in product catalogues as dissemination frequency</semantic__p>
+
+<semantic__p id="semantic___862a97cf-996f-52d6-157c-465f2eab652e">[SOURCE: KCEO]</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___user_interface" inline-header="false" obligation="normative">
+<semantic__title>User Interface</semantic__title>
+<semantic__p id="semantic___2de64d2d-c5ed-0333-fee4-77bc7d91cf5c">Set of all the components of an interactive system that provide
+information and controls for the user to accomplish specific tasks with
+the interactive system</semantic__p>
+
+<semantic__p id="semantic___f71b556d-4915-d9df-04ae-c4d1f4528581">[SOURCE:ISO 9241-110:2020, 3.10]</semantic__p>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic___resourcesglossaries" inline-header="false" obligation="normative">
+<semantic__title>Resources/Glossaries</semantic__title>
+<semantic__p id="semantic___aceba161-4ac4-c5ea-7d51-35533675c868">IPCC <semantic__link target="https://www.ipcc.ch/sr15/chapter/glossary/"/></semantic__p>
+
+<semantic__p id="semantic___ccd49fef-20ab-5e83-da77-5bb8e0a08b88">UNTERM <semantic__link target="https://unterm.un.org/unterm2/en/"/></semantic__p>
+
+<semantic__p id="semantic___bd559f65-5a3c-abaa-f95c-d60adf1e3d50">GEOLEXICA OSGEO <semantic__link target="https://osgeo.geolexica.org/"/></semantic__p>
+
+<semantic__p id="semantic___00f83990-d57c-933f-aca0-2f6721fc0210">W3C:https://w3c.github.io/sdw/bp</semantic__p>
+
+<semantic__p id="semantic___0c35d070-75aa-e6c4-8784-10e24af528a2">INSPIRE-WCS: <semantic__link target="https://inspire-wcs.eu"/></semantic__p>
+
+<semantic__p id="semantic___e4afcdd2-0439-48ce-3789-5997aaf315cb">GCOS-154: <semantic__link target="https://library.wmo.int/doc_num.php?explnum_id=3710"/></semantic__p>
+
+<semantic__p id="semantic___85903e82-04bd-fcc4-0360-1b347e2677eb">GEOGlos: gEOGlos</semantic__p>
+
+<semantic__p id="semantic___4315e291-e759-55ef-bc57-4a83600cf387">CEOS-ARD: <semantic__link target="https://ceos.org/ard/"/></semantic__p>
+
+<semantic__p id="semantic___7c2bb417-ce70-b24f-33bc-7cf3dade16a0">CEOS Wiki: <semantic__link target="https://calvalportal.ceos.org/t-d_wiki"/></semantic__p>
+
+<semantic__p id="semantic___7e3eaa68-f7b9-9966-111a-5a9f34a08250">EFSG: <semantic__link target="https://www.efgs.info/information-base/introduction/terminology/"/></semantic__p>
+
+<semantic__p id="semantic___2957cead-acb6-4852-816f-fce4dfab86bd">ESC:
+<semantic__link target="http://undocs.org/ece/trans/sc.1/ge.21/2018/1">ECE/TRANS/SC.1/GE.21/2018/1</semantic__link></semantic__p>
+
+<semantic__p id="semantic___54a34a88-d247-70b9-f6bb-f30abced569b">ESA:
+<semantic__link target="https://earth.esa.int/eogateway/documents/20142/37627/Mission-Quality-Assessment-Guidelines-v2.2.pdf/033c703e-02f8-d993-9859-560aeb61d2a0?version=1.0&amp;t=1676561363850"/></semantic__p>
+
+<semantic__p id="semantic___68eb2684-93c1-a335-2f9f-28a9add61fa1">WMO-WIGOS <semantic__link target="https://library.wmo.int/doc_num.php?explnum_id=10109"/></semantic__p>
+
+<semantic__p id="semantic___e0ebff9d-8fed-d529-1743-0429202cbab1">ESA S3 User Guide
+<semantic__link target="https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-altimetry/product-types/nrt-or-ntc"/></semantic__p>
+
+<semantic__p id="semantic___9bc26168-3306-87ce-fc11-ae9b11e7e83d">BIPM <semantic__link target="https://www.bipm.org/en/"/></semantic__p>
+
+<semantic__p id="semantic___d443b901-95a6-1f9d-4ff4-025184fa7fc1">JCGM GUM
+<semantic__link target="https://www.bipm.org/documents/20126/50065290/JCGM_GUM_6_2020.pdf/d4e77d99-3870-0908-ff37-c1b6a230a337"/></semantic__p>
+
+<semantic__p id="semantic___ceff2ed3-6d28-ee1a-c266-74ce7a5d7477">BIPM VIM <semantic__link target="https://jcgm.bipm.org/vim/en/"/></semantic__p>
+
+<semantic__p id="semantic___da5f9b61-b50b-af90-1706-c107d4f3a163">CGLS Copernicus Global Land Service</semantic__p>
+
+<semantic__p id="semantic___ec8ccb7b-0c80-93ec-e41b-17503dab0a9a">FIDUCEO <semantic__link target="https://research.reading.ac.uk/fiduceo/glossary/"/></semantic__p>
+
+<semantic__p id="semantic___dd8fe565-2f01-f58b-5573-67ecaaee0d97">ISO 8601-1:2019 Date and time — Representations for information
+interchange — Part 1: Basic rules</semantic__p>
+
+<semantic__p id="semantic___cb1aaa97-2199-68c5-88b1-6783ca7db3e4">ISO 191790-1:2021 Geographic information – Discrete Global Grid Systems
+Specifications – Part 1: Core Reference System and Operations, and Equal
+Area Earth Reference SYstem</semantic__p>
+
+<semantic__p id="semantic___e5f6f7b7-999e-d7ff-cd18-a10e276466e2">Temporal elements referenced in WIGOS metadata</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___references" inline-header="false" obligation="normative">
+<semantic__title>References</semantic__title>
+<semantic__p id="semantic___9833038a-6c57-af68-497e-7b0820534ebf">Ye, S., Pontius, R. G., &amp; Rakshit, R. (2018). A review of accuracy
+assessment for object-based image analysis: From per-pixel to
+per-polygon approaches. In ISPRS Journal of Photogrammetry and Remote
+Sensing (Vol. 141, pp. 137–147). Elsevier B.V.
+<semantic__link target="https://doi.org/10.1016/j.isprsjprs.2018.04.002"/></semantic__p>
+</semantic__clause>
+</semantic__sections>
+</semantic__standard-document></source></metanorma><render><preprocess-xslt format="xml">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',xml,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="xml">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="html">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',html,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="html">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="doc">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',doc,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="doc">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="pdf">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'passthrough']">
+  <xsl:if test="contains(@formats,',pdf,')"> <!-- delimited -->
+  <xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy>
+  </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+
+<preprocess-xslt format="pdf">
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="no"/>
+  <xsl:template match="@* | node()"><xsl:copy><xsl:apply-templates select="@* | node()"/></xsl:copy></xsl:template>
+<xsl:template match="*[local-name() = 'math-with-linebreak']">
+
+</xsl:template>
+<xsl:template match="*[local-name() = 'math-no-linebreak']">
+<xsl:apply-templates select="node()"/>
+</xsl:template>
+
+</xsl:stylesheet>
+
+</preprocess-xslt>
+</render><source-highlighter-css>sourcecode table td { padding: 5px; }
+sourcecode table pre { margin: 0; }
+sourcecode, sourcecode .w {
+  color: #444444;
+}
+sourcecode .cp {
+  color: #CC00A3;
+}
+sourcecode .cs {
+  color: #CC00A3;
+}
+sourcecode .c, sourcecode .ch, sourcecode .cd, sourcecode .cm, sourcecode .cpf, sourcecode .c1 {
+  color: #FF0000;
+}
+sourcecode .kc {
+  color: #C34E00;
+}
+sourcecode .kd {
+  color: #0000FF;
+}
+sourcecode .kr {
+  color: #007575;
+}
+sourcecode .k, sourcecode .kn, sourcecode .kp, sourcecode .kt, sourcecode .kv {
+  color: #0000FF;
+}
+sourcecode .s, sourcecode .sb, sourcecode .sc, sourcecode .ld, sourcecode .sd, sourcecode .s2, sourcecode .se, sourcecode .sh, sourcecode .si, sourcecode .sx, sourcecode .sr, sourcecode .s1, sourcecode .ss {
+  color: #009C00;
+}
+sourcecode .sa {
+  color: #0000FF;
+}
+sourcecode .nb, sourcecode .bp {
+  color: #C34E00;
+}
+sourcecode .nt {
+  color: #0000FF;
+}
+
+</source-highlighter-css></metanorma-extension>
+<preface><clause type="toc" id="_bfb05dde-21c5-4a0b-b68f-d4bda569b7af" displayorder="1"><title depth="1">Table of contents</title></clause>
+<introduction id="_introduction" obligation="informative" displayorder="2">
+<title>Introduction</title>
+<p id="_9c74468f-5324-fd9f-eae7-b5500feb76ac">The KCEO Glossary of Terms and Definitions is a comprehensive resource
+that serves as an invaluable reference guide for seeking clarity and a
+deeper understanding of the field of Earth observation. This extensive
+compilation brings together a wide range of terms, concepts, and
+definitions that are directly relevant to Earth observation,
+encompassing various disciplines such as remote sensing, satellite
+imagery, geospatial analysis, climate adaptation, and more. By acting as
+a reliable compass, this glossary helps to navigate the intricate and
+specialized terminology associated with Earth observation, ensuring
+effective communication and knowledge sharing.</p>
+
+<p id="_bf9117f7-4ddb-4408-6cd7-c4860eb4563b">As a living document, the KCEO Glossary of Terms and Definitions is in a
+constant state of evolution and is continuously adapted to incorporate
+emerging concepts. This ensures that it remains up-to-date.</p>
+
+<p id="_4a00a678-170a-e56c-b074-079304307852">The KCEO Glossary of Terms and Definitions is serves as an indispensable
+tool to cater our needs, promote effective communication, and stay
+abreast of the ever-evolving landscape of Earth observation.</p>
+
+<review id="start" reviewer="Lahsaini" date="20240420T00:00:00Z" type="todo" from="start" to="end"><p id="_85785b99-8bd7-71ab-6745-cab8abd683ff">Modify the introduction</p>
+</review></introduction></preface><sections><p class="zzSTDTitle1" displayorder="3">KCEO Glossary of Terms and Definitions</p>
+<clause id="end" inline-header="false" obligation="normative" displayorder="4">
+<title depth="1">1.<tab/>General terms</title>
+<clause id="_ancillary_data" inline-header="false" obligation="normative">
+<title depth="2">1.1.<tab/>Ancillary data</title>
+<dl id="_229ca11a-0292-ef0b-f421-15d792fcdbff"><dt>Ancillary data</dt>
+<dd><p id="_f096e9a2-8f75-abd3-4ef4-5570cac89e9b">Data acquired on-board but not obtained from the main instrument
+itself (usually provided as part of Level 0 data). They have the primary
+purpose to serve the processing of main instrument data (e.g. orbit
+position and velocity of platform).</p>
+</dd>
+</dl>
+
+<p id="_f463f58e-a13f-dca3-5aa6-819332bbd7cb">[Source: ESA/CEOS?, modified]</p>
+
+<p id="_b4b43cf9-4a1a-1f01-347f-19238e7f19cf">Alternative:</p>
+
+<dl id="_7054ac20-4015-4e84-e7c5-37f11661ab81"><dt>Ancillary data</dt>
+<dd><p id="_ea179118-a2cf-20b9-e147-1ca502136362">Data other than instrument measurements, originating in the instrument
+itself or from the satellite, required to perform processing of the
+data. They include orbit data, attitude data, time information,
+spacecraft engineering data, calibration data, data quality information,
+and data from other instruments or earth system models.</p>
+</dd>
+</dl>
+
+<p id="_83773238-1afc-eab1-7a54-8ffa4d58fb73">[Source CEOS-ARD PFS template 20220302]</p>
+
+<p id="_3243dbbc-8081-7595-2425-ecdb8b56e357"><em>Data</em> acquired in context of an <em>observation</em> required to perform
+processing</p>
+</clause>
+
+<clause id="_auxiliary_data" inline-header="false" obligation="normative">
+<title depth="2">1.2.<tab/>Auxiliary data</title>
+<p id="_2874dea4-9c0f-7f98-9e92-13882e1aa355"><em>Data</em> which enhance processing and utilization of main instrument data.
+The auxiliary data are usually not captured by the same data collection
+process as the main instrument data. Auxiliary data include data
+collected by any other platform or process. Examples are e.g.
+meteorological data received from ECWMF/Met. Offices. Auxiliary data
+help in data processing, but are also data sets in their own right<strong>.</strong></p>
+
+<p id="_82adda8f-f4af-2fef-f12d-f35b4f99c6e4">[Source: ESA/CEOS?, modified]</p>
+
+<p id="_49afde0d-4c8b-7306-3c32-e8e4bbb0e666">Alternative:</p>
+
+<p id="_a3ac92c9-72de-8e51-1719-7339cb682055">The data required for instrument processing, which does not originate in
+the instrument itself or from the satellite. Some auxiliary data will be
+generated in the ground segment, whilst other data will be provided from
+external sources.</p>
+
+<p id="_6bdb43d6-95cf-392e-1b22-ea7c5949773f">[Source CEOS-ARD PFS template 20220302]</p>
+</clause>
+
+<clause id="_cell" inline-header="false" obligation="normative">
+<title depth="2">1.3.<tab/>Cell</title>
+<p id="_473c0a5e-4efd-64c0-e0bc-de42a170bade">Spatial, spatio-temporal zone or temporal unit of geometry with
+dimensionality greater than 0, associated with a zone</p>
+
+<p id="_302c4bd0-c54d-fe82-b5af-a6d8bb2b786b">NOTE1: All cells within a DGGS share the dimensionality of the DGGS’s
+parent global geometry. DGGSs with dimensionality of 0 are not
+supported.</p>
+
+<p id="_f8c58526-977a-c3bd-c0bb-50b7668c056f">NOTE 2: Cells are the unit of geometry in a DGGS, and the geometry of
+the region of space-time occupied by a zone is a cell.</p>
+
+<p id="_1da6bcb3-4c00-6a31-13e8-8c1118ec68fe">NOTE 3: While the terms cell and zone are often used interchangeably,
+“zone” is the strictly preferred term. Cell is entirely appropriate when
+specifically discussing a zone’s geometry or topology.</p>
+
+<p id="_8d820799-2c32-8d4d-7925-3060019aad61">[SOURCE: ISO 19170:2021]</p>
+</clause>
+
+<clause id="_duration" inline-header="false" obligation="normative">
+<title depth="2">1.4.<tab/>Duration</title>
+<p id="_79d7d0b1-af15-6f8e-e06f-37e3e298ca1a">non-negative interval quantity of time equal to the difference between
+the final and initial instants of a time</p>
+
+<p id="_952eaaa1-260a-550e-c6d0-df7d04f20eba">NOTE 1: The duration is one of the base quantities in the International
+System of Quantities (ISQ) on which the International System of Units
+(SI) is based. The term “time” instead of “duration” is often used in
+this context and also for an infinitesimal duration.</p>
+
+<p id="_b2f8587a-d156-9747-a240-9054cb88ba83">NOTE 2: For the term “duration”, expressions such as “time” or “time
+interval” are often used, but the term “time” is not recommended in this
+sense and the term “time interval” is deprecated in this sense to avoid
+confusion with the concept of “time interval”.</p>
+
+<p id="_be978076-0a5b-d7b2-81ac-de35a3232139">NOTE 3: The exact duration of a time scale unit depends on the time
+scale used. For example, the durations of a year, month, week, day, hour
+or minute, may depend on when they occur [in a Gregorian calendar, a
+calendar month can have a duration of 28, 29, 30, or 31 days; in a
+24-hour clock, a clock minute can have a duration of 59, 60, or 61
+seconds, etc.]. Therefore, the exact duration can only be evaluated if
+the exact duration of each is known.</p>
+
+<p id="_3b00b2a9-33e8-f1c6-f2cf-20d9f73d8f54">NOTE 4: This definition is closely related to NOTE 1 of the
+terminological entry “duration” in IEC 60050-113:2011, 113–01–13.</p>
+
+<p id="_ab8df63e-a5b1-4ec9-8fa5-03531805ef60">[SOURCE: ISO 8601-1:2019, 3.1.1.8]</p>
+
+<p id="_8b0d588d-d258-2347-f8f9-7db3ec5b97ab">##Earth observation</p>
+
+<p id="_6b1e1a7e-232a-8501-4e3d-a5176d62018e">Is a science domain dealing with technologies and methods of collecting
+and analysing <em>observations</em> about the different spheres (Geosphere,
+Atmosphere, Hydrosphere, Cryosphere, Biosphere, Anthroposphere) of our
+planet. This includes <em>remote-sensing</em>, such as satellite imagery, as
+well as in-situ observations, e.g., with ground-based devices.</p>
+
+<p id="_77785008-242c-c7f9-02bd-1ea8512de691">NOTE 1: Earth Observation (EO) can be categorised by location of the
+sensor into space-borne, air-borne, sea-borne, ground-based, underwater
+and underground EO.</p>
+
+<p id="_83f34ec8-1815-1dff-1a44-cf0031591ee1">[Source: modified GEO definition
+<link target="https://earthobservations.org/geo_wwd.php"/>]</p>
+
+<p id="_e0f916d4-e847-6e98-7847-90a1b6f9d30b">##Earth Observation product</p>
+
+<p id="_de76c9db-0739-13dc-3b8a-eaaef7005cee">A representation of a phenomenon that can be coded into information. A
+product serves multiple purposes and cross-domain applications. A
+characteristic of EO products is that they should undergo some data
+transformation for being considered decision-ready or inference-ready
+information.</p>
+
+<p id="_68385a5d-bdc1-8171-9586-8149f8210010">NOTE 1: aka geophysical and biophysical parameters (surface temperature,
+leaf area index, etc.)</p>
+
+<p id="_66d9cc19-3ceb-79e4-7fb3-cedff99f0e16">[SOURCE: KCEO]</p>
+
+<p id="_3f7972cd-4d28-b841-89d8-2b1b5bf7a817">##Earth Observation based output</p>
+
+<p id="_bd6bb153-1cf5-a8ae-7f4d-9a9d8c21376d">Any data or information derived from EO products. It may be generated
+for addressing specific use cases or user needs. It is the result of any
+type of data processing (classification, rearranging, sorting,
+aggregating, mathematical computation, filtering) and/or data
+integration (fusion, data assimilation) with other EO products and/or
+geospatial data that changes the property of the original EO product. It
+is the result of a non-invertible operation so that the original EO
+product can’t be recovered.</p>
+
+<p id="_748b51b0-a1ea-40fd-bf29-d0489a48aff6">[SOURCE: KCEO]</p>
+
+<p id="_caa9c403-7243-99f2-352b-8623a6e678cf">##Entity</p>
+
+<p id="_bc13e939-a008-d83d-fcc0-ef99aa8c6b11">Something that has separate and distinct existence and objective or
+conceptual reality</p>
+
+<p id="_779c90da-33bb-cd47-4da5-742a68850796">[SOURCE: <link target="https://www.iso.org/standard/59221.html">ISO 19119:2016</link>,
+4.1.6]</p>
+</clause>
+
+<clause id="_geographic_data" inline-header="false" obligation="normative">
+<title depth="2">1.5.<tab/>Geographic data</title>
+<p id="_e612fc0f-d3b4-ac87-8f2e-c0725f2356a7">data with implicit or explicit reference to a location relative to the
+Earth</p>
+
+<p id="_2f9f5059-c65d-51b4-8b21-15744c08ce7c">NOTE 1: <em>Geographic</em> <em>information</em> is also used as a term for
+information concerning phenomena implicitly or explicitly associated
+with a location relative to the Earth.</p>
+
+<p id="_b3156dd9-91fb-942d-9c56-52fdb5127154">[SOURCE: <link target="https://www.iso.org/standard/59193.html">ISO 19109:2015</link>,
+4.13; ISO 19109:2005]</p>
+
+<p id="_8dcd55a9-ea1b-19ee-b286-2c4f31811784">===</p>
+</clause>
+
+<clause id="_geographic_identifier" inline-header="false" obligation="normative">
+<title depth="2">1.6.<tab/>Geographic identifier</title>
+<p id="_fea6aa79-e745-9109-cee4-d96e4aa276e0">Spatial reference in the form of a label or code that identifies a
+location.</p>
+
+<p id="_6e2bc98f-8399-b6bd-fe05-ebc83f51ac62">EXAMPLE: “Spain” is an example of a label (country name); “SW1- 3AD” is
+an example of a code (postcode).</p>
+
+<p id="_7091356d-4bc8-3001-d94b-b46d4b1d0a2b">[SOURCE: ISO 19112:2019, 3.1.2]</p>
+</clause>
+
+<clause id="_geospatial_datainformation" inline-header="false" obligation="normative">
+<title depth="2">1.7.<tab/>Geospatial data/information</title>
+<p id="_379dda2c-0f44-7aa0-3494-a685412558c5">Consisting of, derived from, or relating to <em>data</em> that is directly
+linked to specific geographical locations</p>
+
+<p id="_38c25a3d-456d-062c-96bc-0e5ac455abd4">[Source: <link target="https://www.merriam-webster.com/dictionary/geospatial"/> ,</p>
+
+<p id="_cec91026-0aab-122a-f10c-4d086d1342fc"><link target="https://isotc211.geolexica.org/concepts/202/"/>, accessed 20221010]</p>
+</clause>
+
+<clause id="_grid" inline-header="false" obligation="normative">
+<title depth="2">1.8.<tab/>Grid</title>
+<p id="_8cd96981-fbab-0b82-5ef5-fa7ceda8e2e1">network composed of two or more sets of curves in which the members of
+each set intersect the members of the other sets in an algorithmic way</p>
+
+<p id="_ff19f972-c559-73b3-3b76-960f56c63021">NOTE 1: The curves partition a space into grid cells</p>
+
+<p id="_e2ba38f8-7741-354b-311b-5661c40f740f">[SOURCE: ISO 19123:2005, 4.1.23]</p>
+</clause>
+
+<clause id="_information" inline-header="false" obligation="normative">
+<title depth="2">1.9.<tab/>Information</title>
+<p id="_d8de000f-ee83-6bad-4494-55e3b5ff1727">The result of organisation, interpretation, categorisation,
+classification, or some other form of processing of <em>data</em> attaching to
+it a certain meaning that can be understood by the addressee.</p>
+
+<p id="_63757a8b-bf47-8d79-3bc2-ea850f1c13ce">NOTE 1: Information depends on <em>data</em> and is targeted.</p>
+
+<p id="_bf849497-f005-0b9b-bf59-70eaafeb65ed">[SOURCE: gEOGlos]</p>
+</clause>
+
+<clause id="_in_situ_observation" inline-header="false" obligation="normative">
+<title depth="2">1.10.<tab/>In-situ observation</title>
+<p id="_7a7df502-09a1-6c59-188f-c0bed5c05326">‘In-situ’ describes <em>observations</em> performed in the same place where a
+phenomenon occurs, normally without isolating it from other systems (its
+environment) or altering its pre-observation state. The main
+characteristic of such observations is that distance has no or only
+negligible (within <em>uncertainty</em>) influence on the <em>value</em> of the
+<em>property</em> observed. In-situ <em>observations</em> therefore often require
+either direct physical contact or small distances between a <em>sensor</em> and
+the observed phenomenon.</p>
+
+<p id="_2e019bf3-45fd-f5a6-b7c0-48f6f8134510">NOTE 1: <em>Observations</em> not fulfilling these conditions are considered
+<em>Remote Sensing</em>.</p>
+
+<p id="_277d6008-dcd2-b253-e9af-611f421dc3ff">[Source: own (Peter)]</p>
+</clause>
+
+<clause id="_laboratory_observation" inline-header="false" obligation="normative">
+<title depth="2">1.11.<tab/>Laboratory observation</title>
+<p id="_0e765a08-01b7-d31e-4e51-e5187ed1f064">Laboratory <em>observations</em> are (usually) in-situ observations in which
+the object or phenomenon is isolated from other systems or altered in
+its ‘original’ conditions or environment.</p>
+
+<p id="_7f92ee3b-718b-9797-6c4a-5c373c4f79e4">Note:</p>
+</clause>
+
+<clause id="_location" inline-header="false" obligation="normative">
+<title depth="2">1.12.<tab/>Location</title>
+<p id="_5cb32650-efa1-7891-fe37-26d7c8f59635">Particular <em>place</em> referenced by an <em>identifier</em></p>
+
+<p id="_690cc180-5db8-de03-ac99-754cf8f60e1c">NOTE 1 to entry: While a (geo)location identifies a geographic place, it
+may also be associated with objects other than the Earth<br/>
+NOTE 2 to entry: While location in principle covers 0- to 3-dimensional
+spatial geometries, it should not be used for 0- and 1-dimensional
+geometries (<em>positions</em> and paths)</p>
+
+<p id="_49457fa3-49a1-ff00-69b3-ba0f7dd5ad46">EXAMPLE “Madrid”, “California”.</p>
+
+<p id="_51e7e015-dccb-f1af-e337-ff3e987a9ff9">[SOURCE: <link target="https://www.iso.org/standard/70742.html">ISO 19112:2019</link>,
+(E), 3.1.3, modified, note 2 added]</p>
+</clause>
+
+<clause id="_measurement" inline-header="false" obligation="normative">
+<title depth="2">1.13.<tab/>Measurement</title>
+<p id="_0c166c4e-d225-a6f8-d806-e299c7a89ed1">A measurement is an <em>observation</em> of a <em>quantity</em>.</p>
+
+<p id="_2f02bdae-d37f-594a-4447-4863f8c8aff8">NOTE 1: The process of collecting a measurement is called <strong>measuring</strong>.</p>
+
+<p id="_02f2d072-7f26-b9fd-b0a6-12eaa2357ec3">[Source: gEOGlos (VIM ?, modified)]</p>
+</clause>
+
+<clause id="_period" inline-header="false" obligation="normative">
+<title depth="2">1.14.<tab/>Period</title>
+<p id="_23a7d7b5-63d3-1e40-e558-c69333f95d50">Particular era or span of time</p>
+
+<p id="_6d6e0341-d74b-a8ff-a77a-c8faba54bda5">NOTE 1: Periods are intervals named with a period identifier</p>
+
+<p id="_1325f0bb-8806-d2c2-e8c2-8413901a6967">[SOURCE: ISO 19170:2021]</p>
+</clause>
+
+<clause id="_period_identifier" inline-header="false" obligation="normative">
+<title depth="2">1.15.<tab/>Period identifier</title>
+<p id="_c444bc39-292e-f7cc-05a0-4aedb0f410b9">Temporal reference in the for of a label or code that identifies a
+period</p>
+
+<p id="_1617418a-8608-76ca-2178-33664395bb9e">NOTE 1: period identifiers are the temporal equivalent of geographic
+identifiers as specified in ISO 19912</p>
+
+<p id="_50f50b0f-ae8b-937d-e776-005266cba960">[SOURCE: ISO 19170:2021]</p>
+</clause>
+
+<clause id="_quantity" inline-header="false" obligation="normative">
+<title depth="2">1.16.<tab/>Quantity</title>
+<p id="_0db370b0-fac6-2452-e752-fb1c7367c5b8">A <em>property</em> whose instances can be compared by ratio or only by order</p>
+
+<p id="_ae04edd6-2467-119b-015b-87c39bb89dfb">[Source: gEOGlos(VIM4 Notes omitted)]</p>
+</clause>
+
+<clause id="_remote_sensing_or_remote_observation" inline-header="false" obligation="normative">
+<title depth="2">1.17.<tab/>Remote Sensing (or Remote Observation)</title>
+<p id="_5f370d6a-a89a-f2be-e88d-a26ca09b24d7">Remote sensing is a type of <em>observation</em> performed at a significant
+distance from a <em>phenomenon</em>. ‘Significant’ in this context means that
+the distance has, or may have, a non-negligible impact on the <em>value</em> of
+the <em>property</em> observed. The effect of the distance on the acquired
+<em>data</em> is the main distinction criteria between ‘remote’ and ‘in-situ’
+observations.</p>
+
+<p id="_521019f3-2127-86e6-4948-287c98350f3a">NOTE 1: the opposite of ‘<em>remote</em>’ is ‘<em>in-situ’</em></p>
+
+<p id="_c3b9b200-da67-8aee-cd05-dada656ae308">[Source: own (Peter)]</p>
+</clause>
+
+<clause id="_representativity" inline-header="false" obligation="normative">
+<title depth="2">1.18.<tab/>Representativity</title>
+<p id="_27a7fab3-7f0a-20b1-372b-3339adac1f96"><strong>[…]</strong></p>
+
+<p id="_229c8042-f033-af23-c2d2-0ba0e8581048">NOTE 1: WIGOS metadata standard defines representativeness as the extent
+of the region around the observation of which it is representative</p>
+
+<p id="_99821dbd-e849-b0fd-f7cb-e7b2ecfbcf02">##Service provider</p>
+
+<p id="_b35af1a5-1cef-224d-5dbb-31eca3b8f0f4">An institutional body, an organisation or programme that provides
+reliable, trusted (authoritative?) EO information and that has the
+financial resources to sustain the provision.</p>
+
+<p id="_0ec2cb11-0dcf-4861-9f6a-7e0a689a5f56">===</p>
+</clause>
+
+<clause id="_uncertainty" inline-header="false" obligation="normative">
+<title depth="2">1.19.<tab/>Uncertainty</title>
+<p id="_8312af4e-68bb-08c9-0b5e-0fe0b11950d5">Non-negative parameter, associated with data, which characterizes the
+dispersion of the values that could reasonably be attributed to the
+feature or phenomenon. In case of quantitative data, the uncertainty may
+be, for example, a standard deviation (or a given multiple of it), or
+the half-width of an interval having a stated level of confidence. For
+qualitative data uncertainty may be, for example, expressed by
+commission, omission and overall errors.</p>
+
+<p id="_d0fb5944-643b-8e82-3f12-fe93abd1730b">NOTE 1: in natural or ordinary language the term accuracy is often used
+to express qualitatively the uncertainty associated with data, such as
+‘the data from this thermometer is very accurate vs not very accurate’.
+This usage of the term ‘accuracy’, whilst it may be common in
+conversational context should be abandoned in technical discussions in
+favour of ‘uncertainty’ which does not require the knowledge of the
+‘real’ value.</p>
+</clause>
+
+<clause id="_user" inline-header="false" obligation="normative">
+<title depth="2">1.20.<tab/>User</title>
+<p id="_46d36cdf-1d59-481e-afe6-81c4e48124e8">In the context of the KCEO, an entity (person, organization,
+institution, etc.) that is requesting data or information with certain
+characteristics described by needs and/or requirements.</p>
+
+<p id="_928a691e-523b-a16c-deba-49dab844e158">[SOURCE: KCEO]</p>
+
+<p id="_b8fc6908-39c0-eab4-4337-3bf1368d5540">===</p>
+</clause>
+
+<clause id="_validation" inline-header="false" obligation="normative">
+<title depth="2">1.21.<tab/>Validation</title>
+<p id="_8554297d-d312-fb3b-2741-ba37731ae62d">process of assessing, by independent means, the quality of the data
+products derived from the system outputs</p>
+
+<p id="_581aa198-33fd-8129-bd76-4fe5638e558e">Note 1 to entry: In this part of ISO 19159, the term validation is used
+in a limited sense and only relates to the validation of calibration
+data in order to control their change over time.</p>
+
+<p id="_b535f167-232b-d41e-2f96-b93ee7d17261">[SOURCE:ISO/TS 19101‑2:2008, 4.41]</p>
+
+<p id="_0b89caa1-3b60-a6ea-0860-7904e3cd820f">Alternative:</p>
+
+<p id="_ad904b65-91ae-279d-efff-ea4e35b83628">Validation aims to verify that the specified requirements are achieved
+or compliant. This involves comparing mission products with
+representative reference data, considering various observation
+conditions, ensuring the quality and traceability of the reference data
+used.</p>
+
+<p id="_30fd9933-4e34-17c7-3c6e-bbd81c126bd8">[SOURCE: BIPM; QA4EO; ESA ?, modified]</p>
+
+<p id="_5f18fa3b-fdf3-e5e4-b017-c26aa840c835">Alternative:</p>
+
+<p id="_31c67179-d875-7283-ad13-b849dc3a8337">The assurance that a product, service, or system meets the needs of the
+customer and other identified stakeholders. It often involves acceptance
+and suitability with external customers.</p>
+
+<p id="_3382b7d7-58fc-1086-fa16-9da73b709220">[SOURCE: EU-US Land Imaging EO Collaboration]</p>
+</clause>
+
+<clause id="_verification" inline-header="false" obligation="normative">
+<title depth="2">1.22.<tab/>Verification</title>
+<p id="_69a5df3d-d5af-7b40-0e9a-676c5cb2cad7">provision of objective evidence that a given item fulfils specified
+requirements.</p>
+
+<p id="_972f82af-f40d-bc26-352f-6e6a1be81a4e">Note 1 to entry: When applicable,measurement uncertainty should be taken
+into consideration.</p>
+
+<p id="_c8e4f935-2fb9-0b8a-b176-7a0351d3c85e">Note 2 to entry: The item may be, e.g. a process, measurement procedure,
+material, compound, or measuring system.</p>
+
+<p id="_accd9a69-ba17-10ee-427b-a09122e6583a">Note 3 to entry: The specified requirements may be, e.g. that a
+manufacturer’s specifications are met.</p>
+
+<p id="_dcb1f478-0781-1446-3bd0-e55d27235bc8">Note 4 to entry: Verification should not be confused with calibration.
+Not every verification is a validation.</p>
+
+<p id="_752979b9-387a-af2d-812e-f9f910668b1b">[SOURCE:ISO/IEC Guide 99:2007, 2.44]</p>
+
+<p id="_ca7921cf-a877-c5b9-0d72-876c776f5f27">Alternative:</p>
+
+<p id="_e84aef98-31ef-5c86-e8a6-aa46a68e72c4">The evaluation of whether or not a product, service or system complies
+with a regulation requirement, specification, or imposed condition. It
+often an internal process.</p>
+
+<p id="_6103da0b-78c3-e625-7dd8-418c43980900">[SOURCE: EU-US Land Imaging EO Collaboration]</p>
+
+<p id="_b1c6b75e-78ba-e60d-b6f0-eac74b022fed">Alternative:</p>
+
+<p id="_33ab7aeb-aa6d-4b0e-ee29-82dd4373fab1">Verification serves as a means to evaluate the reliability of the data
+in the absence of a reference dataset, allowing for an assessment of its
+standalone performance. It involves confirming the consistency and
+internal coherence of the data without direct comparison to external
+reference sources. c</p>
+
+<p id="_124baf1c-34c1-8cce-cb8b-7dd68daf74b7">[SOURCE: KCEO]</p>
+</clause>
+</clause>
+
+<clause id="_eo_product_attributes" inline-header="false" obligation="normative" displayorder="5">
+<title depth="1">2.<tab/>EO Product attributes</title>
+<p id="_423f9a66-64f5-5b9e-078f-f0aa3a0c8b8f">#[.underline]#Area of interest</p>
+
+<p id="_3ec339e0-5232-2e13-94e9-0cf056fd5c32">It is the zone in 2D or 3D for which the information or data is
+requested. It can be discontinuous in space, in other words it can
+consist in the union of many separate zones (e.g., Natural Reserves in
+Africa, Urban environments, etc.).</p>
+
+<p id="_b3733c97-a591-8c0f-f18f-922d742dd8cf">The attribute indicates a request for spatially complete data within the
+AOI zone(s).</p>
+
+<table id="_bd46338b-d727-a03a-4a4f-91fd185d60cd" width="100%"><name>Table 1</name><colgroup><col width="34%"/><col width="34%"/><col width="32%"/></colgroup><thead><tr><th valign="top" align="left">Type</th>
+<th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid units</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">Geographical/administrative identifier</td>
+<td valign="top" align="left">NUTS3, LAU, Natura 2000 site</td>
+<td valign="top" align="left">unitless</td>
+</tr></tbody>
+</table>
+
+<p id="_2fe55e51-214f-73f8-7d5a-c2200b262748">[SOURCE: KCEO]</p>
+
+<p id="_6c0ef90a-ebd1-ccda-d04d-e81d77974f58">===</p>
+
+<clause id="_band_central_wavelength" inline-header="false" obligation="normative">
+<title depth="2">2.1.<tab/><underline>Band central wavelength</underline></title>
+<p id="_f2558060-5cba-edff-c7ea-6b5ead15094a">A single wavelength value within the sensitivity interval of a
+spectroradiometric sensor which represents the respective band. It could
+be either the mean, the median, the maximum sensitivity, or any other
+reasonable value chosen to be representative.</p>
+
+<table id="_b5794168-91f6-e2b1-6d4f-67db8209ffd2" width="100%"><name>Table 2</name><colgroup><col width="50%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">0.545 <strong>μm</strong></td>
+<td valign="top" align="left">micrometre (<strong>μm</strong>), millimetre (mm), centimetre (cm)</td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="_confidence_interval" inline-header="false" obligation="normative">
+<title depth="2">2.2.<tab/>Confidence interval</title>
+<p id="_73149eb2-f4f5-ade3-613d-f40300a2b90b">The probability that the quantity lies in the interval, conditioned on
+the measuring or modelling assumptions.</p>
+
+<p id="_3a4ff92c-fc05-c7eb-5697-2d64d51a1925">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_coverage_interval" inline-header="false" obligation="normative">
+<title depth="2">2.3.<tab/>Coverage interval</title>
+<p id="_36757dec-601d-ae04-4602-aac9d313e74a">Interval containing the set of
+<link target="https://jcgm.bipm.org/vim/en/2.11.html">true quantity values</link> of a
+<link target="https://jcgm.bipm.org/vim/en/2.3.html">measurand</link> with a stated
+probability, based on the information available</p>
+
+<p id="_bd63a089-7d07-ff02-5538-f87106186d2d">[SOURCE: BIPM-VIM]</p>
+
+<p id="_14c0fc20-6263-f993-f578-0a53fd2584fe">#[.underline]#Latency</p>
+
+<p id="_1b300c37-ab3a-c87c-f46b-bf697475b9be">It is the period between the end of sensing of a phenomenon to the
+beginning of availability of a specific product.</p>
+
+<table id="_65924c04-4195-8945-7427-4b6b5fc96b0a" width="100%"><name>Table 3</name><colgroup><col width="50%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">1 s, 2 h,</td>
+<td valign="top" align="left">second, hour, day, month, year</td>
+</tr></tbody>
+</table>
+
+<p id="_902ec360-a8cb-b3ad-cf94-ba57d7e87718">NOTE 1: CEOS Wiki describes latency as “the time delay introduced by
+automated data<br/>
+processing or network transmission between the occurrence of an event
+and the use of the processed data.”</p>
+
+<p id="_28cf061a-28df-c3ff-b607-fa487ff72c69">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_location_error" inline-header="false" obligation="normative">
+<title depth="2">2.4.<tab/><underline>Location error</underline></title>
+<p id="_25fa7315-ed99-9940-309d-1d0197b54c80">Indicate the agreement between the represented location of an object and
+the true location.</p>
+
+<p id="_9ef1a57c-54c2-e93e-575d-000a922bace2">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_measurement_uncertainty" inline-header="false" obligation="normative">
+<title depth="2">2.5.<tab/><underline>Measurement uncertainty</underline></title>
+<p id="_19f3361e-d73e-75ac-f849-b5f1084e7480">Uncertainty associated with the method of measurement.</p>
+
+<p id="_0804e43f-4925-5ee8-87b7-db51962a73d6">[SOURCE: CEOS Wiki adopted from JCGM GUM]</p>
+</clause>
+
+<clause id="_minimum_mapping_unit" inline-header="false" obligation="normative">
+<title depth="2">2.6.<tab/><underline>Minimum Mapping Unit</underline></title>
+<p id="_9768268e-024f-5a32-47e6-c0bf17b1d92a">The area of the smallest feature that is still represented on a map</p>
+
+<table id="_0dba71e3-61d0-9dda-bb97-31ada53d1385" width="100%"><name>Table 4</name><colgroup><col width="50%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">1 ha</td>
+<td valign="top" align="left">Square meter (<strong>m<sup>2</sup></strong>), hectar (ha)</td>
+</tr></tbody>
+</table>
+
+<p id="_de3fe97b-8fd5-b1d6-13e6-20a0355abdba">[SOURCE: CGLS]</p>
+</clause>
+
+<clause id="_minimum_mapping_width" inline-header="false" obligation="normative">
+<title depth="2">2.7.<tab/>Minimum Mapping Width</title>
+<p id="_cf7ba037-602a-73bc-5d71-e454a0e1c470">The width of the smallest linear feature that is still represented on a
+map</p>
+
+<table id="_fa11b627-49da-50aa-c726-30768f2f3368" width="100%"><name>Table 5</name><colgroup><col width="50%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">20 m</td>
+<td valign="top" align="left">Meter (m)</td>
+</tr></tbody>
+</table>
+
+<p id="_c197ed26-953b-1fc6-e0b9-2ff2a22ff5d0">[SOURCE: CGLS]</p>
+
+<p id="_6f81464f-27ac-2304-6408-a96d9e554093">#[.underline]#Quality indicator</p>
+
+<p id="_a2f83efd-13b6-e301-294f-bf1b0d3dd398">A quality indicator shall provide sufficient information to allow all
+users to readily evaluate<br/>
+the “fitness for purpose” of the data or derived product. A Quality
+Indicator may be a number,<br/>
+set of numbers, graph, uncertainty budget, or a simple “flag”.</p>
+
+<p id="_440f11ab-bdea-e3c4-4ca7-10f497152ef9">[SOURCE: CEOS Wiki]</p>
+
+<p id="_43eabbb5-f404-aadd-9e70-08cbe85732dc">#[.underline]#Spatial completeness</p>
+
+<p id="_a81c78ec-331d-ea06-d66b-0b93994a06dd">The presence or absence of gaps, which are missing values in an
+otherwise continuous spatial data series. For example, surface soil
+moisture retrieved from microwave satellite sensors may present gaps in
+mountainous terrains.</p>
+
+<p id="_c23ab5c8-f519-e86b-7c9a-8a1d346f9931">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_spatial_consistency" inline-header="false" obligation="normative">
+<title depth="2">2.8.<tab/><underline>Spatial consistency</underline></title>
+<p id="_6c45cf0c-fa29-328f-5066-f1fbed4a7ad0">It indicates that the spatial statistical properties of the data depend
+only on the underlaying physical processes and don’t depend on other
+factors such as fusing different products or sensors. Also, the validity
+of the assumptions of the procedure to produce information holds true
+across the whole spatial range.</p>
+
+<p id="_0cd6e3ef-93e9-e362-5bb5-f4c56cf8756a">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_spatial_extent" inline-header="false" obligation="normative">
+<title depth="2">2.9.<tab/><underline>Spatial extent</underline></title>
+<p id="_f4684293-687e-9a51-09d8-48aee424dce3">The <em>zone</em> or region of space described by a <em>geographic identifier</em> in
+the form of a label or code, or by a bounding box. It consists in the
+maximum extent (the spatial boundary or limits) within which the user is
+requesting data.</p>
+
+<p id="_63f11a5a-4098-121d-9f1e-5df5dcf661bf">The attribute represents the maximum spatial extent of the AOI, and in
+case the AOI is made of many discontinuous zones then it represents the
+maximum extent of the union of all the zones.</p>
+
+<p id="_b292e31e-6388-96e6-cb84-cfde6926fd04">For example, if a user is requesting information about degradation of
+African protected sites, then the AOIs are the protected sites, and the
+spatial extent is the African continent.</p>
+
+<p id="_b908bb13-3ca6-e09c-8ddc-ee7e9e288b1c">NOTE 1: WIGOS metadata standard defines it as the typical spatial
+georeferenced volume covered by the observations</p>
+
+<p id="_cab09e0e-900a-81c9-59f9-fad6c155f244">[SOURCE: Adapted from ISO 19170-1:2021]</p>
+</clause>
+
+<clause id="_spatial_reporting_unit" inline-header="false" obligation="normative">
+<title depth="2">2.10.<tab/><underline>Spatial reporting unit</underline></title>
+<p id="_bec62512-aa4e-ce5d-c474-55cdc727c639">The smallest spatial object of interest that may be used for reporting
+and for which the information should be aggregated.</p>
+
+<table id="_f80e9c40-6096-1881-6cde-32de296466d0" width="100%"><name>Table 6</name><colgroup><col width="34%"/><col width="34%"/><col width="32%"/></colgroup><thead><tr><th valign="top" align="left">Type</th>
+<th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid units</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">Geographical/administrative identifier</td>
+<td valign="top" align="left">Africa, NUTS3, LAU, Natura 2000
+site</td>
+<td valign="top" align="left">unitless</td>
+</tr><tr><td valign="top" align="left">Grid [x, y]</td>
+<td valign="top" align="left">2 x 2 meter, 0.1 x 0.2 degrees ;</td>
+<td valign="top" align="left">Meter, degrees</td>
+</tr></tbody>
+</table>
+
+<p id="_ae916cb9-e931-ec0e-fd8a-63c2248dde3d">NOTE 1: WIGOS 2019 use ‘spatial reporting interval’ probably assuming
+the observations are reported on a grid with regular spacing/intervals.</p>
+
+<p id="_02b67f9b-2eb4-c297-872d-23da3c5bc7a0">[SOURCE: KCEO]</p>
+
+<p id="_db7dd3b7-2df5-4823-f94b-ae11f90563b2">#[.underline]#Spatial resolution</p>
+
+<p id="_7c1cf62f-7d69-2936-a525-774ca5bb914a">It is the spatial sampling scheme that determines the smallest object
+that can be identified or resolved in a gridded spatial discretization.</p>
+
+<table id="_ac588fc3-11b5-27fe-c518-71042ba75b95" width="100%"><name>Table 7</name><colgroup><col width="50%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">2 x 2 m; 0.1 x 0.4 degrees</td>
+<td valign="top" align="left">Meter, degrees</td>
+</tr></tbody>
+</table>
+
+<p id="_16aae396-eaac-b9fe-aa81-1b4c3eb2ad55">NOTE 1: Also called <em>grid spacing</em></p>
+
+<p id="_11627f9c-56e0-69d3-ab99-2d7af60b7774">[SOURCE:]</p>
+</clause>
+
+<clause id="_spectral_resolution" inline-header="false" obligation="normative">
+<title depth="2">2.11.<tab/><underline>Spectral</underline> <underline>resolution</underline></title>
+<p id="_ffe39111-8b56-9a36-fe29-a919d7a9f4f3">Measure of the ability to resolve features in the electromagnetic
+spectrum.</p>
+
+<p id="_61c2768f-b59c-245f-51d4-44c8fa1eb19c">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_spectral_band" inline-header="false" obligation="normative">
+<title depth="2">2.12.<tab/><underline>Spectral band</underline></title>
+<p id="_d52137b0-66f2-7cd9-f11d-d3120eae4ca7">Part of the electromagnetic spectrum of specific wavelengths. In remote
+sensing usually described by central wavelength and bandwidth.</p>
+</clause>
+
+<clause id="_spectral_bandwidth" inline-header="false" obligation="normative">
+<title depth="2">2.13.<tab/><underline>Spectral Bandwidth</underline></title>
+<p id="_1b2ca212-cfea-ef0e-8ddf-e7fa669f539c">the range of the spectral band</p>
+
+<table id="_6f695a57-43f9-3b2f-67ce-df1551f210f6" width="100%"><name>Table 8</name><colgroup><col width="50%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">0.429-0.457 <strong>μm</strong></td>
+<td valign="top" align="left">micrometre (<strong>μm</strong>), millimetre (mm), centimetre (cm)</td>
+</tr></tbody>
+</table>
+
+<p id="_1e3793c0-1d2b-18a8-cedf-d33df9db814f">#[.underline]#Stability</p>
+
+<p id="_33ec4a71-35b4-5169-8658-61ee49379ced">It refers to the maximum acceptable change in uncertainty per decade.</p>
+
+<p id="_370784de-fdca-cfb0-1a2a-5a841b29a798">NOTE 1: GCOS uses bias or systematic errors instead of uncertainty</p>
+
+<p id="_6166d112-b8ed-ee9f-7acd-b1ba8d4277aa">[SOURCE: modified from GCOS 2022]</p>
+
+<p id="_3cee6da7-84e8-4f69-e076-29bbcc031ae0">#[.underline]#Temporal consistency</p>
+
+<p id="_e735b3ae-f8c6-c354-a893-8f224468faac">It indicates that the temporal statistical properties of the sample
+depend only on the underlaying physical processes and don’t depend on
+other factors such as fusing different products or sensors.</p>
+
+<p id="_d948d346-71a9-7fca-5260-7e1a149a2895">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_temporal_extent" inline-header="false" obligation="normative">
+<title depth="2">2.14.<tab/><underline>Temporal extent</underline></title>
+<p id="_3aa4af71-0a45-e095-379f-5139a02ecd7f">The period during which data was collected, observations were made, or
+model was run.</p>
+
+<table id="_94ea30bb-4b3b-6c85-5209-7848185e1bf9" width="100%"><name>Table 9</name><colgroup><col width="50%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">Y/m/d — Y/m/d</td>
+<td valign="top" align="left">Not Applicable</td>
+</tr></tbody>
+</table>
+
+<p id="_92007e84-2494-3d49-6fb9-2bef72ceaaa6">NOTE 1: In W3C is the definition of temporal coverage</p>
+
+<p id="_c4e5ff59-03e0-151c-0dbc-cfafdc03ea64">NOTE 2: Time period covered by a series of observations inclusive of the
+specified date/time indications (measurement history). Defined based on
+the beginning and end dates of observations. WIGOS Metadata]</p>
+
+<p id="_3d6c70c9-c19b-cec8-e73c-4f2cf94b45b8">[SOURCE: adapted from W3C]</p>
+</clause>
+
+<clause id="_temporal_reporting_period" inline-header="false" obligation="normative">
+<title depth="2">2.15.<tab/><underline>Temporal reporting period</underline></title>
+<p id="_7933537e-d420-be8b-0bd7-aa4f8a2600bf">The time period used for reporting and for which the information should
+be aggregated from the native temporal resolution.</p>
+
+<table id="_cf231a26-b78e-db34-96ec-964946d94a6f" width="100%"><name>Table 10</name><colgroup><col width="50%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">1 s, 2 h, 1 d</td>
+<td valign="top" align="left">second, hour, day, month, year</td>
+</tr></tbody>
+</table>
+
+<p id="_df7ac4a9-915d-5729-8ee7-2c810577b06d">[SOURCE: modified WIGOS Metadata Standard 2019]</p>
+</clause>
+
+<clause id="_temporal_resolution" inline-header="false" obligation="normative">
+<title depth="2">2.16.<tab/><underline>Temporal</underline> <underline>resolution</underline></title>
+<p id="_83f992b5-4570-9d27-ed96-88720a9a9474">The observation or model output representing regular intervals and
+specifying the length of the interval that determines the smallest event
+or process that can be resolved. (e.g., the period between observations,
+the time steps in a model).</p>
+
+<table id="_2008c0be-ec87-5297-a663-e080d7e7419a" width="100%"><name>Table 11</name><colgroup><col width="50%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">1 s, 2 h, 1 m</td>
+<td valign="top" align="left">second, hour, day, month, year</td>
+</tr></tbody>
+</table>
+
+<p id="_37c4bf9b-ba26-9c0a-c70a-c9aedc4d42d9">NOTE 1: WIGOS 2019 distinguishes between <em>sampling time period</em>, as the
+period over which a measurement is taken, and <em>temporal sampling interval</em> as the time period between the beginning of consecutive
+sampling periods. Temporal resolution in this Glossary is equivalent to
+sampling time period as used by WIGOS.</p>
+
+<p id="_f632b80c-592f-08f0-ccf0-9f504b2aa532">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_temporal_revisit" inline-header="false" obligation="normative">
+<title depth="2">2.17.<tab/><underline>Temporal revisit</underline></title>
+<p id="_47887172-60b2-9f1d-aa6e-43132b450df7">The interval between successive observations</p>
+
+<table id="_0f0ea6ec-740e-b580-179a-1132916c862a" width="100%"><name>Table 12</name><colgroup><col width="50%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">1 s, 2 h</td>
+<td valign="top" align="left">second, hour, day, month, year</td>
+</tr></tbody>
+</table>
+
+<p id="_1d6c1f29-9ccc-eef1-d9e4-70b08c723073">NOTE 1: In remote sensing it is also called repeat cycle</p>
+
+<p id="_6a7840dd-ef6c-6d9f-8bdf-38d4b0c3eff1">NOTE 2: More generally it is known as <strong>temporal sampling interval</strong></p>
+
+<p id="_547026f7-7477-a381-9ee1-4407048516f8">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_time_of_year" inline-header="false" obligation="normative">
+<title depth="2">2.18.<tab/>Time of year</title>
+<p id="_11201b83-9adc-9704-83c0-a0135ca197f1">the time of the year that the variable is observed or simulated by a
+model</p>
+
+<table id="_76bd4025-7b01-b85d-69cd-57a036fa1517" width="100%"><name>Table 13</name><colgroup><col width="25%"/><col width="25%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">type</th>
+<th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">timestamp</td>
+<td valign="top" align="left">m/d</td>
+<td valign="top" align="left">Not Applicable</td>
+</tr><tr><td valign="top" align="left">timerange</td>
+<td valign="top" align="left">m/d — m/d</td>
+<td valign="top" align="left">Not Applicable</td>
+</tr></tbody>
+</table>
+
+<p id="_90acd0b0-53ca-8c01-06ef-42b8e52e3f34">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_time_of_day" inline-header="false" obligation="normative">
+<title depth="2">2.19.<tab/><underline>Time of day</underline></title>
+<p id="_c6834972-15e7-b28c-f5d6-d8697acc06dc">the time of the day that the variable or parameter is observed or
+simulated by a model</p>
+
+<table id="_dc9e87c4-0ba1-7fd7-8bc1-9fa787506ab0" width="100%"><name>Table 14</name><colgroup><col width="25%"/><col width="25%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">type</th>
+<th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">timestamp</td>
+<td valign="top" align="left">18:00 h (0-24)</td>
+<td valign="top" align="left">Hours</td>
+</tr><tr><td valign="top" align="left">timerange</td>
+<td valign="top" align="left">18:00 – 20:00 h</td>
+<td valign="top" align="left">Hours</td>
+</tr></tbody>
+</table>
+
+<p id="_9e3a9fa2-5950-875f-c90a-97d5f84a733b">NOTE 1: In remote sensing it is also known as time of overpass</p>
+
+<p id="_65273517-8716-bbb8-4afb-653a675278e5">[SOURCE: KCEO]</p>
+
+<p id="_8242b4a6-a924-04d1-c1ea-1776982645fb">##Timeliness</p>
+
+<p id="_b0f8ba79-de99-20e3-9090-72df7c5198cc">It is the period between the moment of requesting information to the
+moment of availability of information.</p>
+
+<ul id="_a5deda15-ac88-8bd6-d803-70a51eec55f5"><li><p id="_2dd24e32-c866-9fd7-f769-bd33bbc132d1">Near Real-Time (NRT): delivered less than 3 hours after requesting
+information</p>
+</li>
+<li><p id="_e62dccff-446f-9eaf-b1d3-f7d6a0413f2a">Slow-Time Critical (STC): delivered within 48 hours after requesting
+information</p>
+</li>
+<li><p id="_7d262870-a9dd-082d-8b3d-004af361d9ac">Non-Time Critical (NTC): typically delivered within 1 month after
+requesting information</p>
+</li>
+</ul>
+
+<p id="_6a3f1479-a163-9136-2072-9a7d4e7f1036">NOTE 1: In some context also known as delivery time.</p>
+
+<p id="_9eb57f89-3acf-bc0b-7269-7cf5d5f381df">NOTE 2: C3S URDB describes timeliness as “the ability of the
+publish/subscribe middleware to provide the expected service within
+known time bounds”</p>
+
+<p id="_0df8836d-a9e8-affb-6805-8076b3f0bb37">[SOURCE: Adapted from ESA S3 User Guide]</p>
+
+<p id="_ec8b0f72-46db-949a-9e29-76ace89455e8">#[.underline]#Vertical <underline>levels</underline></p>
+
+<p id="_15ba74d7-5523-2580-e861-3a0165fd3b4f">Levels of a vertical discretization. Examples may be pressure levels in
+an atmospheric model reanalysis or height levels in a forest biomass EO
+product.</p>
+
+<table id="_c792134e-39a3-07e4-75fb-c1dcab4dcf1f" width="100%"><name>Table 15</name><colgroup><col width="50%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">1,5,10 meter; 1000, 850, 500 hPa</td>
+<td valign="top" align="left">meter, hPa, unitless</td>
+</tr></tbody>
+</table>
+
+<p id="_047b5a33-6934-65eb-8ba3-e683baf37dc4">[SOURCE: KCEO]</p>
+</clause>
+</clause>
+
+<clause id="_eo_derivedapplication_attributes" inline-header="false" obligation="normative" displayorder="6">
+<title depth="1">3.<tab/>EO-derived/Application attributes</title>
+<clause id="_baseline" inline-header="false" obligation="normative">
+<title depth="2">3.1.<tab/>Baseline</title>
+<p id="_77a4afec-6262-d692-3497-e1a274691551">It is the reference period, time or measure against which the
+information is assessed or compared. For example, in climate change
+projections a baseline may be any 30-year period of observations
+(1961-1990, etc.) used as reference to calculate the future change; In
+monitoring wetlands degradation one of the indicators of wetlands
+condition is wetland connectivity, so that setting the baseline year to
+compute the baseline indicator of wetlands connectivity can be used to
+report the indicator change for all the other years.</p>
+
+<table id="_89a8e4db-7b8d-d394-1006-fc940850c1e5" width="100%"><name>Table 16</name><colgroup><col width="50%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">2000; 1990-2020</td>
+<td valign="top" align="left">year</td>
+</tr></tbody>
+</table>
+
+<p id="_58e0b0e8-77ad-da1a-27bd-4cc2732c9a5d">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_classification_system" inline-header="false" obligation="normative">
+<title depth="2">3.2.<tab/>Classification system</title>
+<p id="_5e4cbbd1-1a7a-ee3c-4b31-3c955b7203d0">The nomenclature used to classify the information in categorical
+thematic classes (ex: EUNIS, MAES ecosystems, Corine Land Cover, LCCS).</p>
+
+<p id="_d2e9e243-5a3b-109f-4aff-db89133ae270">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_classification_system_levels" inline-header="false" obligation="normative">
+<title depth="2">3.3.<tab/>Classification system levels</title>
+<p id="_ee4e2732-e7a3-9fcd-f142-5199339f1e15">The levels in a hierarchical classification system. For example, Corine
+Land Cover is made up of three nested levels that classify land cover
+with increasing details:</p>
+
+<p id="_7ea691df-c1d8-c5a8-c6ec-6c6ffe400e6f"><em>2 Agricultural Areas</em></p>
+
+<p id="_6b885884-070f-215e-83ed-c0fcdf76f061"><em>2.1 Arable lands</em></p>
+
+<quote id="_024d98bc-31f2-d966-81dc-931cd4602ccd"><p id="_5f53ab4d-59e1-dbe2-0ebf-38a0874bd326"><em>2.1.1 Non-irrigated arable land</em></p>
+
+<p id="_38e8c826-5b84-55f9-fcf3-3edd0ad89655"><em>2.1.2 Permanently irrigated land</em></p>
+
+<p id="_7f3cf6c5-449a-4661-88f0-890a3b66ed0a"><em>2.1.3 Rice fields</em></p>
+</quote>
+
+<p id="_37be1df3-d385-1108-f802-253823756033">[SOURCE: KCEO]</p>
+
+<p id="_41241c47-f987-4a40-9a1a-2072577edf05">##Climate projection</p>
+
+<p id="_ddbddbd8-8db9-d958-e074-3ac8089178ec">A climate projection is the simulated response of the climate system to
+a scenario of future emission or concentration of greenhouse gases
+(GHGs) and aerosols, generally derived using climate models. Climate
+projections are distinguished from climate predictions by their
+dependence on the emission/concentration/radiative forcing scenario
+used, which is in turn based on assumptions concerning, for example,
+future socioeconomic and technological developments that may or may not
+be realized.</p>
+
+<p id="_acbba35d-6a6d-886d-d397-564c68189613">[SOURCE: IPCC]</p>
+</clause>
+
+<clause id="_forecast_range" inline-header="false" obligation="normative">
+<title depth="2">3.4.<tab/>Forecast range</title>
+<p id="_ae96bf73-d744-1998-62ae-9cebdb1a8c71">The forecasted period</p>
+
+<p id="_91d710c5-d7ba-b96f-8dde-65068ca66ed3">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_forecast_lead_time" inline-header="false" obligation="normative">
+<title depth="2">3.5.<tab/>Forecast lead time</title>
+<p id="_a7ffffcd-67eb-1cf8-af3f-3a046fd11f54">The length of time between the issuance of a forecast and the occurrence
+of the phenomena that were predicted. It is expressed in time intervals
+in a forecasted period, for example 6-hour intervals for a medium-range
+forecast.</p>
+
+<table id="_aa24dca0-c743-0f96-7196-8faa98e2ddc5" width="100%"><name>Table 17</name><colgroup><col width="50%"/><col width="50%"/></colgroup><thead><tr><th valign="top" align="left">Entry format example</th>
+<th valign="top" align="left">Valid unit</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">6 h, 1 d</td>
+<td valign="top" align="left">Year, month, day, hour</td>
+</tr></tbody>
+</table>
+
+<p id="_35382f02-765b-f58c-72cb-2d2ea9d104e4">NOTE 1: UNTERM, International Glossary of Hydrology, WMO/UNESCO, 2011
+describes forecast lead time as “interval of time between the issuing of
+a forecast (warning) and the expected occurrence of the forecast event”</p>
+
+<p id="_16220b83-cbe3-b90f-fd60-11253e4dce48">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_thematic_resolution" inline-header="false" obligation="normative">
+<title depth="2">3.6.<tab/><underline>Thematic resolution</underline></title>
+<p id="_8b4228c8-b066-b35d-3317-64e51284b486">The level of categorical detail of information expressed by the number
+of classes</p>
+
+<p id="_1b325772-d898-0cf5-4d51-510830f0de81">[SOURCE: CGLS]</p>
+</clause>
+
+<clause id="_thematic_uncertainty" inline-header="false" obligation="normative">
+<title depth="2">3.7.<tab/>Thematic uncertainty</title>
+<p id="_997eb674-361a-e4bb-62ad-5734fb7abd4c">Uncertainty associated with the method of classification.</p>
+
+<p id="_c6ba60f9-d575-1005-6690-1a9c9b843189">NOTE 1: Typically, it is computed from the error matrix.</p>
+
+<p id="_479e61d6-40a6-8888-0985-239680dc5d5b">NOTE 2: For a review of classification uncertainty metrics consult Ye et
+al. 2018.</p>
+
+<p id="_b1db5731-c16d-266f-d4e4-abc1a06272da">[SOURCE: KCEO]</p>
+</clause>
+</clause>
+
+<clause id="_climate_adaptation" inline-header="false" obligation="normative" displayorder="7">
+<title depth="1">4.<tab/>Climate Adaptation</title>
+<clause id="_outcome_impact" inline-header="false" obligation="normative">
+<title depth="2">4.1.<tab/>Outcome &amp; Impact</title>
+<p id="_be8321b2-4522-5841-a2de-33067ac7a179">Outcome is regarded short-term, while impact is regarded long-term
+according to X. However, in the Horizon Europe Missions terminology,
+impact is regarded short-term.</p>
+</clause>
+</clause>
+
+<clause id="_other" inline-header="false" obligation="normative" displayorder="8">
+<title depth="1">5.<tab/>Other</title>
+<clause id="_data_access" inline-header="false" obligation="normative">
+<title depth="2">5.1.<tab/>Data access</title>
+<p id="_b6c6bb61-4824-fedc-b90f-1a6e736b1c23">The service to disseminate data</p>
+
+<p id="_41d94f29-350d-55bf-a2d5-d109b67c9dd1">[SOURCE: KCEO]</p>
+
+<p id="_8a3d548b-da41-260b-e1fd-f3331c99391e">===</p>
+</clause>
+
+<clause id="_data_format" inline-header="false" obligation="normative">
+<title depth="2">5.2.<tab/>Data format</title>
+<p id="_8c546e95-dbfb-9c73-d69d-b56e9942e063">Structured data that is machine readable and can be automatically read
+and processed by a computer, such as HDF, NetCDF, CSV, JSON, XML, etc.</p>
+
+<p id="_ac7e90be-1d4c-dab1-532e-d9290047db40">[SOURCE: CEOS Wiki]</p>
+</clause>
+
+<clause id="_data_licencing" inline-header="false" obligation="normative">
+<title depth="2">5.3.<tab/>Data licencing</title>
+<p id="_694e925c-b1b0-13d1-0e41-dc614f45a9ec">A legal instrument by which a copyright holder may grant rights over the
+protected work. Data and content is open if it is subject to an
+explicitly-applied licence that conforms to the Open Definition. A range
+of standard open licenses are available, such as the Creative Commons
+CC-BY licence, which requires only attribution.</p>
+
+<p id="_463977bc-457c-0c73-799f-919c74c8b94c">[SOURCE: CEOS Wiki]</p>
+</clause>
+
+<clause id="_dwell_time" inline-header="false" obligation="normative">
+<title depth="2">5.4.<tab/>Dwell time</title>
+<p id="_97976b1e-61e3-988a-0953-8a7666f9e5dd">The time that an antenna beam spends on a target.</p>
+
+<p id="_783041e6-61fe-9199-f62f-407f06c29d79">NOTE 1: in the context of radar sensing</p>
+</clause>
+
+<clause id="_policy" inline-header="false" obligation="normative">
+<title depth="2">5.5.<tab/>Policy</title>
+<p id="_aadbb3b5-9b8f-d1bb-8ff9-ec85d86c57db">A deliberate system of guidelines to guide decisions and achieve
+rational outcomes. A policy is a statement of intent and is implemented
+as a procedure or protocol. Policies are typically promulgated through
+official written documents.</p>
+
+<p id="_217a4d83-d9ad-1bcc-98af-1e48293ef416">[SOURCE: Wikipedia]</p>
+</clause>
+
+<clause id="_policy_files" inline-header="false" obligation="normative">
+<title depth="2">5.6.<tab/>Policy file(s)</title>
+<p id="_26528ec4-c108-badb-a920-4faaf3032fd1">One or more policy documents that represent the official written
+reference for a given Policy.</p>
+
+<p id="_cb0bb5b5-0197-6df2-23ca-698ce9dbe2a8">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_policy_cycle" inline-header="false" obligation="normative">
+<title depth="2">5.7.<tab/>Policy cycle</title>
+<p id="_1f39ae6f-1e0e-edc7-4270-9f33177bcd92">A well-established concept, which is typically taught as the rational
+model of policy decision-making. It is an idealised view of the policy
+process</p>
+
+<p id="_6535d8ae-8a33-2a9d-ec90-9e93624bba04">[SOURCE:
+<link target="https://digital-strategy.ec.europa.eu/en/library/quality-public-administration-toolbox-practitioners"/>]</p>
+</clause>
+
+<clause id="_policy_making" inline-header="false" obligation="normative">
+<title depth="2">5.8.<tab/>Policy making</title>
+<p id="_9e961f6e-3d06-d1d1-a39c-078f843e24f8">The process by which governments translate their political vision into
+programmes and actions to deliver ‘outcomes’ — desired change in the
+real world.</p>
+
+<p id="_bf79333a-5625-741f-3860-5c0897a76c35">[SOURCE:
+<link target="https://digital-strategy.ec.europa.eu/en/library/quality-public-administration-toolbox-practitioners"/>]</p>
+</clause>
+
+<clause id="_policy_milestone" inline-header="false" obligation="normative">
+<title depth="2">5.9.<tab/>Policy milestone</title>
+<p id="_1a09a159-de86-0a06-34b8-cdb6cdc931da">Policy milestones mark significant progress in addressing specific
+issues, or crucial decision points where significant choices are made.
+Concrete examples of policy milestones are: policy planning and
+proposing, impact assessment, implementation, or implementation cycles
+(e.g., Water Framework Directive, Marine Strategy Framework Directive),
+achievement of policy objectives and policy targets, evaluating and
+improvement of existing laws.</p>
+</clause>
+
+<clause id="_source_kceo" inline-header="false" obligation="normative">
+<title depth="2">5.10.<tab/>[Source: KCEO]</title>
+<p id="_11167d09-0930-ea9b-88ad-a0e2334e4292">===</p>
+</clause>
+
+<clause id="_policy_objective" inline-header="false" obligation="normative">
+<title depth="2">5.11.<tab/>Policy objective</title>
+<p id="_fdc1142b-088d-9244-245c-6f5adc3a3e61">Desired outcome that policymakers wish to achieve</p>
+</clause>
+
+<clause id="_policy_target" inline-header="false" obligation="normative">
+<title depth="2">5.12.<tab/>Policy target</title>
+<p id="_e7b18385-5370-ff32-fc53-6b2910b53ffd">Specific level or rate set for the policy objective</p>
+</clause>
+
+<clause id="_update_frequency" inline-header="false" obligation="normative">
+<title depth="2">5.13.<tab/>Update frequency</title>
+<p id="_859a4267-1962-7f1d-f467-83338a2b3f7b">The frequency at which the product is available to users.</p>
+
+<p id="_26edaa82-c0ed-4246-4b6b-410ac2fed39d">NOTE 1: also known in product catalogues as dissemination frequency</p>
+
+<p id="_862a97cf-996f-52d6-157c-465f2eab652e">[SOURCE: KCEO]</p>
+</clause>
+
+<clause id="_user_interface" inline-header="false" obligation="normative">
+<title depth="2">5.14.<tab/>User Interface</title>
+<p id="_2de64d2d-c5ed-0333-fee4-77bc7d91cf5c">Set of all the components of an interactive system that provide
+information and controls for the user to accomplish specific tasks with
+the interactive system</p>
+
+<p id="_f71b556d-4915-d9df-04ae-c4d1f4528581">[SOURCE:ISO 9241-110:2020, 3.10]</p>
+</clause>
+</clause>
+
+<clause id="_resourcesglossaries" inline-header="false" obligation="normative" displayorder="9">
+<title depth="1">6.<tab/>Resources/Glossaries</title>
+<p id="_aceba161-4ac4-c5ea-7d51-35533675c868">IPCC <link target="https://www.ipcc.ch/sr15/chapter/glossary/"/></p>
+
+<p id="_ccd49fef-20ab-5e83-da77-5bb8e0a08b88">UNTERM <link target="https://unterm.un.org/unterm2/en/"/></p>
+
+<p id="_bd559f65-5a3c-abaa-f95c-d60adf1e3d50">GEOLEXICA OSGEO <link target="https://osgeo.geolexica.org/"/></p>
+
+<p id="_00f83990-d57c-933f-aca0-2f6721fc0210">W3C:https://w3c.github.io/sdw/bp</p>
+
+<p id="_0c35d070-75aa-e6c4-8784-10e24af528a2">INSPIRE-WCS: <link target="https://inspire-wcs.eu"/></p>
+
+<p id="_e4afcdd2-0439-48ce-3789-5997aaf315cb">GCOS-154: <link target="https://library.wmo.int/doc_num.php?explnum_id=3710"/></p>
+
+<p id="_85903e82-04bd-fcc4-0360-1b347e2677eb">GEOGlos: gEOGlos</p>
+
+<p id="_4315e291-e759-55ef-bc57-4a83600cf387">CEOS-ARD: <link target="https://ceos.org/ard/"/></p>
+
+<p id="_7c2bb417-ce70-b24f-33bc-7cf3dade16a0">CEOS Wiki: <link target="https://calvalportal.ceos.org/t-d_wiki"/></p>
+
+<p id="_7e3eaa68-f7b9-9966-111a-5a9f34a08250">EFSG: <link target="https://www.efgs.info/information-base/introduction/terminology/"/></p>
+
+<p id="_2957cead-acb6-4852-816f-fce4dfab86bd">ESC:
+<link target="http://undocs.org/ece/trans/sc.1/ge.21/2018/1">ECE/TRANS/SC.1/GE.21/2018/1</link></p>
+
+<p id="_54a34a88-d247-70b9-f6bb-f30abced569b">ESA:
+<link target="https://earth.esa.int/eogateway/documents/20142/37627/Mission-Quality-Assessment-Guidelines-v2.2.pdf/033c703e-02f8-d993-9859-560aeb61d2a0?version=1.0&amp;t=1676561363850"/></p>
+
+<p id="_68eb2684-93c1-a335-2f9f-28a9add61fa1">WMO-WIGOS <link target="https://library.wmo.int/doc_num.php?explnum_id=10109"/></p>
+
+<p id="_e0ebff9d-8fed-d529-1743-0429202cbab1">ESA S3 User Guide
+<link target="https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-altimetry/product-types/nrt-or-ntc"/></p>
+
+<p id="_9bc26168-3306-87ce-fc11-ae9b11e7e83d">BIPM <link target="https://www.bipm.org/en/"/></p>
+
+<p id="_d443b901-95a6-1f9d-4ff4-025184fa7fc1">JCGM GUM
+<link target="https://www.bipm.org/documents/20126/50065290/JCGM_GUM_6_2020.pdf/d4e77d99-3870-0908-ff37-c1b6a230a337"/></p>
+
+<p id="_ceff2ed3-6d28-ee1a-c266-74ce7a5d7477">BIPM VIM <link target="https://jcgm.bipm.org/vim/en/"/></p>
+
+<p id="_da5f9b61-b50b-af90-1706-c107d4f3a163">CGLS Copernicus Global Land Service</p>
+
+<p id="_ec8ccb7b-0c80-93ec-e41b-17503dab0a9a">FIDUCEO <link target="https://research.reading.ac.uk/fiduceo/glossary/"/></p>
+
+<p id="_dd8fe565-2f01-f58b-5573-67ecaaee0d97">ISO 8601-1:2019 Date and time — Representations for information
+interchange — Part 1: Basic rules</p>
+
+<p id="_cb1aaa97-2199-68c5-88b1-6783ca7db3e4">ISO 191790-1:2021 Geographic information – Discrete Global Grid Systems
+Specifications – Part 1: Core Reference System and Operations, and Equal
+Area Earth Reference SYstem</p>
+
+<p id="_e5f6f7b7-999e-d7ff-cd18-a10e276466e2">Temporal elements referenced in WIGOS metadata</p>
+</clause>
+
+<clause id="_references" inline-header="false" obligation="normative" displayorder="10">
+<title depth="1">7.<tab/>References</title>
+<p id="_9833038a-6c57-af68-497e-7b0820534ebf">Ye, S., Pontius, R. G., &amp; Rakshit, R. (2018). A review of accuracy
+assessment for object-based image analysis: From per-pixel to
+per-polygon approaches. In ISPRS Journal of Photogrammetry and Remote
+Sensing (Vol. 141, pp. 137–147). Elsevier B.V.
+<link target="https://doi.org/10.1016/j.isprsjprs.2018.04.002"/></p>
+</clause>
+</sections>
+</standard-document>
