@@ -18,7 +18,7 @@ jobs:
 
     - name: Run Metanorma Docker Container
       run: |
-        docker run -v $(pwd):/metanorma -w /metanorma metanorma/metanorma metanorma site generate --output-dir public --agree-to-terms
+        docker run -v "${PWD}:/metanorma" metanorma/metanorma metanorma -t standoc -x xml,html,doc,pdf sources/KCEOGlossary.adoc --agree-to-terms -o public 
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
