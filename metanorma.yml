@@ -1,0 +1,8 @@
+---
+metanorma:
+  source:
+    files:
+      - sources/KCEOGlossary-V1.adoc
+  collection:
+    name: KCEO Glossary
+    organization: KCEO
