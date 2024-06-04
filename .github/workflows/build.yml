@@ -18,7 +18,7 @@ jobs:
 
     - name: Run Metanorma Docker Container
       run: |
-        docker run -v $(pwd):/metanorma -w /metanorma metanorma/metanorma metanorma site generate --output-dir public --agree-to-terms --type iso
+        docker run -v $(pwd):/metanorma -w /metanorma metanorma/metanorma metanorma site generate --output-dir public --agree-to-terms
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
