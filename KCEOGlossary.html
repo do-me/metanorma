@@ -1,0 +1,2253 @@
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>
+  <!--
+@charset "UTF-8";
+/*
+  0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline; }
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: Arial; }
+
+code, pre, tt, kbd, samp {
+  font-family: Courier New;
+  font-variant-ligatures: none; }
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: Courier New !important;
+  font-variant-ligatures: none; }
+
+p code, dt code, li code, label code, legend code, caption code, th code, td code,
+p tt, dt tt, li tt, label tt, legend tt, caption tt, th tt, td tt,
+p kbd, dt kbd, li kbd, label kbd, legend kbd, caption kbd, th kbd, td kbd,
+p samp, dt samp, li samp, label samp, legend samp, caption samp, th samp, td samp {
+  font-size: ; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial; }
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Arial; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote::before, blockquote::after, q::before, q::after {
+    content: '';
+    content: none; }
+
+.h2Annex {
+  font-family: Arial; }
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto; }
+  dl dt p, dl dd p {
+    margin-top: 0; }
+  dl dt {
+    grid-column-start: 1; }
+  dl dd {
+    grid-column-start: 2; }
+
+b, strong {
+  font-weight: bold; }
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333; }
+
+a.FootnoteRef + a.FootnoteRef::before {
+  content: ", ";
+  vertical-align: super; }
+
+a.TableFootnoteRef + a.TableFootnoteRef::before {
+  content: ", ";
+  vertical-align: super; }
+
+a.TableFootnoteRef, span.TableFootnoteRef,
+a.FootnoteRef, span.FootnoteRef {
+  vertical-align: super; }
+
+.addition {
+  color: blue; }
+
+.deletion {
+  color: red;
+  text-decoration: line-through; }
+
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before; }
+
+ruby ruby {
+  ruby-position: under;
+  -webkit-ruby-position: after; }
+
+/* code highlighting with line numbers */
+table.rouge-line-table td.rouge-gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-right: 1em; }
+
+table.rouge-line-table td.rouge-code {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all; }
+
+table.rouge-line-table,
+table.rouge-line-table th,
+table.rouge-line-table td {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%; }
+
+table.rouge-line-table pre {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
+  font-size: 100%; }
+
+a.header {
+  color: inherit;
+  text-decoration: none; }
+
+a.header:hover {
+  color: #a53221; }
+
+a.header:visited {
+  color: inherit;
+  text-decoration: none; }
+
+a.anchor {
+  position: absolute;
+  z-index: 1001;
+  width: 1.5ex;
+  margin-left: -1.5ex;
+  display: block;
+  text-decoration: none !important;
+  visibility: hidden;
+  text-align: center;
+  font-weight: 400; }
+
+a.anchor::before {
+  content: "\00A7";
+  font-size: .85em;
+  display: block;
+  padding-top: .1em; }
+
+h1 > a.anchor:hover,
+h2 > a.anchor:hover,
+h3 > a.anchor:hover,
+h4 > a.anchor:hover,
+h5 > a.anchor:hover,
+h6 > a.anchor:hover,
+.inline-header > a.anchor:hover,
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor,
+.inline-header:hover > a.anchor {
+  visibility: visible; }
+
+#brochure-band {
+  background-color: #0AC442; }
+
+#brochure {
+  border-bottom: solid 3px #0AC442; }
+
+#mise-en-pratique-band {
+  background-color: #540D6E; }
+
+#mise-en-pratique {
+  border-bottom: solid 3px #540D6E; }
+
+#rapport-band {
+  background-color: #D183C9; }
+
+#rapport {
+  border-bottom: solid 3px #D183C9; }
+
+#monographie-band {
+  background-color: #65AFFF; }
+
+#monographie {
+  border-bottom: solid 3px #65AFFF; }
+
+#guide-band {
+  background-color: #3A405A; }
+
+#guide {
+  border-bottom: solid 3px #3A405A; }
+
+#meeting-report-band {
+  background-color: #F26430; }
+
+#meeting-report {
+  border-bottom: solid 3px #F26430; }
+
+#technical-report-band {
+  background-color: #C84630; }
+
+#technical-report {
+  border-bottom: solid 3px #C84630; }
+
+#working-part-note-band {
+  background-color: #BFAE48; }
+
+#working-part-note {
+  border-bottom: solid 3px #BFAE48; }
+
+#strategy-band {
+  background-color: #BD9391; }
+
+#strategy {
+  border-bottom: solid 3px #BD9391; }
+
+#cipm-mra-band {
+  background-color: #004E64; }
+
+#cipm-mra {
+  border-bottom: solid 3px #004E64; }
+
+#resolution-band {
+  background-color: #53C170; }
+
+#resolution {
+  border-bottom: solid 3px #53C170; }
+
+#draft-proposal-band {
+  background-color: #39A0ED; }
+
+#draft-proposal {
+  border-bottom: solid 3px #39A0ED; }
+
+#draft-development-band {
+  background-color: #2D7393; }
+
+#draft-development {
+  border-bottom: solid 3px #2D7393; }
+
+#in-force-band {
+  background-color: #53C170; }
+
+#in-force {
+  border-bottom: solid 3px #53C170; }
+
+#retired-band {
+  background-color: #2E382E; }
+
+#retired {
+  border-bottom: solid 3px #2E382E; }
+
+/*
+    1. HTML & Body
+*/
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: ;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #1d1d1d;
+  background-color: #ffffff;
+  font-weight: 400; }
+  body main {
+    margin: 0 3em 0 6em; }
+  body pre * {
+    font-family: Arial !important; }
+
+/*
+    2. Responsive navigation layout
+*/
+#toc, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  font-family: Arial;
+  font-weight: 400; }
+  #toc ul, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #toc ul li a, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) ul li a {
+      padding: 5px 10px; }
+    #toc ul a, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a {
+      color: #485094;
+      text-decoration: none;
+      display: block; }
+      #toc ul a:hover, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+        box-shadow: none;
+        color: #485094; }
+  #toc .h2, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) .h2 {
+    padding-left: 30px; }
+  #toc .h3, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) .h3 {
+    padding-left: 50px; }
+  #toc .h4, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) .h4 {
+    padding-left: 70px; }
+  #toc .h5, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) .h5 {
+    padding-left: 90px; }
+  #toc .h6, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) .h6 {
+    padding-left: 110px; }
+  #toc .toc-active, #toc li:hover, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    background: #C70039;
+    box-shadow: inset -5px 0px 10px -5px #C70039 !important; }
+    #toc .toc-active a, #toc li:hover a, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+      color: #485094; }
+  @media print {
+    #toc .toc-active, #toc li:hover, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+      background: white;
+      box-shadow: none !important; }
+    #toc .toc-active a, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a {
+      color: #485094; }
+    #toc li:hover a, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+      color: black; } }
+  @media screen and (max-width: 768px) {
+    #toc, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+      padding: 0 1.5em;
+      overflow: visible; } }
+  #toc .toc-active a, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a {
+    color: white; }
+  #toc .toc-active,
+  #toc li:hover, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active,
+  #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    box-shadow: none !important; }
+    #toc .toc-active a,
+    #toc li:hover a, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a,
+    #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+      color: white;
+      background: none;
+      box-shadow: none; }
+  #toc li a, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) li a {
+    text-transform: uppercase; }
+  #toc ul a:hover, #toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+    box-shadow: none;
+    color: white; }
+
+#toc > ul > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 323px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 45px;
+    background-color: #f7f7f7; } }
+
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white; } }
+
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #C70039;
+    color: white !important;
+    cursor: pointer;
+    z-index: 100; }
+    #toggle span {
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%); } }
+
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none; } }
+
+@media print {
+  #toggle {
+    display: none; } }
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px; }
+  .rule.toc {
+    display: none; }
+  h1.toc-contents {
+    margin-top: 1em; }
+  ul#toc-list, ul#toc-list > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0;
+    margin: 0; } }
+
+div.figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto; }
+  div.figure .FigureTitle, div.figure .figure-title {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+  div.figure > img, div.figure > svg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto; }
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102; }
+  .document-type-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-type-band {
+      display: none; } }
+  .document-type-band .document-type {
+    top: 20px; }
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d; }
+  .document-stage-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    height: 150;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-stage-band {
+      display: none; } }
+.document-stage-band > :first-child {
+  font-weight: 300; }
+
+p.document-stage {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 150;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0; }
+
+#governance-band p.document-type {
+  height: 230px !important; }
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px; }
+
+.coverpage-maturity {
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase; }
+
+/*
+    3. TYPOGRAPHY
+*/
+/*
+    3.1 Titles
+*/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Arial;
+  color: #C70039;
+  font-weight: 300;
+  margin-top: 1.6em;
+  margin-bottom: 0.3em; }
+
+h1, .h1 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  margin-top: 2em; }
+
+h1#content, #content.h1 {
+  margin-top: 2em; }
+
+h2, .h2 {
+  margin-top: 1.3em;
+  font-size: 1.3em;
+  font-weight: 400; }
+
+h3, .h3 {
+  margin-top: 1.1em;
+  font-size: 1.1em;
+  font-weight: 100; }
+
+.TermNum {
+  color: #C70039;
+  font-weight: 100; }
+
+h2.TermNum {
+  margin-bottom: 0; }
+
+p.Terms {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 0; }
+
+p.AltTerms {
+  /*
+    font-style: italic;
+     */
+  font-size: 1.1em;
+  margin: 0; }
+
+/*
+    3.2 Links
+*/
+a, a:visited {
+  text-decoration: none;
+  color: #485094; }
+
+a:hover {
+  color: white;
+  background: #C70039;
+  box-shadow: 3px 0 0 #C70039, -3px 0 0 #C70039; }
+
+*::selection {
+  background: #C70039;
+  color: white; }
+
+*::-moz-selection {
+  background: #C70039;
+  color: white; }
+
+/*
+    3.3 Lists
+*/
+ul, ol {
+  margin-left: 1.2em; }
+
+ul li {
+  list-style: none; }
+
+ul li::before {
+  content: "—";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.2em; }
+
+ul li p {
+  display: inline; }
+
+ul li:first-child {
+  margin-top: 1em; }
+
+#toc-list ul {
+  margin-bottom: 0.25em; }
+
+#toc-list li {
+  list-style-type: none; }
+
+#toc li::before {
+  content: " ";
+  display: none; }
+
+/* https://github.com/metanorma/metanorma-bipm/issues/47 */
+ol[class="alphabet"] {
+  counter-reset: alphabet; }
+
+ol[class="roman"] {
+  counter-reset: roman; }
+
+ol[class="alphabet"] ol[class="alphabet"] {
+  counter-reset: none; }
+
+ol[class="alphabet"] > li {
+  list-style: none;
+  position: relative; }
+
+ol[class="alphabet"] ol[class="alphabet"] > li {
+  list-style: inherit; }
+
+ol[class="alphabet"] > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") ";
+  position: absolute;
+  left: -1.4em; }
+
+ol[class="alphabet"] ol[class="alphabet"] > li::before {
+  counter-increment: none;
+  content: initial; }
+
+ol[class="roman"] ol[class="roman"] {
+  counter-reset: none; }
+
+ol[class="roman"] > li {
+  list-style: none;
+  position: relative; }
+
+ol[class="roman"] ol[class="roman"] > li {
+  list-style: inherit; }
+
+ol[class="roman"] > li::before {
+  counter-increment: roman;
+  content: "(" counter(roman, lower-roman) ") ";
+  position: absolute;
+  left: -2.0em; }
+
+ol[class="roman"] ol[class="roman"] > li::before {
+  counter-increment: none;
+  content: initial; }
+
+/*
+    3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #0e1a85;
+  margin: 2em 0; }
+
+/*
+    3.5 Bibliograhy
+*/
+p.Biblio, p.NormRef {
+  margin-top: 1em;
+  margin-left: 2em; }
+
+/*
+    3.6 Source Code + figures
+*/
+.figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: ;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto; }
+  .figure .SourceTitle,
+  pre .SourceTitle,
+  .pseudocode .SourceTitle {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+
+pre {
+  font-family: Courier New;
+  font-variant-ligatures: none; }
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.FigureTitle,
+.SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+/*
+    3.7 Notes
+*/
+.Note {
+  background-color: #fff495;
+  color: #47430c;
+  padding: 1.2em;
+  margin: 1em 0 1em 0; }
+  .Note p {
+    margin: 0; }
+
+/*
+    3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 1.2em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+  color: #424242;
+  padding-left: 2.7em; }
+  .example p {
+    margin: 0; }
+  .example .example-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -1.5em; }
+  .example .example-title {
+    margin-top: 0; }
+  .example pre,
+  .example .pseudocode {
+    background: none; }
+
+/*
+    3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em; }
+  table, table th, table td {
+    border: 1px solid black;
+    font-size: 0.95em; }
+  table th, table td {
+    padding: 1em; }
+  table td.header {
+    font-weight: 400; }
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 400; }
+
+/*
+  3.10 Footnotes
+*/
+a.footnote-number {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.footnote {
+  font-size: ; }
+
+/*
+    3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f2f2f2;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*
+    3.12 Formulas
+*/
+.formula {
+  background-color: #f7f7f7;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center; }
+
+/*
+    3.13 Contact Info
+*/
+.contact-info {
+  padding: 2em;
+  margin-top: 5em;
+  width: 250px;
+  text-align: left;
+  border: #C70039 solid 2px;
+  color: #C70039 !important;
+  border-radius: 25px; }
+
+.contact-info a,
+.contact-info a:hover {
+  color: #C70039; }
+
+.contact-info p, .contact-info a {
+  font-family: Courier New;
+  font-weight: 400; }
+
+.contact-info .name {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-bottom: 0; }
+
+.contact-info .address {
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 0; }
+
+/*
+    Keywords
+*/
+span.keyword {
+  font-weight: 600; }
+
+/*
+    Paragraphs
+*/
+p {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+h2 p, .h2 p {
+  display: inline; }
+
+/*
+    4.0 Page header
+*/
+/*
+    4.1 Top Logo
+*/
+.icon-svg {
+  width: 100%;
+  color: #5ecf86; }
+
+.wrapper-top {
+  background: #C70039;
+  color: #ffffff;
+  padding: 2em 0;
+  width: 100%; }
+
+.wrapper-top-bottom {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #C70039;
+  position: absolute; }
+
+.doc-number {
+  font-size: 0.5em;
+  font-family: Arial; }
+
+.coverpage-title {
+  padding-bottom: 0.5em;
+  font-family: Arial;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-weight: 100;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-transform: uppercase; }
+
+.WordSection11 {
+  padding: 0 2em 0 3em; }
+
+.info-section {
+  padding: 0 2em 0 5em; }
+
+.prefatory-section {
+  padding: 0 3em 0 6em; }
+
+.zzSTDTitle1, .MsoCommentText {
+  display: none; }
+
+.coverpage {
+  text-align: center;
+  padding-left: 1.5em; }
+
+.coverpage-logo span, .coverpage-tc-name span {
+  font-family: Arial;
+  text-transform: none;
+  font-weight: 300; }
+
+.coverpage-tc-name {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0.25em 0; }
+
+/*
+    4.2 Document Identity
+*/
+.coverpage-doc-identity {
+  font-size: 2em;
+  line-height: 2em; }
+
+.coverpage-title .title-second {
+  font-size: 0.8em; }
+
+.coverpage-title .title-third {
+  font-size: 0.6em; }
+
+.coverpage-stage-block {
+  font-family: Arial;
+  font-weight: 600;
+  font-size: 1.25em;
+  margin: 2em 0em 2em 0em;
+  text-transform: uppercase; }
+
+/*
+    4.3 Draft Warning
+*/
+.coverpage-warning {
+  border: #f36f36 solid 2px;
+  color: #f36f36 !important;
+  margin: 1em 2em;
+  color: #485094;
+  padding: 2em 1em 1em 1em;
+  border-radius: 25px; }
+
+.coverpage-warning .title {
+  font-family: Arial;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.2em; }
+
+/*
+    4.4 Copyright
+*/
+.copyright {
+  padding: 1em;
+  font-size: 0.9em;
+  text-align: left; }
+
+/*  .copyright .name, .copyright .address {color: #485094;} */
+/*
+    5.0 Other styles
+*/
+/*
+To top button
+*/
+#myBtn {
+  font-family: Courier New;
+  font-variant-ligatures: none;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: #1f8ca0;
+  opacity: 0.15;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+  text-transform: uppercase; }
+  #myBtn:hover {
+    opacity: 1; }
+  @media print {
+    #myBtn {
+      display: none; } }
+  #myBtn a.anchorjs-link:hover {
+    background: none;
+    color: #485094;
+    box-shadow: none; }
+
+@page {
+  margin: 2cm 1cm; }
+
+@media print {
+  .document-info, nav, .copyright {
+    page-break-before: always; }
+  h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    page-break-after: avoid;
+    margin-top: 1.2em; }
+  .note, .figure, pre, .pseudocode, table {
+    page-break-inside: avoid; }
+  .info-section {
+    display: none; }
+  .coverpage {
+    height: 23cm; }
+  .wrapper-top {
+    top: 0;
+    padding-top: 4cm;
+    padding-bottom: 4cm; }
+  .wrapper-top-bottom {
+    margin-top: -5px; }
+  #toggle, .document-stage-band,
+  .document-type-band, button#myBtn {
+    display: none; }
+  .container {
+    padding-left: 0; }
+  h1.content {
+    margin-top: 2em;
+    line-height: 2.5em; }
+  h1, .h1 {
+    font-size: 1.5em;
+    line-height: 1.5; }
+  h2, .h2 {
+    font-size: 1.2em; }
+  h3, .h3 {
+    font-size: 1em; }
+  .Note {
+    background-color: #fff495;
+    color: #47430c;
+    padding: 5px;
+    margin: 2em 0 1em 0; }
+  .Note p {
+    padding: 0 5px 0 5px; }
+  .wrapper-top-bottom {
+    display: none; } }
+
+-->
+</style><style><!--pre.sourcecode table td { padding: 5px; }
+pre.sourcecode table pre { margin: 0; }
+pre.sourcecode, pre.sourcecode .w {
+  color: #444444;
+}
+pre.sourcecode .cp {
+  color: #CC00A3;
+}
+pre.sourcecode .cs {
+  color: #CC00A3;
+}
+pre.sourcecode .c, pre.sourcecode .ch, pre.sourcecode .cd, pre.sourcecode .cm, pre.sourcecode .cpf, pre.sourcecode .c1 {
+  color: #FF0000;
+}
+pre.sourcecode .kc {
+  color: #C34E00;
+}
+pre.sourcecode .kd {
+  color: #0000FF;
+}
+pre.sourcecode .kr {
+  color: #007575;
+}
+pre.sourcecode .k, pre.sourcecode .kn, pre.sourcecode .kp, pre.sourcecode .kt, pre.sourcecode .kv {
+  color: #0000FF;
+}
+pre.sourcecode .s, pre.sourcecode .sb, pre.sourcecode .sc, pre.sourcecode .ld, pre.sourcecode .sd, pre.sourcecode .s2, pre.sourcecode .se, pre.sourcecode .sh, pre.sourcecode .si, pre.sourcecode .sx, pre.sourcecode .sr, pre.sourcecode .s1, pre.sourcecode .ss {
+  color: #009C00;
+}
+pre.sourcecode .sa {
+  color: #0000FF;
+}
+pre.sourcecode .nb, pre.sourcecode .bp {
+  color: #C34E00;
+}
+pre.sourcecode .nt {
+  color: #0000FF;
+}
+
+--></style><title>KCEO Glossary of Terms and Definitions</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css?family=Overpass:300,300i,600,900" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet" />
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</head><body lang="en" xml:lang="en"><div class="title-section"><div class="document-stage-band" id="published-band">
+    <p class="document-stage">Published</p>
+</div>
+
+<div class="document-type-band" id="standard-band">
+  <p class="document-type"> Standard</p>
+</div>
+
+
+
+  <div id="toggle"> <span>•</span> </div>
+
+  <header>
+
+<!--<div class="WordSection1">-->
+  <div class="coverpage">
+    <div class="wrapper-top">
+
+  <div class="coverpage-doc-identity">
+    <div class="doc-number">
+      <span class="docnumber"></span>
+      <span class="docnumber-separator">:</span>
+      <span class="docyear">2024 </span>
+    </div>
+
+    <div class="coverpage-title">
+      
+      <span class="title-first">KCEO Glossary of Terms and Definitions</span><br />
+      <span class="title-second"></span>
+      
+    </div>
+  </div>
+
+  
+  <div class="coverpage-tc-name">
+    .
+  </div>
+  
+
+
+  </div>
+
+    <div class="wrapper-top-bottom"></div>
+
+  <div class="WordSection11">
+  <div class="coverpage-stage-block">
+    <span class="coverpage-stage" id="standard"> Standard</span>
+  </div>
+
+  <div class="coverpage-stage-block">
+    <p><span class="coverpage-maturity" id="published">Published</span></p>
+</div>
+
+<div class="info-section">
+<div class="copyright">
+<div id="boilerplate-copyright-destination"></div>
+  <div id="boilerplate-license-destination"></div>
+  <div id="boilerplate-legal-destination"></div>
+<div id="boilerplate-feedback-destination"></div>
+</div>
+
+<div class="rule"></div>
+</div>
+  </div>
+
+
+</div>
+</header></div><br /><div class="prefatory-section"></div><br /><main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><br /><div id="_69b62e50-ffc4-4e76-81e0-e8609bb46b2f" class="TOC"><h1 class="IntroTitle"><a class="anchor" href="#_69b62e50-ffc4-4e76-81e0-e8609bb46b2f"></a><a class="header" href="#_69b62e50-ffc4-4e76-81e0-e8609bb46b2f">Table of contents</a></h1></div><br /><div class="Section3" id="_introduction"><h1 class="IntroTitle"><a class="anchor" href="#_introduction"></a><a class="header" href="#_introduction">Introduction</a></h1><p id="_9c74468f-5324-fd9f-eae7-b5500feb76ac">The KCEO Glossary of Terms and Definitions is a comprehensive resource
+that serves as an invaluable reference guide for seeking clarity and a
+deeper understanding of the field of Earth observation. This extensive
+compilation brings together a wide range of terms, concepts, and
+definitions that are directly relevant to Earth observation,
+encompassing various disciplines such as remote sensing, satellite
+imagery, geospatial analysis, climate adaptation, and more. By acting as
+a reliable compass, this glossary helps to navigate the intricate and
+specialized terminology associated with Earth observation, ensuring
+effective communication and knowledge sharing.</p><p id="_bf9117f7-4ddb-4408-6cd7-c4860eb4563b">As a living document, the KCEO Glossary of Terms and Definitions is in a
+constant state of evolution and is continuously adapted to incorporate
+emerging concepts. This ensures that it remains up-to-date.</p><p id="_4a00a678-170a-e56c-b074-079304307852">The KCEO Glossary of Terms and Definitions is serves as an indispensable
+tool to cater our needs, promote effective communication, and stay
+abreast of the ever-evolving landscape of Earth observation.</p></div><p class="zzSTDTitle1">KCEO Glossary of Terms and Definitions</p><div id="end"><h1><a class="anchor" href="#end"></a><a class="header" href="#end">1.  General terms</a></h1><div id="_ancillary_data"><h2><a class="anchor" href="#_ancillary_data"></a><a class="header" href="#_ancillary_data">1.1.  Ancillary data</a></h2>
+
+<div class="figdl"><dl id="_229ca11a-0292-ef0b-f421-15d792fcdbff"><dt><p>Ancillary data</p></dt><dd><p id="_f096e9a2-8f75-abd3-4ef4-5570cac89e9b">Data acquired on-board but not obtained from the main instrument
+itself (usually provided as part of Level 0 data). They have the primary
+purpose to serve the processing of main instrument data (e.g. orbit
+position and velocity of platform).</p>
+</dd></dl></div>
+
+<p id="_f463f58e-a13f-dca3-5aa6-819332bbd7cb">[Source: ESA/CEOS?, modified]</p>
+
+<p id="_b4b43cf9-4a1a-1f01-347f-19238e7f19cf">Alternative:</p>
+
+<div class="figdl"><dl id="_7054ac20-4015-4e84-e7c5-37f11661ab81"><dt><p>Ancillary data</p></dt><dd><p id="_ea179118-a2cf-20b9-e147-1ca502136362">Data other than instrument measurements, originating in the instrument
+itself or from the satellite, required to perform processing of the
+data. They include orbit data, attitude data, time information,
+spacecraft engineering data, calibration data, data quality information,
+and data from other instruments or earth system models.</p>
+</dd></dl></div>
+
+<p id="_83773238-1afc-eab1-7a54-8ffa4d58fb73">[Source CEOS-ARD PFS template 20220302]</p>
+
+<p id="_3243dbbc-8081-7595-2425-ecdb8b56e357"><i>Data</i> acquired in context of an <i>observation</i> required to perform
+processing</p>
+</div><div id="_auxiliary_data"><h2><a class="anchor" href="#_auxiliary_data"></a><a class="header" href="#_auxiliary_data">1.2.  Auxiliary data</a></h2>
+
+<p id="_2874dea4-9c0f-7f98-9e92-13882e1aa355"><i>Data</i> which enhance processing and utilization of main instrument data.
+The auxiliary data are usually not captured by the same data collection
+process as the main instrument data. Auxiliary data include data
+collected by any other platform or process. Examples are e.g.
+meteorological data received from ECWMF/Met. Offices. Auxiliary data
+help in data processing, but are also data sets in their own right<b>.</b></p>
+
+<p id="_82adda8f-f4af-2fef-f12d-f35b4f99c6e4">[Source: ESA/CEOS?, modified]</p>
+
+<p id="_49afde0d-4c8b-7306-3c32-e8e4bbb0e666">Alternative:</p>
+
+<p id="_a3ac92c9-72de-8e51-1719-7339cb682055">The data required for instrument processing, which does not originate in
+the instrument itself or from the satellite. Some auxiliary data will be
+generated in the ground segment, whilst other data will be provided from
+external sources.</p>
+
+<p id="_6bdb43d6-95cf-392e-1b22-ea7c5949773f">[Source CEOS-ARD PFS template 20220302]</p>
+</div><div id="_cell"><h2><a class="anchor" href="#_cell"></a><a class="header" href="#_cell">1.3.  Cell</a></h2>
+
+<p id="_473c0a5e-4efd-64c0-e0bc-de42a170bade">Spatial, spatio-temporal zone or temporal unit of geometry with
+dimensionality greater than 0, associated with a zone</p>
+
+<p id="_302c4bd0-c54d-fe82-b5af-a6d8bb2b786b">NOTE1: All cells within a DGGS share the dimensionality of the DGGS’s
+parent global geometry. DGGSs with dimensionality of 0 are not
+supported.</p>
+
+<p id="_f8c58526-977a-c3bd-c0bb-50b7668c056f">NOTE 2: Cells are the unit of geometry in a DGGS, and the geometry of
+the region of space-time occupied by a zone is a cell.</p>
+
+<p id="_1da6bcb3-4c00-6a31-13e8-8c1118ec68fe">NOTE 3: While the terms cell and zone are often used interchangeably,
+“zone” is the strictly preferred term. Cell is entirely appropriate when
+specifically discussing a zone’s geometry or topology.</p>
+
+<p id="_8d820799-2c32-8d4d-7925-3060019aad61">[SOURCE: ISO 19170:2021]</p>
+</div><div id="_duration"><h2><a class="anchor" href="#_duration"></a><a class="header" href="#_duration">1.4.  Duration</a></h2>
+
+<p id="_79d7d0b1-af15-6f8e-e06f-37e3e298ca1a">non-negative interval quantity of time equal to the difference between
+the final and initial instants of a time</p>
+
+<p id="_952eaaa1-260a-550e-c6d0-df7d04f20eba">NOTE 1: The duration is one of the base quantities in the International
+System of Quantities (ISQ) on which the International System of Units
+(SI) is based. The term “time” instead of “duration” is often used in
+this context and also for an infinitesimal duration.</p>
+
+<p id="_b2f8587a-d156-9747-a240-9054cb88ba83">NOTE 2: For the term “duration”, expressions such as “time” or “time
+interval” are often used, but the term “time” is not recommended in this
+sense and the term “time interval” is deprecated in this sense to avoid
+confusion with the concept of “time interval”.</p>
+
+<p id="_be978076-0a5b-d7b2-81ac-de35a3232139">NOTE 3: The exact duration of a time scale unit depends on the time
+scale used. For example, the durations of a year, month, week, day, hour
+or minute, may depend on when they occur [in a Gregorian calendar, a
+calendar month can have a duration of 28, 29, 30, or 31 days; in a
+24-hour clock, a clock minute can have a duration of 59, 60, or 61
+seconds, etc.]. Therefore, the exact duration can only be evaluated if
+the exact duration of each is known.</p>
+
+<p id="_3b00b2a9-33e8-f1c6-f2cf-20d9f73d8f54">NOTE 4: This definition is closely related to NOTE 1 of the
+terminological entry “duration” in IEC 60050-113:2011, 113–01–13.</p>
+
+<p id="_ab8df63e-a5b1-4ec9-8fa5-03531805ef60">[SOURCE: ISO 8601-1:2019, 3.1.1.8]</p>
+
+<p id="_8b0d588d-d258-2347-f8f9-7db3ec5b97ab">##Earth observation</p>
+
+<p id="_6b1e1a7e-232a-8501-4e3d-a5176d62018e">Is a science domain dealing with technologies and methods of collecting
+and analysing <i>observations</i> about the different spheres (Geosphere,
+Atmosphere, Hydrosphere, Cryosphere, Biosphere, Anthroposphere) of our
+planet. This includes <i>remote-sensing</i>, such as satellite imagery, as
+well as in-situ observations, e.g., with ground-based devices.</p>
+
+<p id="_77785008-242c-c7f9-02bd-1ea8512de691">NOTE 1: Earth Observation (EO) can be categorised by location of the
+sensor into space-borne, air-borne, sea-borne, ground-based, underwater
+and underground EO.</p>
+
+<p id="_83f34ec8-1815-1dff-1a44-cf0031591ee1">[Source: modified GEO definition
+<a href="https://earthobservations.org/geo_wwd.php">https://earthobservations.org/geo_wwd.php</a>]</p>
+
+<p id="_e0f916d4-e847-6e98-7847-90a1b6f9d30b">##Earth Observation product</p>
+
+<p id="_de76c9db-0739-13dc-3b8a-eaaef7005cee">A representation of a phenomenon that can be coded into information. A
+product serves multiple purposes and cross-domain applications. A
+characteristic of EO products is that they should undergo some data
+transformation for being considered decision-ready or inference-ready
+information.</p>
+
+<p id="_68385a5d-bdc1-8171-9586-8149f8210010">NOTE 1: aka geophysical and biophysical parameters (surface temperature,
+leaf area index, etc.)</p>
+
+<p id="_66d9cc19-3ceb-79e4-7fb3-cedff99f0e16">[SOURCE: KCEO]</p>
+
+<p id="_3f7972cd-4d28-b841-89d8-2b1b5bf7a817">##Earth Observation based output</p>
+
+<p id="_bd6bb153-1cf5-a8ae-7f4d-9a9d8c21376d">Any data or information derived from EO products. It may be generated
+for addressing specific use cases or user needs. It is the result of any
+type of data processing (classification, rearranging, sorting,
+aggregating, mathematical computation, filtering) and/or data
+integration (fusion, data assimilation) with other EO products and/or
+geospatial data that changes the property of the original EO product. It
+is the result of a non-invertible operation so that the original EO
+product can’t be recovered.</p>
+
+<p id="_748b51b0-a1ea-40fd-bf29-d0489a48aff6">[SOURCE: KCEO]</p>
+
+<p id="_caa9c403-7243-99f2-352b-8623a6e678cf">##Entity</p>
+
+<p id="_bc13e939-a008-d83d-fcc0-ef99aa8c6b11">Something that has separate and distinct existence and objective or
+conceptual reality</p>
+
+<p id="_779c90da-33bb-cd47-4da5-742a68850796">[SOURCE: <a href="https://www.iso.org/standard/59221.html">ISO 19119:2016</a>,
+4.1.6]</p>
+</div><div id="_geographic_data"><h2><a class="anchor" href="#_geographic_data"></a><a class="header" href="#_geographic_data">1.5.  Geographic data</a></h2>
+
+<p id="_e612fc0f-d3b4-ac87-8f2e-c0725f2356a7">data with implicit or explicit reference to a location relative to the
+Earth</p>
+
+<p id="_2f9f5059-c65d-51b4-8b21-15744c08ce7c">NOTE 1: <i>Geographic</i> <i>information</i> is also used as a term for
+information concerning phenomena implicitly or explicitly associated
+with a location relative to the Earth.</p>
+
+<p id="_b3156dd9-91fb-942d-9c56-52fdb5127154">[SOURCE: <a href="https://www.iso.org/standard/59193.html">ISO 19109:2015</a>,
+4.13; ISO 19109:2005]</p>
+
+<p id="_8dcd55a9-ea1b-19ee-b286-2c4f31811784">===</p>
+</div><div id="_geographic_identifier"><h2><a class="anchor" href="#_geographic_identifier"></a><a class="header" href="#_geographic_identifier">1.6.  Geographic identifier</a></h2>
+
+<p id="_fea6aa79-e745-9109-cee4-d96e4aa276e0">Spatial reference in the form of a label or code that identifies a
+location.</p>
+
+<p id="_6e2bc98f-8399-b6bd-fe05-ebc83f51ac62">EXAMPLE: “Spain” is an example of a label (country name); “SW1- 3AD” is
+an example of a code (postcode).</p>
+
+<p id="_7091356d-4bc8-3001-d94b-b46d4b1d0a2b">[SOURCE: ISO 19112:2019, 3.1.2]</p>
+</div><div id="_geospatial_datainformation"><h2><a class="anchor" href="#_geospatial_datainformation"></a><a class="header" href="#_geospatial_datainformation">1.7.  Geospatial data/information</a></h2>
+
+<p id="_379dda2c-0f44-7aa0-3494-a685412558c5">Consisting of, derived from, or relating to <i>data</i> that is directly
+linked to specific geographical locations</p>
+
+<p id="_38c25a3d-456d-062c-96bc-0e5ac455abd4">[Source: <a href="https://www.merriam-webster.com/dictionary/geospatial">https://www.merriam-webster.com/dictionary/geospatial</a> ,</p>
+
+<p id="_cec91026-0aab-122a-f10c-4d086d1342fc"><a href="https://isotc211.geolexica.org/concepts/202/">https://isotc211.geolexica.org/concepts/202/</a>, accessed 20221010]</p>
+</div><div id="_grid"><h2><a class="anchor" href="#_grid"></a><a class="header" href="#_grid">1.8.  Grid</a></h2>
+
+<p id="_8cd96981-fbab-0b82-5ef5-fa7ceda8e2e1">network composed of two or more sets of curves in which the members of
+each set intersect the members of the other sets in an algorithmic way</p>
+
+<p id="_ff19f972-c559-73b3-3b76-960f56c63021">NOTE 1: The curves partition a space into grid cells</p>
+
+<p id="_e2ba38f8-7741-354b-311b-5661c40f740f">[SOURCE: ISO 19123:2005, 4.1.23]</p>
+</div><div id="_information"><h2><a class="anchor" href="#_information"></a><a class="header" href="#_information">1.9.  Information</a></h2>
+
+<p id="_d8de000f-ee83-6bad-4494-55e3b5ff1727">The result of organisation, interpretation, categorisation,
+classification, or some other form of processing of <i>data</i> attaching to
+it a certain meaning that can be understood by the addressee.</p>
+
+<p id="_63757a8b-bf47-8d79-3bc2-ea850f1c13ce">NOTE 1: Information depends on <i>data</i> and is targeted.</p>
+
+<p id="_bf849497-f005-0b9b-bf59-70eaafeb65ed">[SOURCE: gEOGlos]</p>
+</div><div id="_in_situ_observation"><h2><a class="anchor" href="#_in_situ_observation"></a><a class="header" href="#_in_situ_observation">1.10.  In-situ observation</a></h2>
+
+<p id="_7a7df502-09a1-6c59-188f-c0bed5c05326">‘In-situ’ describes <i>observations</i> performed in the same place where a
+phenomenon occurs, normally without isolating it from other systems (its
+environment) or altering its pre-observation state. The main
+characteristic of such observations is that distance has no or only
+negligible (within <i>uncertainty</i>) influence on the <i>value</i> of the
+<i>property</i> observed. In-situ <i>observations</i> therefore often require
+either direct physical contact or small distances between a <i>sensor</i> and
+the observed phenomenon.</p>
+
+<p id="_2e019bf3-45fd-f5a6-b7c0-48f6f8134510">NOTE 1: <i>Observations</i> not fulfilling these conditions are considered
+<i>Remote Sensing</i>.</p>
+
+<p id="_277d6008-dcd2-b253-e9af-611f421dc3ff">[Source: own (Peter)]</p>
+</div><div id="_laboratory_observation"><h2><a class="anchor" href="#_laboratory_observation"></a><a class="header" href="#_laboratory_observation">1.11.  Laboratory observation</a></h2>
+
+<p id="_0e765a08-01b7-d31e-4e51-e5187ed1f064">Laboratory <i>observations</i> are (usually) in-situ observations in which
+the object or phenomenon is isolated from other systems or altered in
+its ‘original’ conditions or environment.</p>
+
+<p id="_7f92ee3b-718b-9797-6c4a-5c373c4f79e4">Note:</p>
+</div><div id="_location"><h2><a class="anchor" href="#_location"></a><a class="header" href="#_location">1.12.  Location</a></h2>
+
+<p id="_5cb32650-efa1-7891-fe37-26d7c8f59635">Particular <i>place</i> referenced by an <i>identifier</i></p>
+
+<p id="_690cc180-5db8-de03-ac99-754cf8f60e1c">NOTE 1 to entry: While a (geo)location identifies a geographic place, it
+may also be associated with objects other than the Earth<br />
+NOTE 2 to entry: While location in principle covers 0- to 3-dimensional
+spatial geometries, it should not be used for 0- and 1-dimensional
+geometries (<i>positions</i> and paths)</p>
+
+<p id="_49457fa3-49a1-ff00-69b3-ba0f7dd5ad46">EXAMPLE “Madrid”, “California”.</p>
+
+<p id="_51e7e015-dccb-f1af-e337-ff3e987a9ff9">[SOURCE: <a href="https://www.iso.org/standard/70742.html">ISO 19112:2019</a>,
+(E), 3.1.3, modified, note 2 added]</p>
+</div><div id="_measurement"><h2><a class="anchor" href="#_measurement"></a><a class="header" href="#_measurement">1.13.  Measurement</a></h2>
+
+<p id="_0c166c4e-d225-a6f8-d806-e299c7a89ed1">A measurement is an <i>observation</i> of a <i>quantity</i>.</p>
+
+<p id="_2f02bdae-d37f-594a-4447-4863f8c8aff8">NOTE 1: The process of collecting a measurement is called <b>measuring</b>.</p>
+
+<p id="_02f2d072-7f26-b9fd-b0a6-12eaa2357ec3">[Source: gEOGlos (VIM ?, modified)]</p>
+</div><div id="_period"><h2><a class="anchor" href="#_period"></a><a class="header" href="#_period">1.14.  Period</a></h2>
+
+<p id="_23a7d7b5-63d3-1e40-e558-c69333f95d50">Particular era or span of time</p>
+
+<p id="_6d6e0341-d74b-a8ff-a77a-c8faba54bda5">NOTE 1: Periods are intervals named with a period identifier</p>
+
+<p id="_1325f0bb-8806-d2c2-e8c2-8413901a6967">[SOURCE: ISO 19170:2021]</p>
+</div><div id="_period_identifier"><h2><a class="anchor" href="#_period_identifier"></a><a class="header" href="#_period_identifier">1.15.  Period identifier</a></h2>
+
+<p id="_c444bc39-292e-f7cc-05a0-4aedb0f410b9">Temporal reference in the for of a label or code that identifies a
+period</p>
+
+<p id="_1617418a-8608-76ca-2178-33664395bb9e">NOTE 1: period identifiers are the temporal equivalent of geographic
+identifiers as specified in ISO 19912</p>
+
+<p id="_50f50b0f-ae8b-937d-e776-005266cba960">[SOURCE: ISO 19170:2021]</p>
+</div><div id="_quantity"><h2><a class="anchor" href="#_quantity"></a><a class="header" href="#_quantity">1.16.  Quantity</a></h2>
+
+<p id="_0db370b0-fac6-2452-e752-fb1c7367c5b8">A <i>property</i> whose instances can be compared by ratio or only by order</p>
+
+<p id="_ae04edd6-2467-119b-015b-87c39bb89dfb">[Source: gEOGlos(VIM4 Notes omitted)]</p>
+</div><div id="_remote_sensing_or_remote_observation"><h2><a class="anchor" href="#_remote_sensing_or_remote_observation"></a><a class="header" href="#_remote_sensing_or_remote_observation">1.17.  Remote Sensing (or Remote Observation)</a></h2>
+
+<p id="_5f370d6a-a89a-f2be-e88d-a26ca09b24d7">Remote sensing is a type of <i>observation</i> performed at a significant
+distance from a <i>phenomenon</i>. ‘Significant’ in this context means that
+the distance has, or may have, a non-negligible impact on the <i>value</i> of
+the <i>property</i> observed. The effect of the distance on the acquired
+<i>data</i> is the main distinction criteria between ‘remote’ and ‘in-situ’
+observations.</p>
+
+<p id="_521019f3-2127-86e6-4948-287c98350f3a">NOTE 1: the opposite of ‘<i>remote</i>’ is ‘<i>in-situ’</i></p>
+
+<p id="_c3b9b200-da67-8aee-cd05-dada656ae308">[Source: own (Peter)]</p>
+</div><div id="_representativity"><h2><a class="anchor" href="#_representativity"></a><a class="header" href="#_representativity">1.18.  Representativity</a></h2>
+
+<p id="_27a7fab3-7f0a-20b1-372b-3339adac1f96"><b>[…]</b></p>
+
+<p id="_229c8042-f033-af23-c2d2-0ba0e8581048">NOTE 1: WIGOS metadata standard defines representativeness as the extent
+of the region around the observation of which it is representative</p>
+
+<p id="_99821dbd-e849-b0fd-f7cb-e7b2ecfbcf02">##Service provider</p>
+
+<p id="_b35af1a5-1cef-224d-5dbb-31eca3b8f0f4">An institutional body, an organisation or programme that provides
+reliable, trusted (authoritative?) EO information and that has the
+financial resources to sustain the provision.</p>
+
+<p id="_0ec2cb11-0dcf-4861-9f6a-7e0a689a5f56">===</p>
+</div><div id="_uncertainty"><h2><a class="anchor" href="#_uncertainty"></a><a class="header" href="#_uncertainty">1.19.  Uncertainty</a></h2>
+
+<p id="_8312af4e-68bb-08c9-0b5e-0fe0b11950d5">Non-negative parameter, associated with data, which characterizes the
+dispersion of the values that could reasonably be attributed to the
+feature or phenomenon. In case of quantitative data, the uncertainty may
+be, for example, a standard deviation (or a given multiple of it), or
+the half-width of an interval having a stated level of confidence. For
+qualitative data uncertainty may be, for example, expressed by
+commission, omission and overall errors.</p>
+
+<p id="_d0fb5944-643b-8e82-3f12-fe93abd1730b">NOTE 1: in natural or ordinary language the term accuracy is often used
+to express qualitatively the uncertainty associated with data, such as
+‘the data from this thermometer is very accurate vs not very accurate’.
+This usage of the term ‘accuracy’, whilst it may be common in
+conversational context should be abandoned in technical discussions in
+favour of ‘uncertainty’ which does not require the knowledge of the
+‘real’ value.</p>
+</div><div id="_user"><h2><a class="anchor" href="#_user"></a><a class="header" href="#_user">1.20.  User</a></h2>
+
+<p id="_46d36cdf-1d59-481e-afe6-81c4e48124e8">In the context of the KCEO, an entity (person, organization,
+institution, etc.) that is requesting data or information with certain
+characteristics described by needs and/or requirements.</p>
+
+<p id="_928a691e-523b-a16c-deba-49dab844e158">[SOURCE: KCEO]</p>
+
+<p id="_b8fc6908-39c0-eab4-4337-3bf1368d5540">===</p>
+</div><div id="_validation"><h2><a class="anchor" href="#_validation"></a><a class="header" href="#_validation">1.21.  Validation</a></h2>
+
+<p id="_8554297d-d312-fb3b-2741-ba37731ae62d">process of assessing, by independent means, the quality of the data
+products derived from the system outputs</p>
+
+<p id="_581aa198-33fd-8129-bd76-4fe5638e558e">Note 1 to entry: In this part of ISO 19159, the term validation is used
+in a limited sense and only relates to the validation of calibration
+data in order to control their change over time.</p>
+
+<p id="_b535f167-232b-d41e-2f96-b93ee7d17261">[SOURCE:ISO/TS 19101‑2:2008, 4.41]</p>
+
+<p id="_0b89caa1-3b60-a6ea-0860-7904e3cd820f">Alternative:</p>
+
+<p id="_ad904b65-91ae-279d-efff-ea4e35b83628">Validation aims to verify that the specified requirements are achieved
+or compliant. This involves comparing mission products with
+representative reference data, considering various observation
+conditions, ensuring the quality and traceability of the reference data
+used.</p>
+
+<p id="_30fd9933-4e34-17c7-3c6e-bbd81c126bd8">[SOURCE: BIPM; QA4EO; ESA ?, modified]</p>
+
+<p id="_5f18fa3b-fdf3-e5e4-b017-c26aa840c835">Alternative:</p>
+
+<p id="_31c67179-d875-7283-ad13-b849dc3a8337">The assurance that a product, service, or system meets the needs of the
+customer and other identified stakeholders. It often involves acceptance
+and suitability with external customers.</p>
+
+<p id="_3382b7d7-58fc-1086-fa16-9da73b709220">[SOURCE: EU-US Land Imaging EO Collaboration]</p>
+</div><div id="_verification"><h2><a class="anchor" href="#_verification"></a><a class="header" href="#_verification">1.22.  Verification</a></h2>
+
+<p id="_69a5df3d-d5af-7b40-0e9a-676c5cb2cad7">provision of objective evidence that a given item fulfils specified
+requirements.</p>
+
+<p id="_972f82af-f40d-bc26-352f-6e6a1be81a4e">Note 1 to entry: When applicable,measurement uncertainty should be taken
+into consideration.</p>
+
+<p id="_c8e4f935-2fb9-0b8a-b176-7a0351d3c85e">Note 2 to entry: The item may be, e.g. a process, measurement procedure,
+material, compound, or measuring system.</p>
+
+<p id="_accd9a69-ba17-10ee-427b-a09122e6583a">Note 3 to entry: The specified requirements may be, e.g. that a
+manufacturer’s specifications are met.</p>
+
+<p id="_dcb1f478-0781-1446-3bd0-e55d27235bc8">Note 4 to entry: Verification should not be confused with calibration.
+Not every verification is a validation.</p>
+
+<p id="_752979b9-387a-af2d-812e-f9f910668b1b">[SOURCE:ISO/IEC Guide 99:2007, 2.44]</p>
+
+<p id="_ca7921cf-a877-c5b9-0d72-876c776f5f27">Alternative:</p>
+
+<p id="_e84aef98-31ef-5c86-e8a6-aa46a68e72c4">The evaluation of whether or not a product, service or system complies
+with a regulation requirement, specification, or imposed condition. It
+often an internal process.</p>
+
+<p id="_6103da0b-78c3-e625-7dd8-418c43980900">[SOURCE: EU-US Land Imaging EO Collaboration]</p>
+
+<p id="_b1c6b75e-78ba-e60d-b6f0-eac74b022fed">Alternative:</p>
+
+<p id="_33ab7aeb-aa6d-4b0e-ee29-82dd4373fab1">Verification serves as a means to evaluate the reliability of the data
+in the absence of a reference dataset, allowing for an assessment of its
+standalone performance. It involves confirming the consistency and
+internal coherence of the data without direct comparison to external
+reference sources. c</p>
+
+<p id="_124baf1c-34c1-8cce-cb8b-7dd68daf74b7">[SOURCE: KCEO]</p>
+</div></div><div id="_eo_product_attributes"><h1><a class="anchor" href="#_eo_product_attributes"></a><a class="header" href="#_eo_product_attributes">2.  EO Product attributes</a></h1><p id="_423f9a66-64f5-5b9e-078f-f0aa3a0c8b8f">#[.underline]#Area of interest</p><p id="_3ec339e0-5232-2e13-94e9-0cf056fd5c32">It is the zone in 2D or 3D for which the information or data is
+requested. It can be discontinuous in space, in other words it can
+consist in the union of many separate zones (e.g., Natural Reserves in
+Africa, Urban environments, etc.).</p><p id="_b3733c97-a591-8c0f-f18f-922d742dd8cf">The attribute indicates a request for spatially complete data within the
+AOI zone(s).</p><p class="TableTitle" style="text-align:center;">Table 1</p><table id="_bd46338b-d727-a03a-4a4f-91fd185d60cd" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 34%;" /><col style="width: 34%;" /><col style="width: 32%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Type</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid units</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">Geographical/administrative identifier</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">NUTS3, LAU, Natura 2000 site</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">unitless</td></tr></tbody></table><p id="_2fe55e51-214f-73f8-7d5a-c2200b262748">[SOURCE: KCEO]</p><p id="_6c0ef90a-ebd1-ccda-d04d-e81d77974f58">===</p><div id="_band_central_wavelength"><h2><a class="anchor" href="#_band_central_wavelength"></a><a class="header" href="#_band_central_wavelength">2.1.  <span style="text-decoration: underline">Band central wavelength</span></a></h2>
+
+<p id="_f2558060-5cba-edff-c7ea-6b5ead15094a">A single wavelength value within the sensitivity interval of a
+spectroradiometric sensor which represents the respective band. It could
+be either the mean, the median, the maximum sensitivity, or any other
+reasonable value chosen to be representative.</p>
+
+<p class="TableTitle" style="text-align:center;">Table 2</p><table id="_b5794168-91f6-e2b1-6d4f-67db8209ffd2" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 50%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">0.545 <b>μm</b></td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">micrometre (<b>μm</b>), millimetre (mm), centimetre (cm)</td></tr></tbody></table>
+</div><div id="_confidence_interval"><h2><a class="anchor" href="#_confidence_interval"></a><a class="header" href="#_confidence_interval">2.2.  Confidence interval</a></h2>
+
+<p id="_73149eb2-f4f5-ade3-613d-f40300a2b90b">The probability that the quantity lies in the interval, conditioned on
+the measuring or modelling assumptions.</p>
+
+<p id="_3a4ff92c-fc05-c7eb-5697-2d64d51a1925">[SOURCE: KCEO]</p>
+</div><div id="_coverage_interval"><h2><a class="anchor" href="#_coverage_interval"></a><a class="header" href="#_coverage_interval">2.3.  Coverage interval</a></h2>
+
+<p id="_36757dec-601d-ae04-4602-aac9d313e74a">Interval containing the set of
+<a href="https://jcgm.bipm.org/vim/en/2.11.html">true quantity values</a> of a
+<a href="https://jcgm.bipm.org/vim/en/2.3.html">measurand</a> with a stated
+probability, based on the information available</p>
+
+<p id="_bd63a089-7d07-ff02-5538-f87106186d2d">[SOURCE: BIPM-VIM]</p>
+
+<p id="_14c0fc20-6263-f993-f578-0a53fd2584fe">#[.underline]#Latency</p>
+
+<p id="_1b300c37-ab3a-c87c-f46b-bf697475b9be">It is the period between the end of sensing of a phenomenon to the
+beginning of availability of a specific product.</p>
+
+<p class="TableTitle" style="text-align:center;">Table 3</p><table id="_65924c04-4195-8945-7427-4b6b5fc96b0a" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 50%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">1 s, 2 h,</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">second, hour, day, month, year</td></tr></tbody></table>
+
+<p id="_902ec360-a8cb-b3ad-cf94-ba57d7e87718">NOTE 1: CEOS Wiki describes latency as “the time delay introduced by
+automated data<br />
+processing or network transmission between the occurrence of an event
+and the use of the processed data.”</p>
+
+<p id="_28cf061a-28df-c3ff-b607-fa487ff72c69">[SOURCE: KCEO]</p>
+</div><div id="_location_error"><h2><a class="anchor" href="#_location_error"></a><a class="header" href="#_location_error">2.4.  <span style="text-decoration: underline">Location error</span></a></h2>
+
+<p id="_25fa7315-ed99-9940-309d-1d0197b54c80">Indicate the agreement between the represented location of an object and
+the true location.</p>
+
+<p id="_9ef1a57c-54c2-e93e-575d-000a922bace2">[SOURCE: KCEO]</p>
+</div><div id="_measurement_uncertainty"><h2><a class="anchor" href="#_measurement_uncertainty"></a><a class="header" href="#_measurement_uncertainty">2.5.  <span style="text-decoration: underline">Measurement uncertainty</span></a></h2>
+
+<p id="_19f3361e-d73e-75ac-f849-b5f1084e7480">Uncertainty associated with the method of measurement.</p>
+
+<p id="_0804e43f-4925-5ee8-87b7-db51962a73d6">[SOURCE: CEOS Wiki adopted from JCGM GUM]</p>
+</div><div id="_minimum_mapping_unit"><h2><a class="anchor" href="#_minimum_mapping_unit"></a><a class="header" href="#_minimum_mapping_unit">2.6.  <span style="text-decoration: underline">Minimum Mapping Unit</span></a></h2>
+
+<p id="_9768268e-024f-5a32-47e6-c0bf17b1d92a">The area of the smallest feature that is still represented on a map</p>
+
+<p class="TableTitle" style="text-align:center;">Table 4</p><table id="_0dba71e3-61d0-9dda-bb97-31ada53d1385" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 50%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">1 ha</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">Square meter (<b>m<sup>2</sup></b>), hectar (ha)</td></tr></tbody></table>
+
+<p id="_de3fe97b-8fd5-b1d6-13e6-20a0355abdba">[SOURCE: CGLS]</p>
+</div><div id="_minimum_mapping_width"><h2><a class="anchor" href="#_minimum_mapping_width"></a><a class="header" href="#_minimum_mapping_width">2.7.  Minimum Mapping Width</a></h2>
+
+<p id="_cf7ba037-602a-73bc-5d71-e454a0e1c470">The width of the smallest linear feature that is still represented on a
+map</p>
+
+<p class="TableTitle" style="text-align:center;">Table 5</p><table id="_fa11b627-49da-50aa-c726-30768f2f3368" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 50%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">20 m</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">Meter (m)</td></tr></tbody></table>
+
+<p id="_c197ed26-953b-1fc6-e0b9-2ff2a22ff5d0">[SOURCE: CGLS]</p>
+
+<p id="_6f81464f-27ac-2304-6408-a96d9e554093">#[.underline]#Quality indicator</p>
+
+<p id="_a2f83efd-13b6-e301-294f-bf1b0d3dd398">A quality indicator shall provide sufficient information to allow all
+users to readily evaluate<br />
+the “fitness for purpose” of the data or derived product. A Quality
+Indicator may be a number,<br />
+set of numbers, graph, uncertainty budget, or a simple “flag”.</p>
+
+<p id="_440f11ab-bdea-e3c4-4ca7-10f497152ef9">[SOURCE: CEOS Wiki]</p>
+
+<p id="_43eabbb5-f404-aadd-9e70-08cbe85732dc">#[.underline]#Spatial completeness</p>
+
+<p id="_a81c78ec-331d-ea06-d66b-0b93994a06dd">The presence or absence of gaps, which are missing values in an
+otherwise continuous spatial data series. For example, surface soil
+moisture retrieved from microwave satellite sensors may present gaps in
+mountainous terrains.</p>
+
+<p id="_c23ab5c8-f519-e86b-7c9a-8a1d346f9931">[SOURCE: KCEO]</p>
+</div><div id="_spatial_consistency"><h2><a class="anchor" href="#_spatial_consistency"></a><a class="header" href="#_spatial_consistency">2.8.  <span style="text-decoration: underline">Spatial consistency</span></a></h2>
+
+<p id="_6c45cf0c-fa29-328f-5066-f1fbed4a7ad0">It indicates that the spatial statistical properties of the data depend
+only on the underlaying physical processes and don’t depend on other
+factors such as fusing different products or sensors. Also, the validity
+of the assumptions of the procedure to produce information holds true
+across the whole spatial range.</p>
+
+<p id="_0cd6e3ef-93e9-e362-5bb5-f4c56cf8756a">[SOURCE: KCEO]</p>
+</div><div id="_spatial_extent"><h2><a class="anchor" href="#_spatial_extent"></a><a class="header" href="#_spatial_extent">2.9.  <span style="text-decoration: underline">Spatial extent</span></a></h2>
+
+<p id="_f4684293-687e-9a51-09d8-48aee424dce3">The <i>zone</i> or region of space described by a <i>geographic identifier</i> in
+the form of a label or code, or by a bounding box. It consists in the
+maximum extent (the spatial boundary or limits) within which the user is
+requesting data.</p>
+
+<p id="_63f11a5a-4098-121d-9f1e-5df5dcf661bf">The attribute represents the maximum spatial extent of the AOI, and in
+case the AOI is made of many discontinuous zones then it represents the
+maximum extent of the union of all the zones.</p>
+
+<p id="_b292e31e-6388-96e6-cb84-cfde6926fd04">For example, if a user is requesting information about degradation of
+African protected sites, then the AOIs are the protected sites, and the
+spatial extent is the African continent.</p>
+
+<p id="_b908bb13-3ca6-e09c-8ddc-ee7e9e288b1c">NOTE 1: WIGOS metadata standard defines it as the typical spatial
+georeferenced volume covered by the observations</p>
+
+<p id="_cab09e0e-900a-81c9-59f9-fad6c155f244">[SOURCE: Adapted from ISO 19170-1:2021]</p>
+</div><div id="_spatial_reporting_unit"><h2><a class="anchor" href="#_spatial_reporting_unit"></a><a class="header" href="#_spatial_reporting_unit">2.10.  <span style="text-decoration: underline">Spatial reporting unit</span></a></h2>
+
+<p id="_bec62512-aa4e-ce5d-c474-55cdc727c639">The smallest spatial object of interest that may be used for reporting
+and for which the information should be aggregated.</p>
+
+<p class="TableTitle" style="text-align:center;">Table 6</p><table id="_f80e9c40-6096-1881-6cde-32de296466d0" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 34%;" /><col style="width: 34%;" /><col style="width: 32%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Type</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid units</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Geographical/administrative identifier</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Africa, NUTS3, LAU, Natura 2000
+site</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">unitless</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Grid [x, y]</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">2 x 2 meter, 0.1 x 0.2 degrees ;</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Meter, degrees</td></tr></tbody></table>
+
+<p id="_ae916cb9-e931-ec0e-fd8a-63c2248dde3d">NOTE 1: WIGOS 2019 use ‘spatial reporting interval’ probably assuming
+the observations are reported on a grid with regular spacing/intervals.</p>
+
+<p id="_02b67f9b-2eb4-c297-872d-23da3c5bc7a0">[SOURCE: KCEO]</p>
+
+<p id="_db7dd3b7-2df5-4823-f94b-ae11f90563b2">#[.underline]#Spatial resolution</p>
+
+<p id="_7c1cf62f-7d69-2936-a525-774ca5bb914a">It is the spatial sampling scheme that determines the smallest object
+that can be identified or resolved in a gridded spatial discretization.</p>
+
+<p class="TableTitle" style="text-align:center;">Table 7</p><table id="_ac588fc3-11b5-27fe-c518-71042ba75b95" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 50%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">2 x 2 m; 0.1 x 0.4 degrees</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">Meter, degrees</td></tr></tbody></table>
+
+<p id="_16aae396-eaac-b9fe-aa81-1b4c3eb2ad55">NOTE 1: Also called <i>grid spacing</i></p>
+
+<p id="_11627f9c-56e0-69d3-ab99-2d7af60b7774">[SOURCE:]</p>
+</div><div id="_spectral_resolution"><h2><a class="anchor" href="#_spectral_resolution"></a><a class="header" href="#_spectral_resolution">2.11.  <span style="text-decoration: underline">Spectral</span> <span style="text-decoration: underline">resolution</span></a></h2>
+
+<p id="_ffe39111-8b56-9a36-fe29-a919d7a9f4f3">Measure of the ability to resolve features in the electromagnetic
+spectrum.</p>
+
+<p id="_61c2768f-b59c-245f-51d4-44c8fa1eb19c">[SOURCE: KCEO]</p>
+</div><div id="_spectral_band"><h2><a class="anchor" href="#_spectral_band"></a><a class="header" href="#_spectral_band">2.12.  <span style="text-decoration: underline">Spectral band</span></a></h2>
+
+<p id="_d52137b0-66f2-7cd9-f11d-d3120eae4ca7">Part of the electromagnetic spectrum of specific wavelengths. In remote
+sensing usually described by central wavelength and bandwidth.</p>
+</div><div id="_spectral_bandwidth"><h2><a class="anchor" href="#_spectral_bandwidth"></a><a class="header" href="#_spectral_bandwidth">2.13.  <span style="text-decoration: underline">Spectral Bandwidth</span></a></h2>
+
+<p id="_1b2ca212-cfea-ef0e-8ddf-e7fa669f539c">the range of the spectral band</p>
+
+<p class="TableTitle" style="text-align:center;">Table 8</p><table id="_6f695a57-43f9-3b2f-67ce-df1551f210f6" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 50%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">0.429-0.457 <b>μm</b></td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">micrometre (<b>μm</b>), millimetre (mm), centimetre (cm)</td></tr></tbody></table>
+
+<p id="_1e3793c0-1d2b-18a8-cedf-d33df9db814f">#[.underline]#Stability</p>
+
+<p id="_33ec4a71-35b4-5169-8658-61ee49379ced">It refers to the maximum acceptable change in uncertainty per decade.</p>
+
+<p id="_370784de-fdca-cfb0-1a2a-5a841b29a798">NOTE 1: GCOS uses bias or systematic errors instead of uncertainty</p>
+
+<p id="_6166d112-b8ed-ee9f-7acd-b1ba8d4277aa">[SOURCE: modified from GCOS 2022]</p>
+
+<p id="_3cee6da7-84e8-4f69-e076-29bbcc031ae0">#[.underline]#Temporal consistency</p>
+
+<p id="_e735b3ae-f8c6-c354-a893-8f224468faac">It indicates that the temporal statistical properties of the sample
+depend only on the underlaying physical processes and don’t depend on
+other factors such as fusing different products or sensors.</p>
+
+<p id="_d948d346-71a9-7fca-5260-7e1a149a2895">[SOURCE: KCEO]</p>
+</div><div id="_temporal_extent"><h2><a class="anchor" href="#_temporal_extent"></a><a class="header" href="#_temporal_extent">2.14.  <span style="text-decoration: underline">Temporal extent</span></a></h2>
+
+<p id="_3aa4af71-0a45-e095-379f-5139a02ecd7f">The period during which data was collected, observations were made, or
+model was run.</p>
+
+<p class="TableTitle" style="text-align:center;">Table 9</p><table id="_94ea30bb-4b3b-6c85-5209-7848185e1bf9" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 50%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">Y/m/d — Y/m/d</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">Not Applicable</td></tr></tbody></table>
+
+<p id="_92007e84-2494-3d49-6fb9-2bef72ceaaa6">NOTE 1: In W3C is the definition of temporal coverage</p>
+
+<p id="_c4e5ff59-03e0-151c-0dbc-cfafdc03ea64">NOTE 2: Time period covered by a series of observations inclusive of the
+specified date/time indications (measurement history). Defined based on
+the beginning and end dates of observations. WIGOS Metadata]</p>
+
+<p id="_3d6c70c9-c19b-cec8-e73c-4f2cf94b45b8">[SOURCE: adapted from W3C]</p>
+</div><div id="_temporal_reporting_period"><h2><a class="anchor" href="#_temporal_reporting_period"></a><a class="header" href="#_temporal_reporting_period">2.15.  <span style="text-decoration: underline">Temporal reporting period</span></a></h2>
+
+<p id="_7933537e-d420-be8b-0bd7-aa4f8a2600bf">The time period used for reporting and for which the information should
+be aggregated from the native temporal resolution.</p>
+
+<p class="TableTitle" style="text-align:center;">Table 10</p><table id="_cf231a26-b78e-db34-96ec-964946d94a6f" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 50%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">1 s, 2 h, 1 d</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">second, hour, day, month, year</td></tr></tbody></table>
+
+<p id="_df7ac4a9-915d-5729-8ee7-2c810577b06d">[SOURCE: modified WIGOS Metadata Standard 2019]</p>
+</div><div id="_temporal_resolution"><h2><a class="anchor" href="#_temporal_resolution"></a><a class="header" href="#_temporal_resolution">2.16.  <span style="text-decoration: underline">Temporal</span> <span style="text-decoration: underline">resolution</span></a></h2>
+
+<p id="_83f992b5-4570-9d27-ed96-88720a9a9474">The observation or model output representing regular intervals and
+specifying the length of the interval that determines the smallest event
+or process that can be resolved. (e.g., the period between observations,
+the time steps in a model).</p>
+
+<p class="TableTitle" style="text-align:center;">Table 11</p><table id="_2008c0be-ec87-5297-a663-e080d7e7419a" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 50%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">1 s, 2 h, 1 m</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">second, hour, day, month, year</td></tr></tbody></table>
+
+<p id="_37c4bf9b-ba26-9c0a-c70a-c9aedc4d42d9">NOTE 1: WIGOS 2019 distinguishes between <i>sampling time period</i>, as the
+period over which a measurement is taken, and <i>temporal sampling interval</i> as the time period between the beginning of consecutive
+sampling periods. Temporal resolution in this Glossary is equivalent to
+sampling time period as used by WIGOS.</p>
+
+<p id="_f632b80c-592f-08f0-ccf0-9f504b2aa532">[SOURCE: KCEO]</p>
+</div><div id="_temporal_revisit"><h2><a class="anchor" href="#_temporal_revisit"></a><a class="header" href="#_temporal_revisit">2.17.  <span style="text-decoration: underline">Temporal revisit</span></a></h2>
+
+<p id="_47887172-60b2-9f1d-aa6e-43132b450df7">The interval between successive observations</p>
+
+<p class="TableTitle" style="text-align:center;">Table 12</p><table id="_0f0ea6ec-740e-b580-179a-1132916c862a" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 50%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">1 s, 2 h</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">second, hour, day, month, year</td></tr></tbody></table>
+
+<p id="_1d6c1f29-9ccc-eef1-d9e4-70b08c723073">NOTE 1: In remote sensing it is also called repeat cycle</p>
+
+<p id="_6a7840dd-ef6c-6d9f-8bdf-38d4b0c3eff1">NOTE 2: More generally it is known as <b>temporal sampling interval</b></p>
+
+<p id="_547026f7-7477-a381-9ee1-4407048516f8">[SOURCE: KCEO]</p>
+</div><div id="_time_of_year"><h2><a class="anchor" href="#_time_of_year"></a><a class="header" href="#_time_of_year">2.18.  Time of year</a></h2>
+
+<p id="_11201b83-9adc-9704-83c0-a0135ca197f1">the time of the year that the variable is observed or simulated by a
+model</p>
+
+<p class="TableTitle" style="text-align:center;">Table 13</p><table id="_76bd4025-7b01-b85d-69cd-57a036fa1517" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 25%;" /><col style="width: 25%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">type</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">timestamp</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">m/d</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Not Applicable</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">timerange</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">m/d — m/d</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Not Applicable</td></tr></tbody></table>
+
+<p id="_90acd0b0-53ca-8c01-06ef-42b8e52e3f34">[SOURCE: KCEO]</p>
+</div><div id="_time_of_day"><h2><a class="anchor" href="#_time_of_day"></a><a class="header" href="#_time_of_day">2.19.  <span style="text-decoration: underline">Time of day</span></a></h2>
+
+<p id="_c6834972-15e7-b28c-f5d6-d8697acc06dc">the time of the day that the variable or parameter is observed or
+simulated by a model</p>
+
+<p class="TableTitle" style="text-align:center;">Table 14</p><table id="_dc9e87c4-0ba1-7fd7-8bc1-9fa787506ab0" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 25%;" /><col style="width: 25%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">type</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">timestamp</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">18:00 h (0-24)</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Hours</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">timerange</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">18:00 – 20:00 h</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Hours</td></tr></tbody></table>
+
+<p id="_9e3a9fa2-5950-875f-c90a-97d5f84a733b">NOTE 1: In remote sensing it is also known as time of overpass</p>
+
+<p id="_65273517-8716-bbb8-4afb-653a675278e5">[SOURCE: KCEO]</p>
+
+<p id="_8242b4a6-a924-04d1-c1ea-1776982645fb">##Timeliness</p>
+
+<p id="_b0f8ba79-de99-20e3-9090-72df7c5198cc">It is the period between the moment of requesting information to the
+moment of availability of information.</p>
+
+<div class="ul_wrap"><ul id="_a5deda15-ac88-8bd6-d803-70a51eec55f5"><li><p id="_2dd24e32-c866-9fd7-f769-bd33bbc132d1">Near Real-Time (NRT): delivered less than 3 hours after requesting
+information</p>
+</li>
+<li><p id="_e62dccff-446f-9eaf-b1d3-f7d6a0413f2a">Slow-Time Critical (STC): delivered within 48 hours after requesting
+information</p>
+</li>
+<li><p id="_7d262870-a9dd-082d-8b3d-004af361d9ac">Non-Time Critical (NTC): typically delivered within 1 month after
+requesting information</p>
+</li>
+</ul></div>
+
+<p id="_6a3f1479-a163-9136-2072-9a7d4e7f1036">NOTE 1: In some context also known as delivery time.</p>
+
+<p id="_9eb57f89-3acf-bc0b-7269-7cf5d5f381df">NOTE 2: C3S URDB describes timeliness as “the ability of the
+publish/subscribe middleware to provide the expected service within
+known time bounds”</p>
+
+<p id="_0df8836d-a9e8-affb-6805-8076b3f0bb37">[SOURCE: Adapted from ESA S3 User Guide]</p>
+
+<p id="_ec8b0f72-46db-949a-9e29-76ace89455e8">#[.underline]#Vertical <span style="text-decoration: underline">levels</span></p>
+
+<p id="_15ba74d7-5523-2580-e861-3a0165fd3b4f">Levels of a vertical discretization. Examples may be pressure levels in
+an atmospheric model reanalysis or height levels in a forest biomass EO
+product.</p>
+
+<p class="TableTitle" style="text-align:center;">Table 15</p><table id="_c792134e-39a3-07e4-75fb-c1dcab4dcf1f" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 50%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">1,5,10 meter; 1000, 850, 500 hPa</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">meter, hPa, unitless</td></tr></tbody></table>
+
+<p id="_047b5a33-6934-65eb-8ba3-e683baf37dc4">[SOURCE: KCEO]</p>
+</div></div><div id="_eo_derivedapplication_attributes"><h1><a class="anchor" href="#_eo_derivedapplication_attributes"></a><a class="header" href="#_eo_derivedapplication_attributes">3.  EO-derived/Application attributes</a></h1><div id="_baseline"><h2><a class="anchor" href="#_baseline"></a><a class="header" href="#_baseline">3.1.  Baseline</a></h2>
+
+<p id="_77a4afec-6262-d692-3497-e1a274691551">It is the reference period, time or measure against which the
+information is assessed or compared. For example, in climate change
+projections a baseline may be any 30-year period of observations
+(1961-1990, etc.) used as reference to calculate the future change; In
+monitoring wetlands degradation one of the indicators of wetlands
+condition is wetland connectivity, so that setting the baseline year to
+compute the baseline indicator of wetlands connectivity can be used to
+report the indicator change for all the other years.</p>
+
+<p class="TableTitle" style="text-align:center;">Table 16</p><table id="_89a8e4db-7b8d-d394-1006-fc940850c1e5" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 50%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">2000; 1990-2020</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">year</td></tr></tbody></table>
+
+<p id="_58e0b0e8-77ad-da1a-27bd-4cc2732c9a5d">[SOURCE: KCEO]</p>
+</div><div id="_classification_system"><h2><a class="anchor" href="#_classification_system"></a><a class="header" href="#_classification_system">3.2.  Classification system</a></h2>
+
+<p id="_5e4cbbd1-1a7a-ee3c-4b31-3c955b7203d0">The nomenclature used to classify the information in categorical
+thematic classes (ex: EUNIS, MAES ecosystems, Corine Land Cover, LCCS).</p>
+
+<p id="_d2e9e243-5a3b-109f-4aff-db89133ae270">[SOURCE: KCEO]</p>
+</div><div id="_classification_system_levels"><h2><a class="anchor" href="#_classification_system_levels"></a><a class="header" href="#_classification_system_levels">3.3.  Classification system levels</a></h2>
+
+<p id="_ee4e2732-e7a3-9fcd-f142-5199339f1e15">The levels in a hierarchical classification system. For example, Corine
+Land Cover is made up of three nested levels that classify land cover
+with increasing details:</p>
+
+<p id="_7ea691df-c1d8-c5a8-c6ec-6c6ffe400e6f"><i>2 Agricultural Areas</i></p>
+
+<p id="_6b885884-070f-215e-83ed-c0fcdf76f061"><i>2.1 Arable lands</i></p>
+
+<div class="Quote" id="_024d98bc-31f2-d966-81dc-931cd4602ccd"><p id="_5f53ab4d-59e1-dbe2-0ebf-38a0874bd326"><i>2.1.1 Non-irrigated arable land</i></p>
+
+<p id="_38e8c826-5b84-55f9-fcf3-3edd0ad89655"><i>2.1.2 Permanently irrigated land</i></p>
+
+<p id="_7f3cf6c5-449a-4661-88f0-890a3b66ed0a"><i>2.1.3 Rice fields</i></p>
+</div>
+
+<p id="_37be1df3-d385-1108-f802-253823756033">[SOURCE: KCEO]</p>
+
+<p id="_41241c47-f987-4a40-9a1a-2072577edf05">##Climate projection</p>
+
+<p id="_ddbddbd8-8db9-d958-e074-3ac8089178ec">A climate projection is the simulated response of the climate system to
+a scenario of future emission or concentration of greenhouse gases
+(GHGs) and aerosols, generally derived using climate models. Climate
+projections are distinguished from climate predictions by their
+dependence on the emission/concentration/radiative forcing scenario
+used, which is in turn based on assumptions concerning, for example,
+future socioeconomic and technological developments that may or may not
+be realized.</p>
+
+<p id="_acbba35d-6a6d-886d-d397-564c68189613">[SOURCE: IPCC]</p>
+</div><div id="_forecast_range"><h2><a class="anchor" href="#_forecast_range"></a><a class="header" href="#_forecast_range">3.4.  Forecast range</a></h2>
+
+<p id="_ae96bf73-d744-1998-62ae-9cebdb1a8c71">The forecasted period</p>
+
+<p id="_91d710c5-d7ba-b96f-8dde-65068ca66ed3">[SOURCE: KCEO]</p>
+</div><div id="_forecast_lead_time"><h2><a class="anchor" href="#_forecast_lead_time"></a><a class="header" href="#_forecast_lead_time">3.5.  Forecast lead time</a></h2>
+
+<p id="_a7ffffcd-67eb-1cf8-af3f-3a046fd11f54">The length of time between the issuance of a forecast and the occurrence
+of the phenomena that were predicted. It is expressed in time intervals
+in a forecasted period, for example 6-hour intervals for a medium-range
+forecast.</p>
+
+<p class="TableTitle" style="text-align:center;">Table 17</p><table id="_aa24dca0-c743-0f96-7196-8faa98e2ddc5" class="MsoISOTable" style="border-width:1px;border-spacing:0;width:100%;table-layout:fixed;"><colgroup><col style="width: 50%;" /><col style="width: 50%;" /></colgroup><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Entry format example</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Valid unit</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">6 h, 1 d</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;">Year, month, day, hour</td></tr></tbody></table>
+
+<p id="_35382f02-765b-f58c-72cb-2d2ea9d104e4">NOTE 1: UNTERM, International Glossary of Hydrology, WMO/UNESCO, 2011
+describes forecast lead time as “interval of time between the issuing of
+a forecast (warning) and the expected occurrence of the forecast event”</p>
+
+<p id="_16220b83-cbe3-b90f-fd60-11253e4dce48">[SOURCE: KCEO]</p>
+</div><div id="_thematic_resolution"><h2><a class="anchor" href="#_thematic_resolution"></a><a class="header" href="#_thematic_resolution">3.6.  <span style="text-decoration: underline">Thematic resolution</span></a></h2>
+
+<p id="_8b4228c8-b066-b35d-3317-64e51284b486">The level of categorical detail of information expressed by the number
+of classes</p>
+
+<p id="_1b325772-d898-0cf5-4d51-510830f0de81">[SOURCE: CGLS]</p>
+</div><div id="_thematic_uncertainty"><h2><a class="anchor" href="#_thematic_uncertainty"></a><a class="header" href="#_thematic_uncertainty">3.7.  Thematic uncertainty</a></h2>
+
+<p id="_997eb674-361a-e4bb-62ad-5734fb7abd4c">Uncertainty associated with the method of classification.</p>
+
+<p id="_c6ba60f9-d575-1005-6690-1a9c9b843189">NOTE 1: Typically, it is computed from the error matrix.</p>
+
+<p id="_479e61d6-40a6-8888-0985-239680dc5d5b">NOTE 2: For a review of classification uncertainty metrics consult Ye et
+al. 2018.</p>
+
+<p id="_b1db5731-c16d-266f-d4e4-abc1a06272da">[SOURCE: KCEO]</p>
+</div></div><div id="_climate_adaptation"><h1><a class="anchor" href="#_climate_adaptation"></a><a class="header" href="#_climate_adaptation">4.  Climate Adaptation</a></h1><div id="_outcome_impact"><h2><a class="anchor" href="#_outcome_impact"></a><a class="header" href="#_outcome_impact">4.1.  Outcome &#x26; Impact</a></h2>
+
+<p id="_be8321b2-4522-5841-a2de-33067ac7a179">Outcome is regarded short-term, while impact is regarded long-term
+according to X. However, in the Horizon Europe Missions terminology,
+impact is regarded short-term.</p>
+</div></div><div id="_other"><h1><a class="anchor" href="#_other"></a><a class="header" href="#_other">5.  Other</a></h1><div id="_data_access"><h2><a class="anchor" href="#_data_access"></a><a class="header" href="#_data_access">5.1.  Data access</a></h2>
+
+<p id="_b6c6bb61-4824-fedc-b90f-1a6e736b1c23">The service to disseminate data</p>
+
+<p id="_41d94f29-350d-55bf-a2d5-d109b67c9dd1">[SOURCE: KCEO]</p>
+
+<p id="_8a3d548b-da41-260b-e1fd-f3331c99391e">===</p>
+</div><div id="_data_format"><h2><a class="anchor" href="#_data_format"></a><a class="header" href="#_data_format">5.2.  Data format</a></h2>
+
+<p id="_8c546e95-dbfb-9c73-d69d-b56e9942e063">Structured data that is machine readable and can be automatically read
+and processed by a computer, such as HDF, NetCDF, CSV, JSON, XML, etc.</p>
+
+<p id="_ac7e90be-1d4c-dab1-532e-d9290047db40">[SOURCE: CEOS Wiki]</p>
+</div><div id="_data_licencing"><h2><a class="anchor" href="#_data_licencing"></a><a class="header" href="#_data_licencing">5.3.  Data licencing</a></h2>
+
+<p id="_694e925c-b1b0-13d1-0e41-dc614f45a9ec">A legal instrument by which a copyright holder may grant rights over the
+protected work. Data and content is open if it is subject to an
+explicitly-applied licence that conforms to the Open Definition. A range
+of standard open licenses are available, such as the Creative Commons
+CC-BY licence, which requires only attribution.</p>
+
+<p id="_463977bc-457c-0c73-799f-919c74c8b94c">[SOURCE: CEOS Wiki]</p>
+</div><div id="_dwell_time"><h2><a class="anchor" href="#_dwell_time"></a><a class="header" href="#_dwell_time">5.4.  Dwell time</a></h2>
+
+<p id="_97976b1e-61e3-988a-0953-8a7666f9e5dd">The time that an antenna beam spends on a target.</p>
+
+<p id="_783041e6-61fe-9199-f62f-407f06c29d79">NOTE 1: in the context of radar sensing</p>
+</div><div id="_policy"><h2><a class="anchor" href="#_policy"></a><a class="header" href="#_policy">5.5.  Policy</a></h2>
+
+<p id="_aadbb3b5-9b8f-d1bb-8ff9-ec85d86c57db">A deliberate system of guidelines to guide decisions and achieve
+rational outcomes. A policy is a statement of intent and is implemented
+as a procedure or protocol. Policies are typically promulgated through
+official written documents.</p>
+
+<p id="_217a4d83-d9ad-1bcc-98af-1e48293ef416">[SOURCE: Wikipedia]</p>
+</div><div id="_policy_files"><h2><a class="anchor" href="#_policy_files"></a><a class="header" href="#_policy_files">5.6.  Policy file(s)</a></h2>
+
+<p id="_26528ec4-c108-badb-a920-4faaf3032fd1">One or more policy documents that represent the official written
+reference for a given Policy.</p>
+
+<p id="_cb0bb5b5-0197-6df2-23ca-698ce9dbe2a8">[SOURCE: KCEO]</p>
+</div><div id="_policy_cycle"><h2><a class="anchor" href="#_policy_cycle"></a><a class="header" href="#_policy_cycle">5.7.  Policy cycle</a></h2>
+
+<p id="_1f39ae6f-1e0e-edc7-4270-9f33177bcd92">A well-established concept, which is typically taught as the rational
+model of policy decision-making. It is an idealised view of the policy
+process</p>
+
+<p id="_6535d8ae-8a33-2a9d-ec90-9e93624bba04">[SOURCE:
+<a href="https://digital-strategy.ec.europa.eu/en/library/quality-public-administration-toolbox-practitioners">https://digital-strategy.ec.europa.eu/en/library/quality-public-administration-toolbox-practitioners</a>]</p>
+</div><div id="_policy_making"><h2><a class="anchor" href="#_policy_making"></a><a class="header" href="#_policy_making">5.8.  Policy making</a></h2>
+
+<p id="_9e961f6e-3d06-d1d1-a39c-078f843e24f8">The process by which governments translate their political vision into
+programmes and actions to deliver ‘outcomes’ — desired change in the
+real world.</p>
+
+<p id="_bf79333a-5625-741f-3860-5c0897a76c35">[SOURCE:
+<a href="https://digital-strategy.ec.europa.eu/en/library/quality-public-administration-toolbox-practitioners">https://digital-strategy.ec.europa.eu/en/library/quality-public-administration-toolbox-practitioners</a>]</p>
+</div><div id="_policy_milestone"><h2><a class="anchor" href="#_policy_milestone"></a><a class="header" href="#_policy_milestone">5.9.  Policy milestone</a></h2>
+
+<p id="_1a09a159-de86-0a06-34b8-cdb6cdc931da">Policy milestones mark significant progress in addressing specific
+issues, or crucial decision points where significant choices are made.
+Concrete examples of policy milestones are: policy planning and
+proposing, impact assessment, implementation, or implementation cycles
+(e.g., Water Framework Directive, Marine Strategy Framework Directive),
+achievement of policy objectives and policy targets, evaluating and
+improvement of existing laws.</p>
+</div><div id="_source_kceo"><h2><a class="anchor" href="#_source_kceo"></a><a class="header" href="#_source_kceo">5.10.  [Source: KCEO]</a></h2>
+
+<p id="_11167d09-0930-ea9b-88ad-a0e2334e4292">===</p>
+</div><div id="_policy_objective"><h2><a class="anchor" href="#_policy_objective"></a><a class="header" href="#_policy_objective">5.11.  Policy objective</a></h2>
+
+<p id="_fdc1142b-088d-9244-245c-6f5adc3a3e61">Desired outcome that policymakers wish to achieve</p>
+</div><div id="_policy_target"><h2><a class="anchor" href="#_policy_target"></a><a class="header" href="#_policy_target">5.12.  Policy target</a></h2>
+
+<p id="_e7b18385-5370-ff32-fc53-6b2910b53ffd">Specific level or rate set for the policy objective</p>
+</div><div id="_update_frequency"><h2><a class="anchor" href="#_update_frequency"></a><a class="header" href="#_update_frequency">5.13.  Update frequency</a></h2>
+
+<p id="_859a4267-1962-7f1d-f467-83338a2b3f7b">The frequency at which the product is available to users.</p>
+
+<p id="_26edaa82-c0ed-4246-4b6b-410ac2fed39d">NOTE 1: also known in product catalogues as dissemination frequency</p>
+
+<p id="_862a97cf-996f-52d6-157c-465f2eab652e">[SOURCE: KCEO]</p>
+</div><div id="_user_interface"><h2><a class="anchor" href="#_user_interface"></a><a class="header" href="#_user_interface">5.14.  User Interface</a></h2>
+
+<p id="_2de64d2d-c5ed-0333-fee4-77bc7d91cf5c">Set of all the components of an interactive system that provide
+information and controls for the user to accomplish specific tasks with
+the interactive system</p>
+
+<p id="_f71b556d-4915-d9df-04ae-c4d1f4528581">[SOURCE:ISO 9241-110:2020, 3.10]</p>
+</div></div><div id="_resourcesglossaries"><h1><a class="anchor" href="#_resourcesglossaries"></a><a class="header" href="#_resourcesglossaries">6.  Resources/Glossaries</a></h1><p id="_aceba161-4ac4-c5ea-7d51-35533675c868">IPCC <a href="https://www.ipcc.ch/sr15/chapter/glossary/">https://www.ipcc.ch/sr15/chapter/glossary/</a></p><p id="_ccd49fef-20ab-5e83-da77-5bb8e0a08b88">UNTERM <a href="https://unterm.un.org/unterm2/en/">https://unterm.un.org/unterm2/en/</a></p><p id="_bd559f65-5a3c-abaa-f95c-d60adf1e3d50">GEOLEXICA OSGEO <a href="https://osgeo.geolexica.org/">https://osgeo.geolexica.org/</a></p><p id="_00f83990-d57c-933f-aca0-2f6721fc0210">W3C:https://w3c.github.io/sdw/bp</p><p id="_0c35d070-75aa-e6c4-8784-10e24af528a2">INSPIRE-WCS: <a href="https://inspire-wcs.eu">https://inspire-wcs.eu</a></p><p id="_e4afcdd2-0439-48ce-3789-5997aaf315cb">GCOS-154: <a href="https://library.wmo.int/doc_num.php?explnum_id=3710">https://library.wmo.int/doc_num.php?explnum_id=3710</a></p><p id="_85903e82-04bd-fcc4-0360-1b347e2677eb">GEOGlos: gEOGlos</p><p id="_4315e291-e759-55ef-bc57-4a83600cf387">CEOS-ARD: <a href="https://ceos.org/ard/">https://ceos.org/ard/</a></p><p id="_7c2bb417-ce70-b24f-33bc-7cf3dade16a0">CEOS Wiki: <a href="https://calvalportal.ceos.org/t-d_wiki">https://calvalportal.ceos.org/t-d_wiki</a></p><p id="_7e3eaa68-f7b9-9966-111a-5a9f34a08250">EFSG: <a href="https://www.efgs.info/information-base/introduction/terminology/">https://www.efgs.info/information-base/introduction/terminology/</a></p><p id="_2957cead-acb6-4852-816f-fce4dfab86bd">ESC:
+<a href="http://undocs.org/ece/trans/sc.1/ge.21/2018/1">ECE/TRANS/SC.1/GE.21/2018/1</a></p><p id="_54a34a88-d247-70b9-f6bb-f30abced569b">ESA:
+<a href="https://earth.esa.int/eogateway/documents/20142/37627/Mission-Quality-Assessment-Guidelines-v2.2.pdf/033c703e-02f8-d993-9859-560aeb61d2a0?version=1.0&#x26;t=1676561363850">https://earth.esa.int/eogateway/documents/20142/37627/Mission-Quality-Assessment-Guidelines-v2.2.pdf/033c703e-02f8-d993-9859-560aeb61d2a0?version=1.0&#x26;t=1676561363850</a></p><p id="_68eb2684-93c1-a335-2f9f-28a9add61fa1">WMO-WIGOS <a href="https://library.wmo.int/doc_num.php?explnum_id=10109">https://library.wmo.int/doc_num.php?explnum_id=10109</a></p><p id="_e0ebff9d-8fed-d529-1743-0429202cbab1">ESA S3 User Guide
+<a href="https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-altimetry/product-types/nrt-or-ntc">https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-altimetry/product-types/nrt-or-ntc</a></p><p id="_9bc26168-3306-87ce-fc11-ae9b11e7e83d">BIPM <a href="https://www.bipm.org/en/">https://www.bipm.org/en/</a></p><p id="_d443b901-95a6-1f9d-4ff4-025184fa7fc1">JCGM GUM
+<a href="https://www.bipm.org/documents/20126/50065290/JCGM_GUM_6_2020.pdf/d4e77d99-3870-0908-ff37-c1b6a230a337">https://www.bipm.org/documents/20126/50065290/JCGM_GUM_6_2020.pdf/d4e77d99-3870-0908-ff37-c1b6a230a337</a></p><p id="_ceff2ed3-6d28-ee1a-c266-74ce7a5d7477">BIPM VIM <a href="https://jcgm.bipm.org/vim/en/">https://jcgm.bipm.org/vim/en/</a></p><p id="_da5f9b61-b50b-af90-1706-c107d4f3a163">CGLS Copernicus Global Land Service</p><p id="_ec8ccb7b-0c80-93ec-e41b-17503dab0a9a">FIDUCEO <a href="https://research.reading.ac.uk/fiduceo/glossary/">https://research.reading.ac.uk/fiduceo/glossary/</a></p><p id="_dd8fe565-2f01-f58b-5573-67ecaaee0d97">ISO 8601-1:2019 Date and time — Representations for information
+interchange — Part 1: Basic rules</p><p id="_cb1aaa97-2199-68c5-88b1-6783ca7db3e4">ISO 191790-1:2021 Geographic information – Discrete Global Grid Systems
+Specifications – Part 1: Core Reference System and Operations, and Equal
+Area Earth Reference SYstem</p><p id="_e5f6f7b7-999e-d7ff-cd18-a10e276466e2">Temporal elements referenced in WIGOS metadata</p></div><div id="_references"><h1><a class="anchor" href="#_references"></a><a class="header" href="#_references">7.  References</a></h1><p id="_9833038a-6c57-af68-497e-7b0820534ebf">Ye, S., Pontius, R. G., &#x26; Rakshit, R. (2018). A review of accuracy
+assessment for object-based image analysis: From per-pixel to
+per-polygon approaches. In ISPRS Journal of Photogrammetry and Remote
+Sensing (Vol. 141, pp. 137–147). Elsevier B.V.
+<a href="https://doi.org/10.1016/j.isprsjprs.2018.04.002">https://doi.org/10.1016/j.isprsjprs.2018.04.002</a></p></div></main><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": { preferredFont: "STIX" },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+ });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+  //TOC toggle animation
+$('#toggle').on('click', function(){
+    if( $('nav').is(':visible') ) {
+        $('nav').animate({ 'left': '-353px' }, 'slow', function(){
+            $('nav').hide();
+        });
+        $('body').animate({ 'margin-left': '0' }, 'slow');
+    }
+    else {
+        $('nav').show();
+        $('nav').animate({ 'left': '0px' }, 'slow');
+        $('body').animate({ 'margin-left': '298px' }, 'slow');
+    }
+});
+</script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div />", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+</body></html>
