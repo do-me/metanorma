@@ -8,24 +8,28 @@ WARNING: Font file '/root/.metanorma/fonts/SourceHanSans-Normal.ttc' (font name 
 WARNING: Font file '/root/.metanorma/fonts/SourceHanSans-Normal.ttc' (font name 'Source Han Sans', font style 'italic', font weight 'normal') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSans-Italic.ttf'.
 WARNING: Font file '/root/.metanorma/fonts/SourceHanSans-Normal.ttc' (font name 'Source Han Sans', font style 'italic', font weight 'bold') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSans-BoldItalic.ttf'.
 WARNING: Font file '/root/.metanorma/fonts/SourceHanSans-Bold.ttc' (font name 'Source Han Sans', font style 'normal', font weight 'bold') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSans-Bold.ttf'.
+WARNING: Font 'Courier' (font name 'Courier', font style 'normal', font weight 'normal') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSansMono-Regular.ttf'.
+WARNING: Font 'Courier' (font name 'Courier', font style 'normal', font weight 'bold') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSansMono-Bold.ttf'.
+WARNING: Font 'Courier' (font name 'Courier', font style 'italic', font weight 'normal') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSansMono-Regular.ttf'.
+WARNING: Font 'Courier' (font name 'Courier', font style 'italic', font weight 'bold') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSansMono-Bold.ttf'.
 
-WARNING: An fo:table (id='_bd46338b-d727-a03a-4a4f-91fd185d60cd')  (See position 456:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_b5794168-91f6-e2b1-6d4f-67db8209ffd2')  (See position 477:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_65924c04-4195-8945-7427-4b6b5fc96b0a')  (See position 508:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_0dba71e3-61d0-9dda-bb97-31ada53d1385')  (See position 543:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_fa11b627-49da-50aa-c726-30768f2f3368')  (See position 559:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_f80e9c40-6096-1881-6cde-32de296466d0')  (See position 626:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_ac588fc3-11b5-27fe-c518-71042ba75b95')  (See position 650:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_6f695a57-43f9-3b2f-67ce-df1551f210f6')  (See position 681:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_94ea30bb-4b3b-6c85-5209-7848185e1bf9')  (See position 711:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_cf231a26-b78e-db34-96ec-964946d94a6f')  (See position 733:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_2008c0be-ec87-5297-a663-e080d7e7419a')  (See position 751:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_0f0ea6ec-740e-b580-179a-1132916c862a')  (See position 771:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_76bd4025-7b01-b85d-69cd-57a036fa1517')  (See position 791:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_dc9e87c4-0ba1-7fd7-8bc1-9fa787506ab0')  (See position 812:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_c792134e-39a3-07e4-75fb-c1dcab4dcf1f')  (See position 859:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_89a8e4db-7b8d-d394-1006-fc940850c1e5')  (See position 882:605) is wider than the available width of page. Please check this overflowing table on the page 1.
-WARNING: An fo:table (id='_aa24dca0-c743-0f96-7196-8faa98e2ddc5')  (See position 948:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_bd46338b-d727-a03a-4a4f-91fd185d60cd')  (See position 399:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_b5794168-91f6-e2b1-6d4f-67db8209ffd2')  (See position 420:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_65924c04-4195-8945-7427-4b6b5fc96b0a')  (See position 451:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_0dba71e3-61d0-9dda-bb97-31ada53d1385')  (See position 486:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_fa11b627-49da-50aa-c726-30768f2f3368')  (See position 502:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_f80e9c40-6096-1881-6cde-32de296466d0')  (See position 569:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_ac588fc3-11b5-27fe-c518-71042ba75b95')  (See position 593:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_6f695a57-43f9-3b2f-67ce-df1551f210f6')  (See position 624:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_94ea30bb-4b3b-6c85-5209-7848185e1bf9')  (See position 654:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_cf231a26-b78e-db34-96ec-964946d94a6f')  (See position 676:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_2008c0be-ec87-5297-a663-e080d7e7419a')  (See position 694:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_0f0ea6ec-740e-b580-179a-1132916c862a')  (See position 714:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_76bd4025-7b01-b85d-69cd-57a036fa1517')  (See position 734:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_dc9e87c4-0ba1-7fd7-8bc1-9fa787506ab0')  (See position 755:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_c792134e-39a3-07e4-75fb-c1dcab4dcf1f')  (See position 802:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_89a8e4db-7b8d-d394-1006-fc940850c1e5')  (See position 825:605) is wider than the available width of page. Please check this overflowing table on the page 1.
+WARNING: An fo:table (id='_aa24dca0-c743-0f96-7196-8faa98e2ddc5')  (See position 891:605) is wider than the available width of page. Please check this overflowing table on the page 1.
 Bookmarks: Unresolved ID reference "_introduction" found.
 Page ii: Unresolved ID reference "_introduction" found.
 Can't add annotation.
@@ -39,4 +43,8 @@ WARNING: Font file '/root/.metanorma/fonts/SourceHanSans-Normal.ttc' (font name 
 WARNING: Font file '/root/.metanorma/fonts/SourceHanSans-Normal.ttc' (font name 'Source Han Sans', font style 'italic', font weight 'normal') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSans-Italic.ttf'.
 WARNING: Font file '/root/.metanorma/fonts/SourceHanSans-Normal.ttc' (font name 'Source Han Sans', font style 'italic', font weight 'bold') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSans-BoldItalic.ttf'.
 WARNING: Font file '/root/.metanorma/fonts/SourceHanSans-Bold.ttc' (font name 'Source Han Sans', font style 'normal', font weight 'bold') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSans-Bold.ttf'.
+WARNING: Font 'Courier' (font name 'Courier', font style 'normal', font weight 'normal') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSansMono-Regular.ttf'.
+WARNING: Font 'Courier' (font name 'Courier', font style 'normal', font weight 'bold') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSansMono-Bold.ttf'.
+WARNING: Font 'Courier' (font name 'Courier', font style 'italic', font weight 'normal') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSansMono-Regular.ttf'.
+WARNING: Font 'Courier' (font name 'Courier', font style 'italic', font weight 'bold') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSansMono-Bold.ttf'.
 

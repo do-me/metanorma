@@ -1,7 +1,7 @@
 MIME-Version: 1.0
-Content-Type: multipart/related; boundary="----=_NextPart_cef467c5.40a1.45c0"
+Content-Type: multipart/related; boundary="----=_NextPart_693755a0.5691.490d"
 
-------=_NextPart_cef467c5.40a1.45c0
+------=_NextPart_693755a0.5691.490d
 Content-ID: <KCEOGlossary.htm>
 Content-Disposition: inline; filename="KCEOGlossary.htm"
 Content-Type: text/html; charset="utf-8"
@@ -1124,125 +1124,69 @@ abreast of the ever-evolving landscape of Earth observation.</p>
         <h1>1.<span style="mso-tab-count:1">&#xA0; </span>General terms</h1>
         <div><a name="_ancillary_data" id="_ancillary_data"></a><h2>1.1.<span style="mso-tab-count:1">&#xA0; </span>Ancillary data</h2>
 
-<table class="dl"><a name="_229ca11a-0292-ef0b-f421-15d792fcdbff" id="_229ca11a-0292-ef0b-f421-15d792fcdbff"></a><tr><td valign="top" align="left"><p align="left" style="margin-left:0pt;text-align:left;" class="MsoNormal">Ancillary data</p></td><td valign="top"><p class="MsoNormal"><a name="_f096e9a2-8f75-abd3-4ef4-5570cac89e9b" id="_f096e9a2-8f75-abd3-4ef4-5570cac89e9b"></a>Data acquired on-board but not obtained from the main instrument
-itself (usually provided as part of Level 0 data). They have the primary
-purpose to serve the processing of main instrument data (e.g. orbit
-position and velocity of platform).</p>
+<table class="dl"><a name="_b1ae893e-93ca-db3f-2034-b028191424eb" id="_b1ae893e-93ca-db3f-2034-b028191424eb"></a><tr><td valign="top" align="left"><p align="left" style="margin-left:0pt;text-align:left;" class="MsoNormal">Ancillary data</p></td><td valign="top"><p class="MsoNormal"><a name="_0229d134-2d79-54ca-bf06-486c22bc59bf" id="_0229d134-2d79-54ca-bf06-486c22bc59bf"></a>Data acquired on-board but not obtained from the main instrument itself (usually provided as part of Level 0 data). They have the primary purpose to serve the processing of main instrument data (e.g. orbit position and velocity of platform).
+[Source: ESA/CEOS?, modified]</p>
 </td></tr></table>
 
-<p class="MsoNormal"><a name="_f463f58e-a13f-dca3-5aa6-819332bbd7cb" id="_f463f58e-a13f-dca3-5aa6-819332bbd7cb"></a>[Source: ESA/CEOS?, modified]</p>
+<p class="MsoNormal"><a name="_2710b731-3991-c21e-f85e-f7124d538207" id="_2710b731-3991-c21e-f85e-f7124d538207"></a>Alternative:</p>
 
-<p class="MsoNormal"><a name="_b4b43cf9-4a1a-1f01-347f-19238e7f19cf" id="_b4b43cf9-4a1a-1f01-347f-19238e7f19cf"></a>Alternative:</p>
-
-<table class="dl"><a name="_7054ac20-4015-4e84-e7c5-37f11661ab81" id="_7054ac20-4015-4e84-e7c5-37f11661ab81"></a><tr><td valign="top" align="left"><p align="left" style="margin-left:0pt;text-align:left;" class="MsoNormal">Ancillary data</p></td><td valign="top"><p class="MsoNormal"><a name="_ea179118-a2cf-20b9-e147-1ca502136362" id="_ea179118-a2cf-20b9-e147-1ca502136362"></a>Data other than instrument measurements, originating in the instrument
-itself or from the satellite, required to perform processing of the
-data. They include orbit data, attitude data, time information,
-spacecraft engineering data, calibration data, data quality information,
-and data from other instruments or earth system models.</p>
+<table class="dl"><a name="_1dbd02af-79dc-de13-57bd-a91b34fd8ace" id="_1dbd02af-79dc-de13-57bd-a91b34fd8ace"></a><tr><td valign="top" align="left"><p align="left" style="margin-left:0pt;text-align:left;" class="MsoNormal">Ancillary data</p></td><td valign="top"><p class="MsoNormal"><a name="_863a1e01-2717-c923-d2ff-9c9902e37d1c" id="_863a1e01-2717-c923-d2ff-9c9902e37d1c"></a>Data other than instrument measurements, originating in the instrument itself or from the satellite, required to perform processing of the data. They include orbit data, attitude data, time information, spacecraft engineering data, calibration data, data quality information, and data from other instruments or earth system models.
+[Source CEOS-ARD PFS template 20220302]</p>
 </td></tr></table>
 
-<p class="MsoNormal"><a name="_83773238-1afc-eab1-7a54-8ffa4d58fb73" id="_83773238-1afc-eab1-7a54-8ffa4d58fb73"></a>[Source CEOS-ARD PFS template 20220302]</p>
-
-<p class="MsoNormal"><a name="_3243dbbc-8081-7595-2425-ecdb8b56e357" id="_3243dbbc-8081-7595-2425-ecdb8b56e357"></a><i>Data</i> acquired in context of an <i>observation</i> required to perform
-processing</p>
+<p class="MsoNormal"><a name="_6a70a195-9941-03b8-a006-220c76d3d8f3" id="_6a70a195-9941-03b8-a006-220c76d3d8f3"></a><i>Data</i> acquired in context of an <i>observation</i> required to perform processing</p>
 </div>
         <div><a name="_auxiliary_data" id="_auxiliary_data"></a><h2>1.2.<span style="mso-tab-count:1">&#xA0; </span>Auxiliary data</h2>
 
-<p class="MsoNormal"><a name="_2874dea4-9c0f-7f98-9e92-13882e1aa355" id="_2874dea4-9c0f-7f98-9e92-13882e1aa355"></a><i>Data</i> which enhance processing and utilization of main instrument data.
-The auxiliary data are usually not captured by the same data collection
-process as the main instrument data. Auxiliary data include data
-collected by any other platform or process. Examples are e.g.
-meteorological data received from ECWMF/Met. Offices. Auxiliary data
-help in data processing, but are also data sets in their own right<b>.</b></p>
+<p class="MsoNormal"><a name="_92c2c705-a6bb-08ce-42e9-b319c4beaa50" id="_92c2c705-a6bb-08ce-42e9-b319c4beaa50"></a><i>Data</i> which enhance processing and utilization of main instrument data. The auxiliary data are usually not captured by the same data collection process as the main instrument data. Auxiliary data include data collected by any other platform or process. Examples are e.g.
+meteorological data received from ECWMF/Met. Offices. Auxiliary data help in data processing, but are also data sets in their own right<b>.</b>
+[Source: ESA/CEOS?, modified]</p>
 
-<p class="MsoNormal"><a name="_82adda8f-f4af-2fef-f12d-f35b4f99c6e4" id="_82adda8f-f4af-2fef-f12d-f35b4f99c6e4"></a>[Source: ESA/CEOS?, modified]</p>
-
-<p class="MsoNormal"><a name="_49afde0d-4c8b-7306-3c32-e8e4bbb0e666" id="_49afde0d-4c8b-7306-3c32-e8e4bbb0e666"></a>Alternative:</p>
-
-<p class="MsoNormal"><a name="_a3ac92c9-72de-8e51-1719-7339cb682055" id="_a3ac92c9-72de-8e51-1719-7339cb682055"></a>The data required for instrument processing, which does not originate in
-the instrument itself or from the satellite. Some auxiliary data will be
-generated in the ground segment, whilst other data will be provided from
-external sources.</p>
-
-<p class="MsoNormal"><a name="_6bdb43d6-95cf-392e-1b22-ea7c5949773f" id="_6bdb43d6-95cf-392e-1b22-ea7c5949773f"></a>[Source CEOS-ARD PFS template 20220302]</p>
+<p class="MsoNormal"><a name="_ad2a6a3f-e7d3-2271-0af0-cac8c72b039a" id="_ad2a6a3f-e7d3-2271-0af0-cac8c72b039a"></a>Alternative:
+The data required for instrument processing, which does not originate in the instrument itself or from the satellite. Some auxiliary data will be generated in the ground segment, whilst other data will be provided from external sources.
+[Source CEOS-ARD PFS template 20220302]</p>
 </div>
         <div><a name="_cell" id="_cell"></a><h2>1.3.<span style="mso-tab-count:1">&#xA0; </span>Cell</h2>
 
-<p class="MsoNormal"><a name="_473c0a5e-4efd-64c0-e0bc-de42a170bade" id="_473c0a5e-4efd-64c0-e0bc-de42a170bade"></a>Spatial, spatio-temporal zone or temporal unit of geometry with
-dimensionality greater than 0, associated with a zone</p>
-
-<p class="MsoNormal"><a name="_302c4bd0-c54d-fe82-b5af-a6d8bb2b786b" id="_302c4bd0-c54d-fe82-b5af-a6d8bb2b786b"></a>NOTE1: All cells within a DGGS share the dimensionality of the DGGS&#x2019;s
-parent global geometry. DGGSs with dimensionality of 0 are not
-supported.</p>
-
-<p class="MsoNormal"><a name="_f8c58526-977a-c3bd-c0bb-50b7668c056f" id="_f8c58526-977a-c3bd-c0bb-50b7668c056f"></a>NOTE 2: Cells are the unit of geometry in a DGGS, and the geometry of
-the region of space-time occupied by a zone is a cell.</p>
-
-<p class="MsoNormal"><a name="_1da6bcb3-4c00-6a31-13e8-8c1118ec68fe" id="_1da6bcb3-4c00-6a31-13e8-8c1118ec68fe"></a>NOTE 3: While the terms cell and zone are often used interchangeably,
-&#x201C;zone&#x201D; is the strictly preferred term. Cell is entirely appropriate when
-specifically discussing a zone&#x2019;s geometry or topology.</p>
-
-<p class="MsoNormal"><a name="_8d820799-2c32-8d4d-7925-3060019aad61" id="_8d820799-2c32-8d4d-7925-3060019aad61"></a>[SOURCE: ISO 19170:2021]</p>
+<p class="MsoNormal"><a name="_d81f4423-d893-1483-9a0f-30ad8e951906" id="_d81f4423-d893-1483-9a0f-30ad8e951906"></a>Spatial, spatio-temporal zone or temporal unit of geometry with dimensionality greater than 0, associated with a zone
+NOTE1: All <b>term <tt>cells</tt> not resolved via ID <tt>cells</tt></b> within a DGGS share the dimensionality of the DGGS&#x2019;s parent global geometry. DGGSs with dimensionality of 0 are not
+supported.
+NOTE 2: <b>term <tt>Cells</tt> not resolved via ID <tt>Cells</tt></b> are the unit of geometry in a DGGS, and the geometry of the region of space-time occupied by a zone is a <b>term <tt>cell</tt> not resolved via ID <tt>cell</tt></b>.
+NOTE 3: While the terms <b>term <tt>cell</tt> not resolved via ID <tt>cell</tt></b> and zone are often used interchangeably, &#x201C;zone&#x201D; is the strictly preferred term. <b>term <tt>Cell</tt> not resolved via ID <tt>Cell</tt></b> is entirely appropriate when specifically discussing a zone&#x2019;s geometry or topology.
+[SOURCE: ISO 19170:2021]</p>
 </div>
         <div><a name="_duration" id="_duration"></a><h2>1.4.<span style="mso-tab-count:1">&#xA0; </span>Duration</h2>
 
-<p class="MsoNormal"><a name="_79d7d0b1-af15-6f8e-e06f-37e3e298ca1a" id="_79d7d0b1-af15-6f8e-e06f-37e3e298ca1a"></a>non-negative interval quantity of time equal to the difference between
-the final and initial instants of a time</p>
+<p class="MsoNormal"><a name="_0898b34a-fcf8-fa4b-b5cc-024be6214d5b" id="_0898b34a-fcf8-fa4b-b5cc-024be6214d5b"></a>non-negative interval quantity of time equal to the difference between the final and initial instants of a time</p>
 
-<p class="MsoNormal"><a name="_952eaaa1-260a-550e-c6d0-df7d04f20eba" id="_952eaaa1-260a-550e-c6d0-df7d04f20eba"></a>NOTE 1: The duration is one of the base quantities in the International
-System of Quantities (ISQ) on which the International System of Units
-(SI) is based. The term &#x201C;time&#x201D; instead of &#x201C;duration&#x201D; is often used in
-this context and also for an infinitesimal duration.</p>
+<p class="MsoNormal"><a name="_484a29ca-7973-de3e-6663-b87eadbc84ab" id="_484a29ca-7973-de3e-6663-b87eadbc84ab"></a>NOTE 1: The duration is one of the base quantities in the International System of Quantities (ISQ) on which the International System of Units (SI) is based. The term &#x201C;time&#x201D; instead of &#x201C;duration&#x201D; is often used in this context and also for an infinitesimal duration.
+NOTE 2: For the term &#x201C;duration&#x201D;, expressions such as &#x201C;time&#x201D; or &#x201C;time interval&#x201D; are often used, but the term &#x201C;time&#x201D; is not recommended in this sense and the term &#x201C;time interval&#x201D; is deprecated in this sense to avoid confusion with the concept of &#x201C;time interval&#x201D;.
+NOTE 3: The exact duration of a time scale unit depends on the time scale used. For example, the durations of a year, month, week, day, hour or minute, may depend on when they occur [in a Gregorian calendar, a calendar month can have a duration of 28, 29, 30, or 31 days; in a 24-hour clock, a clock minute can have a duration of 59, 60, or 61 seconds, etc.]. Therefore, the exact duration can only be evaluated if the exact duration of each is known.
+NOTE 4: This definition is closely related to NOTE 1 of the terminological entry &#x201C;duration&#x201D; in IEC 60050-113:2011, 113&#x2013;01&#x2013;13.
+[SOURCE: ISO 8601-1:2019, 3.1.1.8]</p>
 
-<p class="MsoNormal"><a name="_b2f8587a-d156-9747-a240-9054cb88ba83" id="_b2f8587a-d156-9747-a240-9054cb88ba83"></a>NOTE 2: For the term &#x201C;duration&#x201D;, expressions such as &#x201C;time&#x201D; or &#x201C;time
-interval&#x201D; are often used, but the term &#x201C;time&#x201D; is not recommended in this
-sense and the term &#x201C;time interval&#x201D; is deprecated in this sense to avoid
-confusion with the concept of &#x201C;time interval&#x201D;.</p>
+<p class="MsoNormal"><a name="_4fa45ce6-1e5f-8553-f9d9-26cf3400c7ed" id="_4fa45ce6-1e5f-8553-f9d9-26cf3400c7ed"></a>##Earth observation Is a science domain dealing with technologies and methods of collecting and analysing _observations</p>
 
-<p class="MsoNormal"><a name="_be978076-0a5b-d7b2-81ac-de35a3232139" id="_be978076-0a5b-d7b2-81ac-de35a3232139"></a>NOTE 3: The exact duration of a time scale unit depends on the time
-scale used. For example, the durations of a year, month, week, day, hour
-or minute, may depend on when they occur [in a Gregorian calendar, a
-calendar month can have a duration of 28, 29, 30, or 31 days; in a
-24-hour clock, a clock minute can have a duration of 59, 60, or 61
-seconds, etc.]. Therefore, the exact duration can only be evaluated if
-the exact duration of each is known.</p>
-
-<p class="MsoNormal"><a name="_3b00b2a9-33e8-f1c6-f2cf-20d9f73d8f54" id="_3b00b2a9-33e8-f1c6-f2cf-20d9f73d8f54"></a>NOTE 4: This definition is closely related to NOTE 1 of the
-terminological entry &#x201C;duration&#x201D; in IEC 60050-113:2011, 113&#x2013;01&#x2013;13.</p>
-
-<p class="MsoNormal"><a name="_ab8df63e-a5b1-4ec9-8fa5-03531805ef60" id="_ab8df63e-a5b1-4ec9-8fa5-03531805ef60"></a>[SOURCE: ISO 8601-1:2019, 3.1.1.8]</p>
-
-<p class="MsoNormal"><a name="_8b0d588d-d258-2347-f8f9-7db3ec5b97ab" id="_8b0d588d-d258-2347-f8f9-7db3ec5b97ab"></a>##Earth observation</p>
-
-<p class="MsoNormal"><a name="_6b1e1a7e-232a-8501-4e3d-a5176d62018e" id="_6b1e1a7e-232a-8501-4e3d-a5176d62018e"></a>Is a science domain dealing with technologies and methods of collecting
-and analysing <i>observations</i> about the different spheres (Geosphere,
-Atmosphere, Hydrosphere, Cryosphere, Biosphere, Anthroposphere) of our
-planet. This includes <i>remote-sensing</i>, such as satellite imagery, as
-well as in-situ observations, e.g., with ground-based devices.</p>
-
-<p class="MsoNormal"><a name="_77785008-242c-c7f9-02bd-1ea8512de691" id="_77785008-242c-c7f9-02bd-1ea8512de691"></a>NOTE 1: Earth Observation (EO) can be categorised by location of the
-sensor into space-borne, air-borne, sea-borne, ground-based, underwater
-and underground EO.</p>
-
-<p class="MsoNormal"><a name="_83f34ec8-1815-1dff-1a44-cf0031591ee1" id="_83f34ec8-1815-1dff-1a44-cf0031591ee1"></a>[Source: modified GEO definition
+<p class="MsoNormal"><a name="_07c3b1cb-31cc-cecd-d6ea-a1e31b1b184b" id="_07c3b1cb-31cc-cecd-d6ea-a1e31b1b184b"></a>NOTE 1: Earth Observation (EO) can be categorised by location of the sensor into space-borne, air-borne, sea-borne, ground-based, underwater and underground EO.
+[Source: modified GEO definition
 <a href="https://earthobservations.org/geo_wwd.php">https://earthobservations.org/geo_wwd.php</a>]</p>
 
-<p class="MsoNormal"><a name="_e0f916d4-e847-6e98-7847-90a1b6f9d30b" id="_e0f916d4-e847-6e98-7847-90a1b6f9d30b"></a>##Earth Observation product</p>
+<p class="MsoNormal"><a name="_cf3f8018-dc95-7608-73e0-db02a719a026" id="_cf3f8018-dc95-7608-73e0-db02a719a026"></a>##Earth Observation product</p>
 
-<p class="MsoNormal"><a name="_de76c9db-0739-13dc-3b8a-eaaef7005cee" id="_de76c9db-0739-13dc-3b8a-eaaef7005cee"></a>A representation of a phenomenon that can be coded into information. A
+<p class="MsoNormal"><a name="_52e28052-093f-a371-bbb3-b73c650e1901" id="_52e28052-093f-a371-bbb3-b73c650e1901"></a>A representation of a phenomenon that can be coded into information. A
 product serves multiple purposes and cross-domain applications. A
 characteristic of EO products is that they should undergo some data
 transformation for being considered decision-ready or inference-ready
 information.</p>
 
-<p class="MsoNormal"><a name="_68385a5d-bdc1-8171-9586-8149f8210010" id="_68385a5d-bdc1-8171-9586-8149f8210010"></a>NOTE 1: aka geophysical and biophysical parameters (surface temperature,
+<p class="MsoNormal"><a name="_028b8ee0-c896-6687-4f84-de4d9eff49cd" id="_028b8ee0-c896-6687-4f84-de4d9eff49cd"></a>NOTE 1: aka geophysical and biophysical parameters (surface temperature,
 leaf area index, etc.)</p>
 
-<p class="MsoNormal"><a name="_66d9cc19-3ceb-79e4-7fb3-cedff99f0e16" id="_66d9cc19-3ceb-79e4-7fb3-cedff99f0e16"></a>[SOURCE: KCEO]</p>
+<p class="MsoNormal"><a name="_f756c841-157a-f636-9090-8d763089f3d6" id="_f756c841-157a-f636-9090-8d763089f3d6"></a>[SOURCE: KCEO]</p>
 
-<p class="MsoNormal"><a name="_3f7972cd-4d28-b841-89d8-2b1b5bf7a817" id="_3f7972cd-4d28-b841-89d8-2b1b5bf7a817"></a>##Earth Observation based output</p>
+<p class="MsoNormal"><a name="_2b0a2394-75ac-57ed-1824-181e3d5cb10e" id="_2b0a2394-75ac-57ed-1824-181e3d5cb10e"></a>##Earth Observation based output</p>
 
-<p class="MsoNormal"><a name="_bd6bb153-1cf5-a8ae-7f4d-9a9d8c21376d" id="_bd6bb153-1cf5-a8ae-7f4d-9a9d8c21376d"></a>Any data or information derived from EO products. It may be generated
+<p class="MsoNormal"><a name="_0dcdf417-c2b9-bf58-fb10-6af5721a4832" id="_0dcdf417-c2b9-bf58-fb10-6af5721a4832"></a>Any data or information derived from EO products. It may be generated
 for addressing specific use cases or user needs. It is the result of any
 type of data processing (classification, rearranging, sorting,
 aggregating, mathematical computation, filtering) and/or data
@@ -1251,14 +1195,14 @@ geospatial data that changes the property of the original EO product. It
 is the result of a non-invertible operation so that the original EO
 product can&#x2019;t be recovered.</p>
 
-<p class="MsoNormal"><a name="_748b51b0-a1ea-40fd-bf29-d0489a48aff6" id="_748b51b0-a1ea-40fd-bf29-d0489a48aff6"></a>[SOURCE: KCEO]</p>
+<p class="MsoNormal"><a name="_a66d48f5-f4a2-52d7-c153-d9ec020be277" id="_a66d48f5-f4a2-52d7-c153-d9ec020be277"></a>[SOURCE: KCEO]</p>
 
-<p class="MsoNormal"><a name="_caa9c403-7243-99f2-352b-8623a6e678cf" id="_caa9c403-7243-99f2-352b-8623a6e678cf"></a>##Entity</p>
+<p class="MsoNormal"><a name="_2310976c-44ad-b3ea-2ea9-e4c47b7ede34" id="_2310976c-44ad-b3ea-2ea9-e4c47b7ede34"></a>##Entity</p>
 
-<p class="MsoNormal"><a name="_bc13e939-a008-d83d-fcc0-ef99aa8c6b11" id="_bc13e939-a008-d83d-fcc0-ef99aa8c6b11"></a>Something that has separate and distinct existence and objective or
+<p class="MsoNormal"><a name="_14f87fed-dda5-c778-ca83-4930c1a2275b" id="_14f87fed-dda5-c778-ca83-4930c1a2275b"></a>Something that has separate and distinct existence and objective or
 conceptual reality</p>
 
-<p class="MsoNormal"><a name="_779c90da-33bb-cd47-4da5-742a68850796" id="_779c90da-33bb-cd47-4da5-742a68850796"></a>[SOURCE: <a href="https://www.iso.org/standard/59221.html">ISO 19119:2016</a>,
+<p class="MsoNormal"><a name="_fffe2cea-9cc3-3aca-1843-079776fa5093" id="_fffe2cea-9cc3-3aca-1843-079776fa5093"></a>[SOURCE: <a href="https://www.iso.org/standard/59221.html">ISO 19119:2016</a>,
 4.1.6]</p>
 </div>
         <div><a name="_geographic_data" id="_geographic_data"></a><h2>1.5.<span style="mso-tab-count:1">&#xA0; </span>Geographic data</h2>
@@ -1296,12 +1240,11 @@ linked to specific geographical locations</p>
 </div>
         <div><a name="_grid" id="_grid"></a><h2>1.8.<span style="mso-tab-count:1">&#xA0; </span>Grid</h2>
 
-<p class="MsoNormal"><a name="_8cd96981-fbab-0b82-5ef5-fa7ceda8e2e1" id="_8cd96981-fbab-0b82-5ef5-fa7ceda8e2e1"></a>network composed of two or more sets of curves in which the members of
-each set intersect the members of the other sets in an algorithmic way</p>
+<p class="MsoNormal"><a name="_6700c2b1-0115-778f-db77-7dbc308d4775" id="_6700c2b1-0115-778f-db77-7dbc308d4775"></a>network composed of two or more sets of curves in which the members of
+each set intersect the members of the other sets in an algorithmic way
+NOTE 1: The curves partition a space into grid <b>term <tt>cells</tt> not resolved via ID <tt>cells</tt></b></p>
 
-<p class="MsoNormal"><a name="_ff19f972-c559-73b3-3b76-960f56c63021" id="_ff19f972-c559-73b3-3b76-960f56c63021"></a>NOTE 1: The curves partition a space into grid cells</p>
-
-<p class="MsoNormal"><a name="_e2ba38f8-7741-354b-311b-5661c40f740f" id="_e2ba38f8-7741-354b-311b-5661c40f740f"></a>[SOURCE: ISO 19123:2005, 4.1.23]</p>
+<p class="MsoNormal"><a name="_1cd99301-9e9e-6258-a268-b1a48a7c16f6" id="_1cd99301-9e9e-6258-a268-b1a48a7c16f6"></a>[SOURCE: ISO 19123:2005, 4.1.23]</p>
 </div>
         <div><a name="_information" id="_information"></a><h2>1.9.<span style="mso-tab-count:1">&#xA0; </span>Information</h2>
 
@@ -2042,37 +1985,59 @@ the interactive system</p>
 </div>
       </div>
       <div>
-        <a name="_resourcesglossaries" id="_resourcesglossaries"></a>
-        <h1>6.<span style="mso-tab-count:1">&#xA0; </span>Resources/Glossaries</h1>
-        <p class="MsoNormal"><a name="_aceba161-4ac4-c5ea-7d51-35533675c868" id="_aceba161-4ac4-c5ea-7d51-35533675c868"></a>IPCC <a href="https://www.ipcc.ch/sr15/chapter/glossary/">https://www.ipcc.ch/sr15/chapter/glossary/</a></p>
-        <p class="MsoNormal"><a name="_ccd49fef-20ab-5e83-da77-5bb8e0a08b88" id="_ccd49fef-20ab-5e83-da77-5bb8e0a08b88"></a>UNTERM <a href="https://unterm.un.org/unterm2/en/">https://unterm.un.org/unterm2/en/</a></p>
-        <p class="MsoNormal"><a name="_bd559f65-5a3c-abaa-f95c-d60adf1e3d50" id="_bd559f65-5a3c-abaa-f95c-d60adf1e3d50"></a>GEOLEXICA OSGEO <a href="https://osgeo.geolexica.org/">https://osgeo.geolexica.org/</a></p>
-        <p class="MsoNormal"><a name="_00f83990-d57c-933f-aca0-2f6721fc0210" id="_00f83990-d57c-933f-aca0-2f6721fc0210"></a>W3C:https://w3c.github.io/sdw/bp</p>
-        <p class="MsoNormal"><a name="_0c35d070-75aa-e6c4-8784-10e24af528a2" id="_0c35d070-75aa-e6c4-8784-10e24af528a2"></a>INSPIRE-WCS: <a href="https://inspire-wcs.eu">https://inspire-wcs.eu</a></p>
-        <p class="MsoNormal"><a name="_e4afcdd2-0439-48ce-3789-5997aaf315cb" id="_e4afcdd2-0439-48ce-3789-5997aaf315cb"></a>GCOS-154: <a href="https://library.wmo.int/doc_num.php?explnum_id=3710">https://library.wmo.int/doc_num.php?explnum_id=3710</a></p>
-        <p class="MsoNormal"><a name="_85903e82-04bd-fcc4-0360-1b347e2677eb" id="_85903e82-04bd-fcc4-0360-1b347e2677eb"></a>GEOGlos: gEOGlos</p>
-        <p class="MsoNormal"><a name="_4315e291-e759-55ef-bc57-4a83600cf387" id="_4315e291-e759-55ef-bc57-4a83600cf387"></a>CEOS-ARD: <a href="https://ceos.org/ard/">https://ceos.org/ard/</a></p>
-        <p class="MsoNormal"><a name="_7c2bb417-ce70-b24f-33bc-7cf3dade16a0" id="_7c2bb417-ce70-b24f-33bc-7cf3dade16a0"></a>CEOS Wiki: <a href="https://calvalportal.ceos.org/t-d_wiki">https://calvalportal.ceos.org/t-d_wiki</a></p>
-        <p class="MsoNormal"><a name="_7e3eaa68-f7b9-9966-111a-5a9f34a08250" id="_7e3eaa68-f7b9-9966-111a-5a9f34a08250"></a>EFSG: <a href="https://www.efgs.info/information-base/introduction/terminology/">https://www.efgs.info/information-base/introduction/terminology/</a></p>
-        <p class="MsoNormal"><a name="_2957cead-acb6-4852-816f-fce4dfab86bd" id="_2957cead-acb6-4852-816f-fce4dfab86bd"></a>ESC:
-<a href="http://undocs.org/ece/trans/sc.1/ge.21/2018/1">ECE/TRANS/SC.1/GE.21/2018/1</a></p>
-        <p class="MsoNormal"><a name="_54a34a88-d247-70b9-f6bb-f30abced569b" id="_54a34a88-d247-70b9-f6bb-f30abced569b"></a>ESA:
-<a href="https://earth.esa.int/eogateway/documents/20142/37627/Mission-Quality-Assessment-Guidelines-v2.2.pdf/033c703e-02f8-d993-9859-560aeb61d2a0?version=1.0&amp;t=1676561363850">https://earth.esa.int/eogateway/documents/20142/37627/Mission-Quality-Assessment-Guidelines-v2.2.pdf/033c703e-02f8-d993-9859-560aeb61d2a0?version=1.0&amp;t=1676561363850</a></p>
-        <p class="MsoNormal"><a name="_68eb2684-93c1-a335-2f9f-28a9add61fa1" id="_68eb2684-93c1-a335-2f9f-28a9add61fa1"></a>WMO-WIGOS <a href="https://library.wmo.int/doc_num.php?explnum_id=10109">https://library.wmo.int/doc_num.php?explnum_id=10109</a></p>
-        <p class="MsoNormal"><a name="_e0ebff9d-8fed-d529-1743-0429202cbab1" id="_e0ebff9d-8fed-d529-1743-0429202cbab1"></a>ESA S3 User Guide
-<a href="https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-altimetry/product-types/nrt-or-ntc">https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-altimetry/product-types/nrt-or-ntc</a></p>
-        <p class="MsoNormal"><a name="_9bc26168-3306-87ce-fc11-ae9b11e7e83d" id="_9bc26168-3306-87ce-fc11-ae9b11e7e83d"></a>BIPM <a href="https://www.bipm.org/en/">https://www.bipm.org/en/</a></p>
-        <p class="MsoNormal"><a name="_d443b901-95a6-1f9d-4ff4-025184fa7fc1" id="_d443b901-95a6-1f9d-4ff4-025184fa7fc1"></a>JCGM GUM
-<a href="https://www.bipm.org/documents/20126/50065290/JCGM_GUM_6_2020.pdf/d4e77d99-3870-0908-ff37-c1b6a230a337">https://www.bipm.org/documents/20126/50065290/JCGM_GUM_6_2020.pdf/d4e77d99-3870-0908-ff37-c1b6a230a337</a></p>
-        <p class="MsoNormal"><a name="_ceff2ed3-6d28-ee1a-c266-74ce7a5d7477" id="_ceff2ed3-6d28-ee1a-c266-74ce7a5d7477"></a>BIPM VIM <a href="https://jcgm.bipm.org/vim/en/">https://jcgm.bipm.org/vim/en/</a></p>
-        <p class="MsoNormal"><a name="_da5f9b61-b50b-af90-1706-c107d4f3a163" id="_da5f9b61-b50b-af90-1706-c107d4f3a163"></a>CGLS Copernicus Global Land Service</p>
-        <p class="MsoNormal"><a name="_ec8ccb7b-0c80-93ec-e41b-17503dab0a9a" id="_ec8ccb7b-0c80-93ec-e41b-17503dab0a9a"></a>FIDUCEO <a href="https://research.reading.ac.uk/fiduceo/glossary/">https://research.reading.ac.uk/fiduceo/glossary/</a></p>
-        <p class="MsoNormal"><a name="_dd8fe565-2f01-f58b-5573-67ecaaee0d97" id="_dd8fe565-2f01-f58b-5573-67ecaaee0d97"></a>ISO 8601-1:2019 Date and time&#x2009;&#x2014;&#x2009;Representations for information
-interchange&#x2009;&#x2014;&#x2009;Part 1: Basic rules</p>
-        <p class="MsoNormal"><a name="_cb1aaa97-2199-68c5-88b1-6783ca7db3e4" id="_cb1aaa97-2199-68c5-88b1-6783ca7db3e4"></a>ISO 191790-1:2021 Geographic information &#x2013; Discrete Global Grid Systems
+        <a name="_resources" id="_resources"></a>
+        <h1>6.<span style="mso-tab-count:1">&#xA0; </span>Resources</h1>
+        <div class="ul_wrap"><p class="MsoListParagraphCxSpFirst" style="">[<a><a name="IPCC" id="IPCC"></a></a>], <a href="https://www.ipcc.ch/sr15/chapter/glossary/">https://www.ipcc.ch/sr15/chapter/glossary/</a>
+</p>
+<p class="MsoListParagraphCxSpLast" style="">[<a><a name="UNTERM" id="UNTERM"></a></a>], <a href="https://unterm.un.org/unterm2/en/">https://unterm.un.org/unterm2/en/</a>
+</p>
+</div>
+        <p class="MsoNormal"><a name="_6e4a61a2-6c1a-c20d-173b-c22ac485c877" id="_6e4a61a2-6c1a-c20d-173b-c22ac485c877"></a>*[<a><a name="GEOLEXICA" id="GEOLEXICA"></a></a>], OSGEO <a href="https://osgeo.geolexica.org/">https://osgeo.geolexica.org/</a></p>
+        <div class="ul_wrap"><p class="MsoListParagraphCxSpFirst" style="">[<a><a name="W3C" id="W3C"></a></a>], <a href="https://w3c.github.io/sdw/bp">https://w3c.github.io/sdw/bp</a>
+</p>
+<p class="MsoListParagraphCxSpMiddle" style="">[<a><a name="INSPIRE-WCS" id="INSPIRE-WCS"></a></a>], <a href="https://inspire-wcs.eu">https://inspire-wcs.eu</a>
+</p>
+<p class="MsoListParagraphCxSpMiddle" style="">[<a><a name="GCOS-154" id="GCOS-154"></a></a>], <a href="https://library.wmo.int/doc_num.php?explnum_id=3710">https://library.wmo.int/doc_num.php?explnum_id=3710</a>
+</p>
+<p class="MsoListParagraphCxSpMiddle" style="">[<a><a name="GEOGlos" id="GEOGlos"></a></a>], gEOGlos
+</p>
+<p class="MsoListParagraphCxSpMiddle" style="">[<a><a name="CEOS-ARD" id="CEOS-ARD"></a></a>], <a href="https://ceos.org/ard/">https://ceos.org/ard/</a>
+</p>
+<p class="MsoListParagraphCxSpMiddle" style="">[[[CEOS Wiki]]], <a href="https://calvalportal.ceos.org/t-d_wiki">https://calvalportal.ceos.org/t-d_wiki</a>
+</p>
+<p class="MsoListParagraphCxSpMiddle" style="">[<a><a name="EFSG" id="EFSG"></a></a>], <a href="https://www.efgs.info/information-base/introduction/terminology/">https://www.efgs.info/information-base/introduction/terminology/</a>
+</p>
+<p class="MsoListParagraphCxSpMiddle" style="">[<a><a name="ESC" id="ESC"></a></a>],
+<a href="http://undocs.org/ece/trans/sc.1/ge.21/2018/1">ECE/TRANS/SC.1/GE.21/2018/1</a>
+</p>
+<p class="MsoListParagraphCxSpMiddle" style="">[<a><a name="ESA" id="ESA"></a></a>],
+<a href="https://earth.esa.int/eogateway/documents/20142/37627/Mission-Quality-Assessment-Guidelines-v2.2.pdf/033c703e-02f8-d993-9859-560aeb61d2a0?version=1.0&amp;t=1676561363850">https://earth.esa.int/eogateway/documents/20142/37627/Mission-Quality-Assessment-Guidelines-v2.2.pdf/033c703e-02f8-d993-9859-560aeb61d2a0?version=1.0&amp;t=1676561363850</a>
+</p>
+<p class="MsoListParagraphCxSpMiddle" style="">[<a><a name="WMO-WIGOS" id="WMO-WIGOS"></a></a>], <a href="https://library.wmo.int/doc_num.php?explnum_id=10109">https://library.wmo.int/doc_num.php?explnum_id=10109</a>
+</p>
+<p class="MsoListParagraphCxSpMiddle" style="">[[[ESA S3 User Guide]]],
+<a href="https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-altimetry/product-types/nrt-or-ntc">https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-altimetry/product-types/nrt-or-ntc</a>
+</p>
+<p class="MsoListParagraphCxSpMiddle" style="">[<a><a name="BIPM" id="BIPM"></a></a>], <a href="https://www.bipm.org/en/">https://www.bipm.org/en/</a>
+</p>
+<p class="MsoListParagraphCxSpMiddle" style="">[[[JCGM GUM]]],
+<a href="https://www.bipm.org/documents/20126/50065290/JCGM_GUM_6_2020.pdf/d4e77d99-3870-0908-ff37-c1b6a230a337">https://www.bipm.org/documents/20126/50065290/JCGM_GUM_6_2020.pdf/d4e77d99-3870-0908-ff37-c1b6a230a337</a>
+</p>
+<p class="MsoListParagraphCxSpMiddle" style="">[[[BIPM VIM]]], <a href="https://jcgm.bipm.org/vim/en/">https://jcgm.bipm.org/vim/en/</a>
+</p>
+<p class="MsoListParagraphCxSpLast" style="">[[[CGLS Copernicus Global Land Service]]],
+</p>
+</div>
+        <p class="MsoNormal"><a name="_02ad2348-0562-c524-70ed-c0b56674d540" id="_02ad2348-0562-c524-70ed-c0b56674d540"></a>FIDUCEO <a href="https://research.reading.ac.uk/fiduceo/glossary/">https://research.reading.ac.uk/fiduceo/glossary/</a></p>
+        <div class="ul_wrap"><p class="MsoListParagraphCxSpFirst" style="">[[[ISO 8601-1]]], 2019 Date and time&#x2009;&#x2014;&#x2009;Representations for information
+interchange&#x2009;&#x2014;&#x2009;Part 1: Basic rules
+</p>
+<p class="MsoListParagraphCxSpLast" style="">[[[ISO 191790-1]]], 2021 Geographic information &#x2013; Discrete Global Grid Systems
 Specifications &#x2013; Part 1: Core Reference System and Operations, and Equal
-Area Earth Reference SYstem</p>
-        <p class="MsoNormal"><a name="_e5f6f7b7-999e-d7ff-cd18-a10e276466e2" id="_e5f6f7b7-999e-d7ff-cd18-a10e276466e2"></a>Temporal elements referenced in WIGOS metadata</p>
+Area Earth Reference SYstem
+</p>
+</div>
+        <p class="MsoNormal"><a name="_58642400-2685-31a1-48fe-f6276d4515ef" id="_58642400-2685-31a1-48fe-f6276d4515ef"></a>Temporal elements referenced in WIGOS metadata</p>
       </div>
       <div>
         <a name="_references" id="_references"></a>
@@ -2093,7 +2058,7 @@ Sensing (Vol. 141, pp. 137&#x2013;147). Elsevier B.V.
 </html>
 
 
-------=_NextPart_cef467c5.40a1.45c0
+------=_NextPart_693755a0.5691.490d
 Content-ID: <filelist.xml>
 Content-Disposition: inline; filename="filelist.xml"
 Content-Transfer-Encoding: base64
@@ -2103,4 +2068,4 @@ PHhtbCB4bWxuczpvPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOm9mZmljZTpvZmZpY2UiPgog
 ICAgICAgIDxvOk1haW5GaWxlIEhSZWY9Ii4uLy9tZXRhbm9ybWEvcHVibGljL0tDRU9HbG9zc2Fy
 eS5odG0iLz4gIDxvOkZpbGUgSFJlZj0iZmlsZWxpc3QueG1sIi8+CjwveG1sPgo=
 
-------=_NextPart_cef467c5.40a1.45c0--
+------=_NextPart_693755a0.5691.490d--
