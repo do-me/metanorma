@@ -986,7 +986,6 @@ interchange - Part 1: Basic rules
 Specifications – Part 1: Core Reference System and Operations, and Equal
 Area Earth Reference SYstem
 
-image:vertopal_a3f30b6377934aa0803d524c628e6b4a/media/image1.png[image,width=369,height=350]
 
 Temporal elements referenced in WIGOS metadata
 
