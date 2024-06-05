@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<standard-document xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.9" schema-version="v1.3.1">
+<standard-document xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.10" schema-version="v1.3.2">
 <bibdata type="standard">
 <title language="en" format="text/plain">KCEO Glossary of Terms and Definitions</title>
 <language>en</language><script>Latn</script><status><stage>published</stage></status><copyright><from>2024</from></copyright><ext><doctype>standard</doctype></ext></bibdata><metanorma-extension><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata></metanorma-extension>
