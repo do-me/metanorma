@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<standard-document xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.10" schema-version="v1.3.2">
+<standard-document xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.11" schema-version="v1.3.2">
 <bibdata type="standard">
 <title language="en" format="text/plain">KCEO Glossary of Terms and Definitions</title>
 <language>en</language><script>Latn</script><status><stage>published</stage></status><copyright><from>2024</from></copyright><ext><doctype>standard</doctype></ext></bibdata><metanorma-extension><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata></metanorma-extension>
@@ -97,7 +97,7 @@ leaf area index, etc.)</p>
 
 <p id="_f756c841-157a-f636-9090-8d763089f3d6">[SOURCE: KCEO]</p>
 
-<p id="_2b0a2394-75ac-57ed-1824-181e3d5cb10e">##Earth Observation based output</p>
+<p id="_eca69f84-b856-487c-3948-2b868fb447f4">## Earth Observation based output</p>
 
 <p id="_0dcdf417-c2b9-bf58-fb10-6af5721a4832">Any data or information derived from EO products. It may be generated
 for addressing specific use cases or user needs. It is the result of any

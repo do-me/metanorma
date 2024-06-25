@@ -32,7 +32,7 @@ WARNING: An fo:table (id='_89a8e4db-7b8d-d394-1006-fc940850c1e5')  (See position
 WARNING: An fo:table (id='_aa24dca0-c743-0f96-7196-8faa98e2ddc5')  (See position 891:605) is wider than the available width of page. Please check this overflowing table on the page 1.
 Bookmarks: Unresolved ID reference "_introduction" found.
 Page ii: Unresolved ID reference "_introduction" found.
-Can't add annotation.
+Can't highlight the text ''.
 WARNING: Font file '/root/.metanorma/fonts/cambria.ttc' (font name 'Cambria Math', font style 'normal', font weight 'normal') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSans-Regular.ttf'.
 WARNING: Font file '/root/.metanorma/fonts/cambria.ttc' (font name 'Cambria Math', font style 'normal', font weight 'bold') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSans-Bold.ttf'.
 WARNING: Font file '/root/.metanorma/fonts/times.ttf' (font name 'Times New Roman', font style 'normal', font weight 'normal') doesn't exist. Replaced by '/root/.metanorma/fonts/NotoSans-Regular.ttf'.
